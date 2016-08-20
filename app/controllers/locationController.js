@@ -8,6 +8,7 @@ module.exports = {
       res.json(locations);
     });
   },
+  //create new location
   create: function(req, res, next) {
     var new_location = new Location(req.body);
 
@@ -22,5 +23,18 @@ module.exports = {
       }
       res.json(new_location);
     });
+  },
+  //search based on query params
+  search: function(req, res, next){
+    //check if query is on specific attribute in db
+    if(req.query.attrQ){
+      delete req.query.attrQ;
+      Location.find(req.query).exec(function(err, location){
+          if(err) return next(err);
+          res.send(location);
+      });
+    }else{
+      res.send("Return locations from current locations");
+    }
   }
 };

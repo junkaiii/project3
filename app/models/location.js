@@ -30,6 +30,12 @@ var locationSchema = new mongoose.Schema({
   }
 });
 
+locationSchema.query = {
+  circleDistAway: function(lat, long, dist){
+
+  }
+};
+
 var Location = mongoose.model('Location', locationSchema);
 
 module.exports = Location;

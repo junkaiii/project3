@@ -5,4 +5,8 @@ module.exports = function(app) {
   app.route('/locations')
     .get(locationController.index)
     .post(locationController.create);
+
+  //set routes
+  app.route('/locations/search')
+    .get(locationController.search);
 };
