@@ -1,0 +1,8 @@
+module.exports = function(app) {
+  var locationController = require('../controllers/locationController');
+
+  //set routes
+  app.route('/locations')
+    .get(locationController.index)
+    .post(locationController.create);
+};

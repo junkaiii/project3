@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/junkaiii/project3/issues"
   },
-  "homepage": "https://github.com/junkaiii/project3#readme"
+  "homepage": "https://github.com/junkaiii/project3#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.5.9",
+    "morgan": "^1.7.0",
+    "request": "^2.74.0"
+  }
 }
