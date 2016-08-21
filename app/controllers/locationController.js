@@ -1,3 +1,4 @@
+var request = require('request');
 var Location = require('mongoose').model('Location');
 
 module.exports = {
@@ -34,7 +35,60 @@ module.exports = {
           res.send(location);
       });
     }else{
-      res.send("Return locations from current locations");
+      var lat = req.query.lat || 0;
+      var lon = req.query.lon || 0;
+      var distance = req.query.dist || 0;
+      Location.find().circleDistAway(lat ,lon ,distance).exec(function(err, locations){
+        if(err) return res.send(err);
+        res.send(locations);
+      });
     }
+  },
+  //searches which require google api
+  advSearch: function(req, res, next){
+    //get request parameters
+    var origLat = req.query.lat || 1.3521;
+    var origLong = req.query.lon || 103.8198;
+
+    //default assume distQ
+    if(!req.query.timeQ){
+      var distance = req.query.dist || 50;
+      var filteredArr = [];
+
+      parameters = {
+        origins: origLat + "," + origLong,
+        mode: "walking",
+        key: "AIzaSyA8Ym4Z22s2mhNISM18ef_8kldnDA_gXtM"
+      };
+
+      //get approx list of locations based on circular dis query
+      Location.find().circleDistAway(origLat, origLong, distance).exec(function(err, locations){
+        if(err) return res.send(err);
+
+        //filter by checking actual distance based on travel mode of choice
+        for(var i = 0; i < locations.length; i++){
+          var destLatLong = locations[i].latLong.coordinates[1] + "," + locations[i].latLong.coordinates[0];
+          parameters.destinations = destLatLong;
+
+
+          //check actual travelling distance to each destination
+        }
+        res.send(parameters);
+      });
+    }
+
+    // parameters = {
+    //   origins: "1.2930,103.8520",
+    //   destinations: "1.2815,103.8391",
+    //   mode: "walking",
+    //   key: "AIzaSyA8Ym4Z22s2mhNISM18ef_8kldnDA_gXtM"
+    // };
+    // //send request to google api
+    // request
+    //   .get('https://maps.googleapis.com/maps/api/distancematrix/json?', { qs: parameters }, function(err, response, body){
+    //     if(err) return res.send(err);
+    //     var areas = JSON.parse(body);
+    //     res.send(areas);
+    //   });
   }
 };

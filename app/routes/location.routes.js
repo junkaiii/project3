@@ -9,4 +9,8 @@ module.exports = function(app) {
   //set routes
   app.route('/locations/search')
     .get(locationController.search);
+
+    //set routes
+  app.route('/locations/advSearch')
+    .get(locationController.advSearch);
 };

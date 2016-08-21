@@ -9,30 +9,21 @@ var locationSchema = new mongoose.Schema({
   category: {
     type: String
   },
-  postalCode: {
-    type: String,
-    validate: {
-      validator: function(po) {
-        return /\d{6}/.test(po);
-      },
-      message: '{VALUE} is not a valid postal code'
-    }
-  },
-  location: {
-    type: String
-  },
   latLong: {
     type: {
       type: String,
-      default: 'Point'
+      default: 'Point',
+      index: '2dsphere'
     },
+    //note, coordiates are stored in long, lat format
     coordinates: [ Number ]
   }
 });
 
 locationSchema.query = {
   circleDistAway: function(lat, long, dist){
-
+    //get all points within circular radius
+   return this.where('latLong').near({ 'center': [long, lat], 'maxDistance': dist/111.12, 'spherical': true });
   }
 };
 
