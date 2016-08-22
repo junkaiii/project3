@@ -51,6 +51,20 @@ module.exports = {
     var origLong = req.query.lon || 103.8198;
     var filteredArr = [];
 
+
+    parameters = {
+      origins: [["1.2930", "103.8520"]],
+      destinations: [["1.2815", "103.8391"]],
+      mode: "walking",
+      key: "AIzaSyA8Ym4Z22s2mhNISM18ef_8kldnDA_gXtM"
+    };
+    //send request to google api
+    request
+      .get('https://maps.googleapis.com/maps/api/distancematrix/json', { qs: parameters }, function(err, response, body){
+        if(err) return res.send(err);
+        var areas = JSON.parse(body);
+        res.send(areas);
+      });
     //default assume distQ
     if(!req.query.timeQ){
       var distance = req.query.dist || 50;
@@ -62,20 +76,20 @@ module.exports = {
       };
 
       //get approx list of locations based on circular dis query
-      Location.find().circleDistAway(origLat, origLong, distance).exec(function(err, locations){
-        if(err) return res.send(err);
-
-        //filter by checking actual distance based on travel mode of choice
-        for(var i = 0; i < locations.length; i++){
-          var destLatLong = locations[i].latLong.coordinates[1] + "," + locations[i].latLong.coordinates[0];
-          parameters.destinations = destLatLong;
-
-          //check actual travelling distance to each destination
-          console.log(callAPI(parameters));
-          // filteredArr.push(callAPI(parameters));
-        }
-        res.send(filteredArr);
-      });
+      // Location.find().circleDistAway(origLat, origLong, distance).exec(function(err, locations){
+      //   if(err) return res.send(err);
+      //
+      //   //filter by checking actual distance based on travel mode of choice
+      //   for(var i = 0; i < locations.length; i++){
+      //     var destLatLong = locations[i].latLong.coordinates[1] + "," + locations[i].latLong.coordinates[0];
+      //     parameters.destinations = destLatLong;
+      //
+      //     //check actual travelling distance to each destination
+      //     console.log(callAPI(parameters));
+      //     // filteredArr.push(callAPI(parameters));
+      //   }
+      //   res.send(filteredArr);
+      // });
     }
     //pass in params to google api
     function callAPI(params){
@@ -88,14 +102,14 @@ module.exports = {
       //   });
     }
     // parameters = {
-    //   origins: "1.2930,103.8520",
+    //   origins: {lat:1.2930, lng:103.8520},
     //   destinations: "1.2815,103.8391",
     //   mode: "walking",
     //   key: "AIzaSyA8Ym4Z22s2mhNISM18ef_8kldnDA_gXtM"
     // };
     // //send request to google api
     // request
-    //   .get('https://maps.googleapis.com/maps/api/distancematrix/json?', { qs: parameters }, function(err, response, body){
+    //   .get('https://maps.googleapis.com/maps/api/distancematrix/json', { qs: parameters }, function(err, response, body){
     //     if(err) return res.send(err);
     //     var areas = JSON.parse(body);
     //     res.send(areas);
