@@ -15,13 +15,14 @@ var locationSchema = new mongoose.Schema({
   latLong: {
     type: {
       type: String,
-      default: 'Point',
-      index: '2dsphere'
+      default: 'Point'
     },
     //note, coordiates are stored in long, lat format
     coordinates: [ Number ]
   }
 });
+
+locationSchema.index({latLong: '2dsphere'});
 
 locationSchema.query = {
   circleDistAway: function(lat, long, dist){

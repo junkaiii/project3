@@ -1,5 +1,8 @@
 var request = require('request');
 var Location = require('mongoose').model('Location');
+var googleMapsClient = require('@google/maps').createClient({
+key: 'AIzaSyA8Ym4Z22s2mhNISM18ef_8kldnDA_gXtM'
+});
 
 module.exports = {
   //get all locations
@@ -37,7 +40,7 @@ module.exports = {
     }else{
       var lat = req.query.lat || 0;
       var lon = req.query.lon || 0;
-      var distance = req.query.dist || 0;
+      var distance = req.query.dist || 10;
       Location.find().circleDistAway(lat, lon, distance).exec(function(err, locations){
         if(err) return res.send(err);
         res.send(locations);
@@ -49,70 +52,35 @@ module.exports = {
     //get request parameters
     var origLat = req.query.lat || 1.3521;
     var origLong = req.query.lon || 103.8198;
-    var filteredArr = [];
-
-
+    var dist = req.query.dist * 5 || 10;
+    //set origin parameters
     parameters = {
-      origins: [["1.2930", "103.8520"]],
-      destinations: [["1.2815", "103.8391"]],
-      mode: "walking",
-      key: "AIzaSyA8Ym4Z22s2mhNISM18ef_8kldnDA_gXtM"
+      origins: [[origLat,origLong]],
+      mode: "walking"
     };
-    //send request to google api
-    request
-      .get('https://maps.googleapis.com/maps/api/distancematrix/json', { qs: parameters }, function(err, response, body){
-        if(err) return res.send(err);
-        var areas = JSON.parse(body);
-        res.send(areas);
-      });
-    //default assume distQ
-    if(!req.query.timeQ){
-      var distance = req.query.dist || 50;
 
-      parameters = {
-        origins: origLat + "," + origLong,
-        mode: "walking",
-        key: "AIzaSyA8Ym4Z22s2mhNISM18ef_8kldnDA_gXtM"
-      };
+    //initial array based on circular radius
+    Location.find().circleDistAway(origLat, origLong, dist).exec(function(err, locations, done){
+      if(err) return res.send(err);
+      var arr = [];
 
-      //get approx list of locations based on circular dis query
-      // Location.find().circleDistAway(origLat, origLong, distance).exec(function(err, locations){
-      //   if(err) return res.send(err);
-      //
-      //   //filter by checking actual distance based on travel mode of choice
-      //   for(var i = 0; i < locations.length; i++){
-      //     var destLatLong = locations[i].latLong.coordinates[1] + "," + locations[i].latLong.coordinates[0];
-      //     parameters.destinations = destLatLong;
-      //
-      //     //check actual travelling distance to each destination
-      //     console.log(callAPI(parameters));
-      //     // filteredArr.push(callAPI(parameters));
-      //   }
-      //   res.send(filteredArr);
-      // });
-    }
-    //pass in params to google api
-    function callAPI(params){
-      // request
-      //   .get('https://maps.googleapis.com/maps/api/distancematrix/json', { qs: params }, function(err, response, body){
-      //       if(err) return err;
-      //       var areas = JSON.parse(body);
-      //       // console.log(areas.rows[0].elements[0].distance.text);
-      //       return areas.rows[0].elements[0].distance.text;
-      //   });
-    }
-    // parameters = {
-    //   origins: {lat:1.2930, lng:103.8520},
-    //   destinations: "1.2815,103.8391",
-    //   mode: "walking",
-    //   key: "AIzaSyA8Ym4Z22s2mhNISM18ef_8kldnDA_gXtM"
-    // };
-    // //send request to google api
-    // request
-    //   .get('https://maps.googleapis.com/maps/api/distancematrix/json', { qs: parameters }, function(err, response, body){
-    //     if(err) return res.send(err);
-    //     var areas = JSON.parse(body);
-    //     res.send(areas);
-    //   });
+      //add locations into destinations parameter for api call
+      for(var i = 0; i < locations.length; i++){
+        var long = locations[i].latLong.coordinates[0].toString();
+        var lat = locations[i].latLong.coordinates[1].toString();
+        arr.push([lat, long]);
+      }
+
+      parameters.destinations = arr;
+
+      //call google api
+      googleMapsClient.distanceMatrix(
+        parameters, function(err, response){
+          if (err) return res.json(err);
+          // []
+          // res.json(response.json.rows[0].elements[0]);
+          res.json(response.json);
+        });
+    });
   }
 };
