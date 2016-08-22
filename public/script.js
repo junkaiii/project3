@@ -239,7 +239,7 @@ $("#search_bar").keyup(function(e) {
 });
 
 var jiakApiCall = function () {
-  jiak_simi_url = 'https://crossorigin.me/https://jiak-simi.herokuapp.com/locations/search?lat='+ latitude + '&lon=' + longitude + '&dist=0.1';
+  jiak_simi_url = 'https://jiak-simi.herokuapp.com/locations/search?lat='+ latitude + '&lon=' + longitude + '&dist=1';
   console.log('ajax call');
   $.ajax({
     url: jiak_simi_url,
