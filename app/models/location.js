@@ -9,6 +9,9 @@ var locationSchema = new mongoose.Schema({
   category: {
     type: String
   },
+  description: {
+    type: String
+  },
   latLong: {
     type: {
       type: String,
