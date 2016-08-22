@@ -28,6 +28,9 @@ module.exports = function(){
   // require('../app/routes/user.routes')(app);
   // require('../app/routes/static.routes')(app);
 
+  //create routes for public folder
+  app.use(express.static('./public'));
+
   return app;
 
 };
