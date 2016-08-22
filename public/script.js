@@ -230,7 +230,7 @@ $("#search_bar").keyup(function(e) {
 
       // jiak_simi_url = 'http://localhost:3000/locations/search?lat='+ latitude + '&lon=' + longitude + '&dist=10';
 
-      jiak_simi_url = 'http://localhost:3000/locations/';
+      jiak_simi_url = 'https://jiak-simi.herokuapp.com/locations';
 
       $.ajax({
         url: jiak_simi_url,
@@ -253,7 +253,7 @@ $("#search_bar").keyup(function(e) {
 });
 
 var jiakApiCall = function () {
-  jiak_simi_url = 'http://localhost:3000/locations/';
+  jiak_simi_url = 'https://jiak-simi.herokuapp.com/locations/';
   $.ajax({
     url: jiak_simi_url,
     dataType: 'json',
