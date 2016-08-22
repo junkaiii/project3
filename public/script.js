@@ -2,8 +2,6 @@
 
 var $out = $('#out');
 var $btn = $('#btn');
-var search_longitude;
-var search_latitude;
 var longitude;
 var latitude;
 var map;
@@ -150,6 +148,8 @@ function showCurrentLocation() {
         position: position,
         map: map,
         name: locations.name,
+        description: locations.description,
+
         // title: markers[i][0]
       });
 
@@ -161,7 +161,7 @@ function showCurrentLocation() {
           var infoWindowContent =
             '<div class="info_content">' +
             '<h3>' + this.name + '</h3>' +
-            '<p>' + this.name + '</p>' + '</div>';
+            '<p>' + this.description + '</p>' + '</div>';
           infoWindow.setContent(infoWindowContent);
           infoWindow.open(map, this);
         };
@@ -171,8 +171,6 @@ function showCurrentLocation() {
     // Automatically center the map fitting all markers on the screen
     map.fitBounds(bounds);
   }
-
-
 }
 
 //Getting current location
@@ -234,21 +232,7 @@ $("#search_bar").keyup(function(e) {
 
       // jiak_simi_url = 'http://localhost:3000/locations/search?lat='+ latitude + '&lon=' + longitude + '&dist=10';
 
-      jiak_simi_url = 'https://crossorigin.me/https://jiak-simi.herokuapp.com/locations';
-
-      $.ajax({
-        url: jiak_simi_url,
-        dataType: 'json',
-      }).done(function successFunction(data) {
-        locations_obj = data;
-        showCurrentLocation();
-      })
-        .fail(function failFunction(request, textStatus, errorThrown) {
-        // console.log('An error occurred during your request: ' + request.status + ' ' + textStatus + ' ' + errorThrown);
-      })
-        .always(function alwaysFunction() {
-        // console.log('always function');
-      });
+    jiakApiCall();
 
     $("#search_bar").val('');
   }
@@ -256,7 +240,8 @@ $("#search_bar").keyup(function(e) {
 });
 
 var jiakApiCall = function () {
-  jiak_simi_url = 'https://crossorigin.me/https://jiak-simi.herokuapp.com/locations/';
+  // jiak_simi_url = 'https://crossorigin.me/https://jiak-simi.herokuapp.com/locations/';
+  jiak_simi_url = 'https://crossorigin.me/https://jiak-simi.herokuapp.com/locations/search?lat='+ latitude + '&lon=' + longitude + '&dist=10';
   $.ajax({
     url: jiak_simi_url,
     dataType: 'json',
