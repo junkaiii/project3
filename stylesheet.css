@@ -1,0 +1,99 @@
+html, body {
+  height: 100%
+}
+h1 {
+  margin: 10px auto;
+}
+.header {
+  height: 60px;
+  background: #FF7F11;
+  border-bottom: 2px solid #CCC;
+  width: 100%;
+  margin: 0 auto;
+  /*padding-left: 20px;*/
+}
+.main-window {
+  float: left;
+  height: 100%;
+  width: 80%;
+  /*border-style: solid;*/
+}
+
+.navbtn {
+  float: right;
+  font-size: 2em;
+}
+
+.sidenav {
+  border-left: 2px solid #CCC;
+  float: right;
+  height: 100%;
+  width: 20%;
+}
+
+.avatar-pic {
+  display: inline-block;
+  box-shadow: 0 0 4px 0 black;
+  height: 80px;
+  width: 80px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.identity {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#profile, #settings, #history, #logout {
+  display: block;
+  margin: 20px 0 20px 15px;
+  text-decoration: none;
+}
+
+#profile:link, #settings:link, #history:link, #logout:link {
+  color: black;
+}
+
+.profile-tab {
+  margin-top: 30px;
+}
+
+.profile-tab, .settings-tab, .history-tab, .logout-tab {
+  width: 100%;
+  border-top-style: groove;
+}
+
+.logout-tab {
+  border-bottom-style: groove;
+}
+
+.title {
+  /*display: inline-block;*/
+  float: left;
+  padding-left: 10px;
+}
+.access {
+  /*display: inline-block;*/
+  float: right;
+}
+.gmap-window {
+  border-style: inset;
+  border-radius: 5px;
+  width: 90%;
+  height: 60%;
+  margin-top: 1.5%;
+}
+
+.footer {
+  height: 30px;
+  background: grey;
+  width: 100%;
+  /*padding-left: 20px;*/
+  position: fixed;
+  bottom: 0;
+}
+.trademark {
+  color: lightgrey;
+  float: right;
+}
