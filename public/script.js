@@ -154,7 +154,7 @@ $("#search_bar").keyup(function(e) {
     concat_search = get_search_info.split(" ").join('+');
     console.log('input value is ' + concat_search);
     geocoding_url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + concat_search + '+Singapore&key=AIzaSyAC6yk_-cvrYiP_NO4l75OcVcJlRbdZ_Gw';
-    jiak_simi_url = 'localhost:3000//locations/search?lat=<latitude>&lon=<longitude>&dist=<distance in km>'
+
 
     //ajax call to google geocoding api to convert address to lat long
     $.ajax({
@@ -173,6 +173,7 @@ $("#search_bar").keyup(function(e) {
         console.log('always function');
       });
 
+      jiak_simi_url = 'http://localhost:3000/locations/';
 
       $.ajax({
         url: jiak_simi_url,

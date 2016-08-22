@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#map_container {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+#map_canvas {
+  height: 100%;
+}
+#btn {
+  display: block;
+  margin: 20px auto;
+}
+#search_bar{
+  display: block;
+  margin: 20px auto;
+}
+h3 {
+  text-align: center;
+}
