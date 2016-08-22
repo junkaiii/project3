@@ -221,6 +221,7 @@ $("#search_bar").keyup(function(e) {
       latitude = data.results[0].geometry.location.lat; //only shows the first result, possibility to show other results by changing index number
       longitude = data.results[0].geometry.location.lng;
       // console.log('Searched location is ' + search_latitude + ' ' + search_longitude);
+      jiakApiCall();
     })
 
       .fail(function failFunction(request, textStatus, errorThrown) {
@@ -230,24 +231,22 @@ $("#search_bar").keyup(function(e) {
         // console.log('always function');
       });
 
-      // jiak_simi_url = 'http://localhost:3000/locations/search?lat='+ latitude + '&lon=' + longitude + '&dist=10';
 
-    jiakApiCall();
 
-    $("#search_bar").val('');
+    $("#search_bar").val(''); //reset search bar
   }
 
 });
 
 var jiakApiCall = function () {
-  // jiak_simi_url = 'https://crossorigin.me/https://jiak-simi.herokuapp.com/locations/';
-  jiak_simi_url = 'https://crossorigin.me/https://jiak-simi.herokuapp.com/locations/search?lat='+ latitude + '&lon=' + longitude + '&dist=10';
+  jiak_simi_url = 'https://crossorigin.me/https://jiak-simi.herokuapp.com/locations/search?lat='+ latitude + '&lon=' + longitude + '&dist=0.1';
+  console.log('ajax call');
   $.ajax({
     url: jiak_simi_url,
     dataType: 'json',
   }).done(function successFunction(data) {
     locations_obj = data;
-    // console.log(locations_obj);
+    console.log(jiak_simi_url);
     showCurrentLocation();
   })
     .fail(function failFunction(request, textStatus, errorThrown) {
