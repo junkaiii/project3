@@ -161,8 +161,8 @@ $("#search_bar").keyup(function(e) {
       url: geocoding_url,
       dataType: 'json',
     }).done(function successFunction(data) {
-      search_latitude = data.results[0].geometry.location.lat; //only shows the first result, possibility to show other results by changing index number
-      search_longitude = data.results[0].geometry.location.lng;
+      latitude = data.results[0].geometry.location.lat; //only shows the first result, possibility to show other results by changing index number
+      longitude = data.results[0].geometry.location.lng;
       // console.log('Searched location is ' + search_latitude + ' ' + search_longitude);
     })
 
@@ -173,7 +173,9 @@ $("#search_bar").keyup(function(e) {
         // console.log('always function');
       });
 
-      jiak_simi_url = 'http://localhost:3000/locations/search?lat='+ search_latitude + '&lon=' + search_longitude + '&dist=10';
+      // jiak_simi_url = 'http://localhost:3000/locations/search?lat='+ latitude + '&lon=' + longitude + '&dist=10';
+
+      jiak_simi_url = 'http://localhost:3000/locations/';
 
       $.ajax({
         url: jiak_simi_url,
