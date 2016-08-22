@@ -163,30 +163,31 @@ $("#search_bar").keyup(function(e) {
     }).done(function successFunction(data) {
       search_latitude = data.results[0].geometry.location.lat; //only shows the first result, possibility to show other results by changing index number
       search_longitude = data.results[0].geometry.location.lng;
-      console.log('Searched location is ' + search_latitude + ' ' + search_longitude);
+      // console.log('Searched location is ' + search_latitude + ' ' + search_longitude);
     })
 
       .fail(function failFunction(request, textStatus, errorThrown) {
-        console.log('An error occurred during your request: ' + request.status + ' ' + textStatus + ' ' + errorThrown);
+        // console.log('An error occurred during your request: ' + request.status + ' ' + textStatus + ' ' + errorThrown);
       })
       .always(function alwaysFunction() {
-        console.log('always function');
+        // console.log('always function');
       });
 
-      jiak_simi_url = 'http://localhost:3000/locations/';
+      jiak_simi_url = 'http://localhost:3000/locations/search?lat='+ search_latitude + '&lon=' + search_longitude + '&dist=10';
 
       $.ajax({
         url: jiak_simi_url,
         dataType: 'json',
       }).done(function successFunction(data) {
-        console.log(data);
         locations_obj = data;
+        console.log(locations_obj);
+
       })
         .fail(function failFunction(request, textStatus, errorThrown) {
-        console.log('An error occurred during your request: ' + request.status + ' ' + textStatus + ' ' + errorThrown);
+        // console.log('An error occurred during your request: ' + request.status + ' ' + textStatus + ' ' + errorThrown);
       })
         .always(function alwaysFunction() {
-        console.log('always function');
+        // console.log('always function');
       });
 
     $("#search_bar").val('');
