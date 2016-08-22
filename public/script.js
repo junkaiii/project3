@@ -7,9 +7,8 @@ var search_latitude;
 var longitude;
 var latitude;
 var map;
-
-var locations_obj
-// //simulated json reply
+var locations_obj;
+//simulated json reply
 // var locations_obj = [{
 //   "_id": "57b7e5bdc0091c10b1e3569d",
 //   "name": "MACS",
@@ -36,6 +35,58 @@ var locations_obj
 //     ],
 //     "type": "Point"
 //   },
+// },{
+//   "_id": "57b7e5bdc0091c10b1e3569d",
+//   "name": "KFC",
+//   "category": "fast food",
+//   "postalCode": "123454",
+//   "__v": 0,
+//   "latLong": {
+//     "coordinates": [
+//       1.4050,
+//       103.924
+//     ],
+//     "type": "Point"
+//   },
+// },{
+//   "_id": "57b7e5bdc0091c10b1e3569d",
+//   "name": "KFC",
+//   "category": "fast food",
+//   "postalCode": "123454",
+//   "__v": 0,
+//   "latLong": {
+//     "coordinates": [
+//       1.4052,
+//       103.904
+//     ],
+//     "type": "Point"
+//   },
+// },{
+//   "_id": "57b7e5bdc0091c10b1e3569d",
+//   "name": "KFC",
+//   "category": "fast food",
+//   "postalCode": "123454",
+//   "__v": 0,
+//   "latLong": {
+//     "coordinates": [
+//       1.4052,
+//       103.904
+//     ],
+//     "type": "Point"
+//   },
+// },{
+//   "_id": "57b7e5bdc0091c10b1e3569d",
+//   "name": "KFC",
+//   "category": "fast food",
+//   "postalCode": "123454",
+//   "__v": 0,
+//   "latLong": {
+//     "coordinates": [
+//       1.4055,
+//       103.9124
+//     ],
+//     "type": "Point"
+//   },
 // }];
 
 // Asynchronously loading Gmaps API
@@ -55,6 +106,8 @@ function initialize() {
     },
     zoom: 10
   });
+
+  bounds = new google.maps.LatLngBounds();
 }
 
 //zooms in to current location
@@ -79,36 +132,37 @@ function showCurrentLocation() {
   //adds surrounding data
 
   // Display multiple markers on a map
-  var infoWindow = new google.maps.InfoWindow(),
-    marker, i;
+  var infoWindow = new google.maps.InfoWindow(),marker, i;
   var bounds = new google.maps.LatLngBounds();
 
 
   // Loop through our array of markers & place each one on the map
   for (i = 0; i < locations_obj.length; i++) {
     var locations = locations_obj[i];
-    var position = new google.maps.LatLng(locations.latLong.coordinates[0], locations.latLong.coordinates[1]);
-    bounds.extend(position);
-    marker = new google.maps.Marker({
-      position: position,
-      map: map,
-      name: locations.name,
-      // title: markers[i][0]
-    });
+    if(locations.latLong.coordinates.length > 0){
+      var position = new google.maps.LatLng(locations.latLong.coordinates[0], locations.latLong.coordinates[1]);
+      // bounds.extend(position);
+      marker = new google.maps.Marker({
+        position: position,
+        map: map,
+        name: locations.name,
+        // title: markers[i][0]
+      });
 
-    // Allow each marker to have an info window
-    google.maps.event.addListener(marker, 'click', (function(marker, i) {
-      return function() {
-        //template for infoWindow content
-        //suggestion from http://you.arenot.me/2010/06/29/google-maps-api-v3-0-multiple-markers-multiple-infowindows/
-        var infoWindowContent =
-          '<div class="info_content">' +
-          '<h3>' + this.name + '</h3>' +
-          '<p>' + this.name + '</p>' + '</div>';
-        infoWindow.setContent(infoWindowContent);
-        infoWindow.open(map, this);
-      };
-    })(marker, i));
+      // Allow each marker to have an info window
+      google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        return function() {
+          //template for infoWindow content
+          //suggestion from http://you.arenot.me/2010/06/29/google-maps-api-v3-0-multiple-markers-multiple-infowindows/
+          var infoWindowContent =
+            '<div class="info_content">' +
+            '<h3>' + this.name + '</h3>' +
+            '<p>' + this.name + '</p>' + '</div>';
+          infoWindow.setContent(infoWindowContent);
+          infoWindow.open(map, this);
+        };
+      })(marker, i));
+    }
 
     // Automatically center the map fitting all markers on the screen
     map.fitBounds(bounds);
@@ -129,7 +183,8 @@ function getCurrentLocation() {
     latitude = position.coords.latitude;
     longitude = position.coords.longitude;
     $out.append('<p>Latitude is ' + latitude + '° <br>Longitude is ' + longitude + '°</p>');
-    showCurrentLocation();
+    jiakApiCall();
+      // showCurrentLocation();
   }
 
   function error() {
@@ -181,9 +236,9 @@ $("#search_bar").keyup(function(e) {
         url: jiak_simi_url,
         dataType: 'json',
       }).done(function successFunction(data) {
+        console.log(data);
         locations_obj = data;
-        console.log(locations_obj);
-
+        showCurrentLocation();
       })
         .fail(function failFunction(request, textStatus, errorThrown) {
         // console.log('An error occurred during your request: ' + request.status + ' ' + textStatus + ' ' + errorThrown);
@@ -196,3 +251,21 @@ $("#search_bar").keyup(function(e) {
   }
 
 });
+
+var jiakApiCall = function () {
+  jiak_simi_url = 'http://localhost:3000/locations/';
+  $.ajax({
+    url: jiak_simi_url,
+    dataType: 'json',
+  }).done(function successFunction(data) {
+    locations_obj = data;
+    console.log(locations_obj);
+    showCurrentLocation();
+  })
+    .fail(function failFunction(request, textStatus, errorThrown) {
+    // console.log('An error occurred during your request: ' + request.status + ' ' + textStatus + ' ' + errorThrown);
+  })
+    .always(function alwaysFunction() {
+    // console.log('always function');
+  });
+};
