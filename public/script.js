@@ -129,19 +129,23 @@ function showCurrentLocation() {
     map: map,
   });
 
+  position = new google.maps.LatLng(latitude, longitude);
+  bounds.extend(position); //extend boundaries to include inital centre marker
+
   //adds surrounding data
 
   // Display multiple markers on a map
   var infoWindow = new google.maps.InfoWindow(),marker, i;
-  var bounds = new google.maps.LatLngBounds();
+  // var bounds = new google.maps.LatLngBounds();
 
 
   // Loop through our array of markers & place each one on the map
   for (i = 0; i < locations_obj.length; i++) {
-    var locations = locations_obj[i];
+    locations = locations_obj[i];
+    console.log(locations_obj[i]);
     if(locations.latLong.coordinates.length > 0){
-      var position = new google.maps.LatLng(locations.latLong.coordinates[0], locations.latLong.coordinates[1]);
-      // bounds.extend(position);
+      position = new google.maps.LatLng(locations.latLong.coordinates[1], locations.latLong.coordinates[0]);
+      bounds.extend(position);  //extends bounbdaries to include added markers
       marker = new google.maps.Marker({
         position: position,
         map: map,
@@ -230,13 +234,12 @@ $("#search_bar").keyup(function(e) {
 
       // jiak_simi_url = 'http://localhost:3000/locations/search?lat='+ latitude + '&lon=' + longitude + '&dist=10';
 
-      jiak_simi_url = 'https://jiak-simi.herokuapp.com/locations';
+      jiak_simi_url = 'https://crossorigin.me/https://jiak-simi.herokuapp.com/locations';
 
       $.ajax({
         url: jiak_simi_url,
         dataType: 'json',
       }).done(function successFunction(data) {
-        console.log(data);
         locations_obj = data;
         showCurrentLocation();
       })
@@ -253,13 +256,13 @@ $("#search_bar").keyup(function(e) {
 });
 
 var jiakApiCall = function () {
-  jiak_simi_url = 'https://jiak-simi.herokuapp.com/locations/';
+  jiak_simi_url = 'https://crossorigin.me/https://jiak-simi.herokuapp.com/locations/';
   $.ajax({
     url: jiak_simi_url,
     dataType: 'json',
   }).done(function successFunction(data) {
     locations_obj = data;
-    console.log(locations_obj);
+    // console.log(locations_obj);
     showCurrentLocation();
   })
     .fail(function failFunction(request, textStatus, errorThrown) {
