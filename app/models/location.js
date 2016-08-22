@@ -23,7 +23,7 @@ var locationSchema = new mongoose.Schema({
 locationSchema.query = {
   circleDistAway: function(lat, long, dist){
     //get all points within circular radius
-   return this.where('latLong').near({ 'center': [long, lat], 'maxDistance': dist/111.12, 'spherical': true });
+   return this.where('latLong').near({ 'center': [long, lat], 'maxDistance': dist * 2.74268 / 111.12, 'spherical': true, 'limit': 10 });
   }
 };
 

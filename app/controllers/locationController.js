@@ -38,7 +38,7 @@ module.exports = {
       var lat = req.query.lat || 0;
       var lon = req.query.lon || 0;
       var distance = req.query.dist || 0;
-      Location.find().circleDistAway(lat ,lon ,distance).exec(function(err, locations){
+      Location.find().circleDistAway(lat, lon, distance).exec(function(err, locations){
         if(err) return res.send(err);
         res.send(locations);
       });
@@ -49,11 +49,11 @@ module.exports = {
     //get request parameters
     var origLat = req.query.lat || 1.3521;
     var origLong = req.query.lon || 103.8198;
+    var filteredArr = [];
 
     //default assume distQ
     if(!req.query.timeQ){
       var distance = req.query.dist || 50;
-      var filteredArr = [];
 
       parameters = {
         origins: origLat + "," + origLong,
@@ -70,13 +70,23 @@ module.exports = {
           var destLatLong = locations[i].latLong.coordinates[1] + "," + locations[i].latLong.coordinates[0];
           parameters.destinations = destLatLong;
 
-
           //check actual travelling distance to each destination
+          console.log(callAPI(parameters));
+          // filteredArr.push(callAPI(parameters));
         }
-        res.send(parameters);
+        res.send(filteredArr);
       });
     }
-
+    //pass in params to google api
+    function callAPI(params){
+      // request
+      //   .get('https://maps.googleapis.com/maps/api/distancematrix/json', { qs: params }, function(err, response, body){
+      //       if(err) return err;
+      //       var areas = JSON.parse(body);
+      //       // console.log(areas.rows[0].elements[0].distance.text);
+      //       return areas.rows[0].elements[0].distance.text;
+      //   });
+    }
     // parameters = {
     //   origins: "1.2930,103.8520",
     //   destinations: "1.2815,103.8391",
