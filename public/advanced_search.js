@@ -143,14 +143,14 @@ function showCurrentLocation() {
   for (i = 0; i < locations_obj.length; i++) {
     locations = locations_obj[i];
     // console.log(locations_obj);
-    if(locations.Point.latLong.coordinates.length > 0){
-      position = new google.maps.LatLng(locations.Point.latLong.coordinates[1], locations.Point.latLong.coordinates[0]);
+    if(locations.latLong.coordinates.length > 0){
+      position = new google.maps.LatLng(locations.latLong.coordinates[1], locations.latLong.coordinates[0]);
       bounds.extend(position);  //extends bounbdaries to include added markers
       marker = new google.maps.Marker({
         position: position,
         map: map,
-        name: locations.Point.name,
-        description: locations.Point.description,
+        name: locations.name,
+        description: locations.description,
 
         // title: markers[i][0]
       });
