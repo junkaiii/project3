@@ -3,8 +3,8 @@ module.exports = function(app) {
 
   //set routes
   app.route('/locations')
-    .get(locationController.index)
-    .post(locationController.create);
+    .get(locationController.index);
+    // .post(locationController.create);
 
   //set routes
   app.route('/locations/search')

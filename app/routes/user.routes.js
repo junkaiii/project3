@@ -3,24 +3,33 @@ module.exports = function(app, passport) {
 
   //HOME PAGE (with login links)
   app.get('/', function(req, res) {
-    res.render('index.ejs'); //load the index.ejs file
+    res.render('index'); //load the index.ejs file
   });
 
-  //login PAGE
+  //login
 
   //show login form
   app.get('/login', function(req, res) {
-    res.render('login.ejs', {
+    res.render('login', {
       message: req.flash('loginMessage')
     });
   });
 
+  // process the login form
+  app.post('/login', passport.authenticate('local-login', {
+    successRedirect: '/profile', // redirect to the secure profile section
+    failureRedirect: '/login', // redirect back to the signup page if there is an error
+    failureFlash: true // allow flash messages
+  }));
+
+
   //signup
+
   //show signup forms
   app.get('/signup', function(req, res) {
 
     //render the page and pass in any flash stuff
-    res.render('signup.ejs', {
+    res.render('signup', {
       message: req.flash('signupMessage')
     });
   });
@@ -33,19 +42,12 @@ module.exports = function(app, passport) {
 
   }));
 
-  // process the login form
-  app.post('/login', passport.authenticate('local-login', {
-    successRedirect: '/profile', // redirect to the secure profile section
-    failureRedirect: '/login', // redirect back to the signup page if there is an error
-    failureFlash: true // allow flash messages
-  }));
-
   //PROFILE SECTION
   //we will want this protected so you have to be logged in to visit
   //we will use route middleware to verify this (this isLoggedIn function)
 
   app.get('/profile', isLoggedIn, function(req, res) {
-    res.render('profile.ejs', {
+    res.render('profile', {
       message: req.flash('authMessage'),
       user: req.user //get the user out of  session and pass to template
     });
@@ -53,7 +55,7 @@ module.exports = function(app, passport) {
 
 //facebook routing
   // route for facebook athentication and login
-      app.get('/auth/facebook', passport.authenticate('facebook', { scope : 'email' }));
+      app.get('/auth/facebook', passport.authenticate('facebook'));
 
       // handle the callback after facebook has authenticated the user
       app.get('/auth/facebook/callback',
@@ -61,9 +63,6 @@ module.exports = function(app, passport) {
               successRedirect : '/profile',
               failureRedirect : '/'
           }));
-
-
-
 
 //if they go to logout page, log them out
   app.get('/logout', function(req, res) {

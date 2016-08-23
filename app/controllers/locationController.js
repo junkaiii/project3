@@ -8,22 +8,7 @@ module.exports = {
       res.json(locations);
     });
   },
-  //create new location
-  create: function(req, res, next) {
-    var new_location = new Location(req.body);
-
-    new_location.save(function(err){
-      //set error messages
-      if(err) {
-        var err_message = {
-          "message": err.errors,
-          "status_code": 400
-        };
-        return res.status(400).send(err);
-      }
-      res.json(new_location);
-    });
-  },
+  
   //search based on query params
   search: function(req, res, next){
     //check if query is on specific attribute in db
