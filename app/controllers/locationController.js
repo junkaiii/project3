@@ -38,8 +38,8 @@ module.exports = {
         res.send(location);
       });
     } else {
-      var lat = req.query.lat || 0;
-      var lon = req.query.lon || 0;
+      var lat = req.query.lat || 1.2790995;
+      var lon = req.query.lon || 103.8414652;
       var distance = req.query.dist || 10;
       Location.find().circleDistAway(lat, lon, distance).exec(function(err, locations) {
         if (err) return res.send(err);
@@ -50,8 +50,8 @@ module.exports = {
   //searches which require google api
   advSearch: function(req, res, next) {
     //get request parameters
-    var origLat = req.query.lat || 1.3521;
-    var origLong = req.query.lon || 103.8198;
+    var origLat = req.query.lat || 1.2790995;
+    var origLong = req.query.lon || 103.8414652;
     var travelMode = req.query.mode || 'walking';
     var circleApprox,dist, time;
 
