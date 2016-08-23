@@ -106,11 +106,6 @@ module.exports = {
               if (distAway <= actualDist ) {
                 locations[j].distance = distAway;
                 filteredArr.push(locations[j]);
-                // filteredArr.push({
-                //   "Point": locations[j]
-                // }, {
-                //   "Distance": distAway
-                // });
               }
             }
             res.json(filteredArr);
