@@ -15,7 +15,7 @@ html, body {
   display: block;
   margin: 20px auto;
 }
-#search_bar{
+#search_bar, #travel_time, #travel_method{
   display: block;
   margin: 20px auto;
 }
