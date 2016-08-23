@@ -131,54 +131,38 @@ module.exports = {
         }
         parameters.destinations = arr;
 
-        // var jsonTest = [{"distance":{"text":"11.3 km","value":11253},"duration":{"text":"2 mins","value":8459},"status":"OK"},
-        // {"distance":{"text":"11.2 km","value":11165},"duration":{"text":"30 mins","value":8458},"status":"OK"},
-        // {"distance":{"text":"12.6 km","value":12625},"duration":{"text":"2 hours 37 mins","value":9417},"status":"OK"},
-        // {"distance":{"text":"14.8 km","value":14822},"duration":{"text":"3 hours 4 mins","value":11050},"status":"OK"}];
-        //
-        // for(var j = 0; j < jsonTest.length; j++){
-        //   var locTime = jsonTest[j].duration.text;
-        //   var hTextLoc = locTime.indexOf('hours');
-        //   var mTextLoc = locTime.indexOf('mins');
-        //   var retTime;
-        //
-        //   if(hTextLoc === -1){
-        //     retTime = parseFloat(locTime.split(" ")[0]);
-        //   }else{
-        //     retTime = parseFloat(locTime.split(" ")[0]) * 60 + parseFloat(locTime.split(" ")[2]);
-        //   }
-        //
-        //   if(retTime <= time){
-        //     filteredArr.push(jsonTest[j]);
-        //   }
-        // }
-        // console.log(filteredArr);
-
         //call google api
         googleMapsClient.distanceMatrix(
           parameters,
           function(err, response) {
             if (err) return res.json(err);
             var retTime;
+            var locList = response.json.rows[0].elements;
 
             //get the duration for checking against request params
-            for (var j = 0; j < response.json.rows[0].elements.length; j++) {
-              var locTime = jsonTest[j].duration.text;
+            for (var j = 0; j < locList.length; j++) {
+              //check if response has time in hours or just minutes
+              var locTime = locList[j].duration.text;
               var hTextLoc = locTime.indexOf('hours');
               var mTextLoc = locTime.indexOf('mins');
-              console.log(hTextLoc, mTextLoc);
-              // if(hTextLoc === -1){
-              //   retTime = parseFloat(locTime.split(" ")[0]);
-              // }else{
-              //   retTime = parseFloat(locTime.split(" ")[0]) * 60 + parseFloat(locTime.split(" ")[2]);
-              // }
-              //
-              // if(retTime <= time){
-              //   filteredArr.push(locations[j]);
-              // }
+
+              //convert to minutes to compare with query
+              if(hTextLoc === -1){
+                retTime = parseFloat(locTime.split(" ")[0]);
+              }else{
+                retTime = parseFloat(locTime.split(" ")[0]) * 60 + parseFloat(locTime.split(" ")[2]);
+              }
+              //add to final array only if satisfies request
+              if(retTime <= time){
+                filteredArr.push({
+                  "Point": locations[j]
+                }, {
+                  "Time": retTime
+                });
+              }
 
             }
-            // res.json(filteredArr);
+            res.json(filteredArr);
           });
       });
     }
