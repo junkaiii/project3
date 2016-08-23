@@ -1,3 +1,4 @@
+/*General*/
 * {
   font-family: 'Crete Round', serif;
 }
@@ -9,6 +10,9 @@ h1 {
   margin: 10px auto;
   font-family: 'Gloria Hallelujah', cursive;
 }
+
+/*Header*/
+
 .header {
   height: 60px;
   background: #FF9B42;
@@ -17,6 +21,42 @@ h1 {
   margin: 0 auto;
   /*padding-left: 20px;*/
 }
+
+.identity {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.navbtn {
+  margin-top: 10px;
+  background-color: #FF9B42;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: none;
+  border-radius: 5px;
+  float: right;
+  font-size: 1.5em;
+}
+
+.navbtn:hover {
+  background-color: #925a29;
+  transition: background-color .3s;
+}
+
+.title {
+  /*display: inline-block;*/
+  float: left;
+  padding-left: 10px;
+}
+
+.access {
+  height:100%;
+  vertical-align: middle;
+  float: right;
+  font-size: 1.5em;
+}
+
+/*MAIN*/
 .main-window {
   background: #EDE7D9;
   float: left;
@@ -50,10 +90,16 @@ h1 {
   background-color: #A49694
 }
 
-.navbtn {
-  float: right;
-  font-size: 2em;
+.gmap-window {
+  border-style: inset;
+  border-radius: 5px;
+  width: 90%;
+  height: 60%;
+  margin-top: 1.5%;
+  margin: 0 auto;
 }
+
+/*Sidebar*/
 
 .sidenav {
   border-left: 2px solid #CCC;
@@ -71,10 +117,7 @@ h1 {
   margin-top: 15px;
 }
 
-.identity {
-  display: inline-block;
-  margin-left: 10px;
-}
+
 
 #profile, #settings, #history, #logout {
   color: black;
@@ -93,7 +136,6 @@ h1 {
   margin-top: 30px;
 }
 
-
 #profile:hover,
 #settings:hover,
 #history:hover,
@@ -108,25 +150,7 @@ h1 {
   border-bottom-style: groove;
 }
 
-.title {
-  /*display: inline-block;*/
-  float: left;
-  padding-left: 10px;
-}
-.access {
-  height:100%;
-  vertical-align: middle;
-  float: right;
-  font-size: 1.5em;
-}
-.gmap-window {
-  border-style: inset;
-  border-radius: 5px;
-  width: 90%;
-  height: 60%;
-  margin-top: 1.5%;
-  margin: 0 auto;
-}
+/*Footer*/
 
 .footer {
   height: 30px;
