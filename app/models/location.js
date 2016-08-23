@@ -12,6 +12,12 @@ var locationSchema = new mongoose.Schema({
   description: {
     type: String
   },
+  distance: {
+    type: Number
+  },
+  time: {
+    type: Number
+  },
   latLong: {
     type: {
       type: String,

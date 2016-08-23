@@ -104,11 +104,13 @@ module.exports = {
             for (var j = 0; j < response.json.rows[0].elements.length; j++) {
               var distAway = parseFloat(response.json.rows[0].elements[j].distance.text.split(" ")[0]);
               if (distAway <= actualDist ) {
-                filteredArr.push({
-                  "Point": locations[j]
-                }, {
-                  "Distance": distAway
-                });
+                locations[j].distance = distAway;
+                filteredArr.push(locations[j]);
+                // filteredArr.push({
+                //   "Point": locations[j]
+                // }, {
+                //   "Distance": distAway
+                // });
               }
             }
             res.json(filteredArr);
@@ -154,11 +156,8 @@ module.exports = {
               }
               //add to final array only if satisfies request
               if(retTime <= time){
-                filteredArr.push({
-                  "Point": locations[j]
-                }, {
-                  "Time": retTime
-                });
+                locations[j].time = retTime;
+                filteredArr.push(locations[j]);
               }
 
             }
