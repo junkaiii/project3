@@ -28,6 +28,30 @@ module.exports = {
       res.json(new_location);
     });
   },
+  show: function(req, res) {
+    var location = Location.findOne({"_id":req.params.id}, function(err, location){
+      if(err) return next(err);
+      res.json(location);
+    });
+  },
+  update: function(req, res, next){
+    Location.findByIdAndUpdate(req.params.id, req.body, function(err, location){
+      if(err){
+        return next(err);
+      }else{
+        Location.findOne({"_id":req.params.id},function(err, location){
+          res.json(location);
+        });
+      }
+    });
+  },
+  delete: function(req, res, next){
+    Location.findOne({"_id":req.params.id}).remove(function(err){
+      if(err) return next(err);
+
+      res.send("Location deleted");
+    });
+  },
   //search based on query params
   search: function(req, res, next) {
     //check if query is on specific attribute in db
