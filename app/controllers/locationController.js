@@ -75,6 +75,21 @@ module.exports = {
       mode: travelMode
     };
 
+    //hours mins to mins converter
+    function hToMinConverter(timeString){
+
+      var hTextLoc = timeString.indexOf('hours');
+      var mTextLoc = timeString.indexOf('minutes');
+
+      //check to see if time has both hours and minutes
+      if(hTextLoc === -1){
+        return parseFloat(timeString.split(" ")[0]);
+      }else{
+        return parseFloat(timeString.split(" ")[0]) * 60 + parseFloat(timeString.split(" ")[2]);
+      }
+
+    }
+
     //check if it's a time query
     if(!req.query.time){
       //get approx radius to call own cirle query
@@ -100,12 +115,19 @@ module.exports = {
           parameters,
           function(err, response) {
             if (err) return res.json(err);
+            var locList = response.json.rows[0].elements;
+
             //get the distance away in km
-            for (var j = 0; j < response.json.rows[0].elements.length; j++) {
-              var distAway = parseFloat(response.json.rows[0].elements[j].distance.text.split(" ")[0]);
+            for (var j = 0; j < locList.length; j++) {
+
+              var distAway = parseFloat(locList[j].distance.text.split(" ")[0]);
+
+              var locTime = locList[j].duration.text;
+
               if (distAway <= actualDist ) {
                 locations[j].distance = distAway;
                 filteredArr.push(locations[j]);
+                locations[j].time = hToMinConverter(locTime);
               }
             }
             res.json(filteredArr);
@@ -139,18 +161,13 @@ module.exports = {
             //get the duration for checking against request params
             for (var j = 0; j < locList.length; j++) {
               //check if response has time in hours or just minutes
+              var locDist = locList[j].distance.text.split(" ")[0];
               var locTime = locList[j].duration.text;
-              var hTextLoc = locTime.indexOf('hours');
-              var mTextLoc = locTime.indexOf('mins');
 
-              //convert to minutes to compare with query
-              if(hTextLoc === -1){
-                retTime = parseFloat(locTime.split(" ")[0]);
-              }else{
-                retTime = parseFloat(locTime.split(" ")[0]) * 60 + parseFloat(locTime.split(" ")[2]);
-              }
-              //add to final array only if satisfies request
+              retTime = hToMinConverter(locTime);
+
               if(retTime <= time){
+                locations[j].distance = locDist;
                 locations[j].time = retTime;
                 filteredArr.push(locations[j]);
               }
