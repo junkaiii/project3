@@ -48,6 +48,7 @@ module.exports = function(app, passport) {
 
   app.get('/profile', isLoggedIn, function(req, res) {
     res.render('profile', {
+
       message: req.flash('authMessage'),
       user: req.user //get the user out of  session and pass to template
     });
