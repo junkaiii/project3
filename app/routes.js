@@ -19,6 +19,13 @@ module.exports = function(app, passport) {
     });
   });
 
+  // process the login form
+  app.post('/login',  passport.authenticate('local-login', {
+    successRedirect: '/profile',
+    failureRedirect: '/login',
+    failureFlash: true
+  }));
+
   //signup
   //show signup forms
   app.get('/signup', function(req, res) {
@@ -37,19 +44,14 @@ module.exports = function(app, passport) {
     failureFlash: true
   }));
 
-  // process the login form
-  app.post('/login',  passport.authenticate('local-login', {
-    successRedirect: '/profile',
-    failureRedirect: '/login',
-    failureFlash: true
-  }));
+
 
   //PROFILE SECTION
   //we will want this protected so you have to be logged in to visit
   //we will use route middleware to verify this (this isLoggedIn function)
 
   app.get('/profile', isLoggedIn, function(req, res) {
-    res.render('pages/profile.ejs', {
+    res.render('pages/profile', {
       title: 'Profile',
       message: req.flash('authMessage'),
       user: req.user //get the user out of  session and pass to template
