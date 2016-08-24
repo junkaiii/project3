@@ -9,4 +9,4 @@ deploy:
   app: jiak-simi
   on:
     repo: junkaiii/project3
-    branch: api_testing2
+    branch: passport
