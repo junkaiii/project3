@@ -39,8 +39,18 @@ a:hover {
   transition: color 0.3s;
 }
 
+p a.btn {
+  padding: 0 5px;
+}
+
+.trademark a {
+  color: #fef9f0;
+}
+
 
 /*CLASSES*/
+
+
 .navbar {
   margin: 0;
 }
@@ -150,9 +160,14 @@ a:hover {
 }
 
 .trademark {
-  text-align: center;
+  text-align: right;
   color: #fef9f0;
-  padding-top: 5px;
+  padding: 5px 20px;
+}
+
+.btn-lg {
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 .btn-font {
@@ -163,6 +178,14 @@ a:hover {
   color: #f0ad4e;
 }
 .plink:hover {
+  color: #26a65b;
+}
+
+.back {
+  color: #071108;
+}
+
+.back:hover {
   color: #26a65b;
 }
 
