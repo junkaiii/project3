@@ -8,6 +8,13 @@ module.exports = function(app, passport) {
     }); //load the index.ejs file
   });
 
+  // Adv Search Page
+  app.get('/advsearch', function(req, res) {
+    res.render('pages/advsearch', {
+      title: 'Advanced Search'
+    }); //load the index.ejs file
+  });
+
   //login PAGE
 
   //show login form
