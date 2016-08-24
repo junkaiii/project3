@@ -100,7 +100,7 @@ p a.btn {
 }
 
 .container {
-  margin-top: 50px;
+  margin: 50px auto;
 }
 
 
@@ -119,8 +119,8 @@ p a.btn {
 }
 
 .gmap-window {
-  border-style: inset;
-  border-radius: 5px;
+  border-style: none;
+
   width: 95%;
   height: 65%;
   margin: 10px auto;
@@ -157,6 +157,7 @@ p a.btn {
   width: 100%;
   position: fixed;
   bottom: 0;
+  margin-top: 10px;
 }
 
 .trademark {
@@ -188,6 +189,8 @@ p a.btn {
 .back:hover {
   color: #26a65b;
 }
+
+
 
 /*IDS*/
 #map_canvas {
@@ -248,4 +251,8 @@ p a.btn {
   transition: background-color .3s, color .5s, padding-left 0.6s;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
+}
+
+#advsearch {
+  font-size: 0.6em;
 }

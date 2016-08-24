@@ -4,14 +4,16 @@ module.exports = function(app, passport) {
   //HOME PAGE (with login links)
   app.get('/', function(req, res) {
     res.render('pages/index', {
-      title: 'Home'
+      title: 'Home',
+      user: req.user
     }); //load the index.ejs file
   });
 
   // Adv Search Page
   app.get('/advsearch', function(req, res) {
     res.render('pages/advsearch', {
-      title: 'Advanced Search'
+      title: 'Advanced Search',
+      user: req.user
     }); //load the index.ejs file
   });
 
@@ -92,6 +94,7 @@ module.exports = function(app, passport) {
 function isLoggedIn(req, res, next) {
 
   if (req.isAuthenticated())
+
     return next();
 
   //if not auth then redirect to homepage

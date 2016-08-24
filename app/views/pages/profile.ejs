@@ -1,9 +1,8 @@
-
 <div class="container">
 
     <div class="page-header text-center">
-        <h1><span class="fa fa-anchor"></span> Profile Page</h1>
-        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+        <h2>Vendor Submission Page</h2>
+
     </div>
 
     <!-- show any messages that come back with authentication -->
@@ -14,35 +13,39 @@
         <% } %>
 
 
-    <div class="row">
+            <div id="mainform">
+                <div class="innerdiv">
 
-        <!-- LOCAL INFORMATION -->
-        <div class="col-sm-6">
-            <div class="well">
-                <h3><span class="fa fa-user"></span> Local</h3>
-
-                    <p>
-                        <strong>id</strong>: <%= user._id %><br>
-                        <strong>email</strong>: <%= user.local.email %><br>
-                        <strong>password</strong>: <%= user.local.password %>
-                    </p>
-                    <!-- FACEBOOK INFORMATION -->
-        <div class="col-sm-6">
-            <div class="well">
-                <h3 class="text-primary"><span class="fa fa-facebook"></span> Facebook</h3>
-
-                    <p>
-                        <strong>id</strong>: <%= user.facebook.id %><br>
-                        <strong>token</strong>: <%= user.facebook.token %><br>
-                        <strong>name</strong>: <%= user.facebook.name %>
-                    </p>
-
+                    <!-- Required Div Starts Here -->
+                    <form id="form" name="form">
+                        <h3>Please fill in your information!</h3>
+                        <div>
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input id="name" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Description</label>
+                                <input id="description" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Category</label>
+                                <input id="category" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Latitude</label>
+                                <input id="lati" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Longitude</label>
+                                <input id="longti" class="form-control" type="text">
+                            </div>
+                            <input id="submit" class="btn btn-warning btn-lg" type="button" value="Submit">
+                            <div id="bio"></div>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
-
-            </div>
-        </div>
-
-    </div>
-
+            <hr>
+        
 </div>
