@@ -12,26 +12,7 @@ module.exports = {
       res.json(locations);
     });
   },
-<<<<<<< HEAD
-  //create new location
-  create: function(req, res, next) {
-    var new_location = new Location(req.body);
-
-    new_location.save(function(err) {
-      //set error messages
-      if (err) {
-        var err_message = {
-          "message": err.errors,
-          "status_code": 400
-        };
-        return res.status(400).send(err);
-      }
-      res.json(new_location);
-    });
-  },
-=======
   
->>>>>>> d1a9657f15e8893e1592fb338ed50a1c8f8f48d3
   //search based on query params
   search: function(req, res, next) {
     //check if query is on specific attribute in db
