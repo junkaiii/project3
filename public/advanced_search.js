@@ -151,6 +151,9 @@ function showCurrentLocation() {
         map: map,
         name: locations.name,
         description: locations.description,
+        category: locations.category,
+        distance: locations.distance,
+        time: locations.time,
 
         // title: markers[i][0]
       });
@@ -163,7 +166,9 @@ function showCurrentLocation() {
           var infoWindowContent =
             '<div class="info_content">' +
             '<h3>' + this.name + '</h3>' +
-            '<p>' + this.description + '</p>' + '</div>';
+            '<p>Opening Hours: ' + this.description + '</p>' + '</div>' +
+            '<p>Distance Away: ' + this.distance + '</p>' + '</div>' +
+            '<p>time Away: ' + this.time + '</p>' + '</div>';
           infoWindow.setContent(infoWindowContent);
           infoWindow.open(map, this);
         };
