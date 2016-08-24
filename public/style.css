@@ -1,8 +1,14 @@
-/*ELEMENTS*/
-/*black = #071108
-lighter black = #433A3F
+/*
+black = #071108
 white = #fef9f0
-orange = #FF9B42 */
+orange (header) = #FF9B42
+btn/links (outside of header) = #f0ad4e
+links (hover "             ") = #26a65b
+lighter black (footer)= #433A3F
+*/
+
+
+/*ELEMENTS*/
 
 * {
   font-family: 'Crete Round', serif;
@@ -14,14 +20,15 @@ html, body {
 
 h1 {
   margin: 5px auto;
+  letter-spacing: 2px;
   font-family: 'Gloria Hallelujah', cursive;
 }
 
 a {
   color: #071108;
-  -moz-transition: color 0.6s ease-in-out;
-  -webkit-transition: color 0.6s ease-in-out;
-  transition: color 0.6s ease-in-out;
+  -moz-transition: color 0.4 ease-in-out;
+  -webkit-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
 }
 
 a:hover {
@@ -50,8 +57,12 @@ a:hover {
   background-color: #FF9B42;
 }
 
-.navbar-brand {
-  padding: 0 15px;
+.navbar-right {
+  margin-right: 0;
+  margin-top: 5px;
+}
+.navbar-header {
+  padding: 5px 10px;
 }
 
 .glyphicon-log-in {
@@ -81,14 +92,11 @@ a:hover {
 .container {
   margin-top: 50px;
 }
-.navbtn {
-  float: right;
-  font-size: 2em;
-}
+
 
 .main-window {
   background: #fef9f0;
-  height: 100%;
+  height: 90%;
   width: 100%;
   align-content: center;
 }
@@ -107,13 +115,13 @@ a:hover {
   height: 65%;
   margin: 10px auto;
 }
-
+/*
 .sidenav {
   border-left: 2px solid #CCC;
   float: right;
   height: 100%;
   width: 20%;
-}
+}*/
 
 .avatar-pic {
   display: inline-block;
@@ -137,7 +145,6 @@ a:hover {
   height: 30px;
   background: #433A3F;
   width: 100%;
-  /*padding-left: 20px;*/
   position: fixed;
   bottom: 0;
 }
@@ -148,30 +155,43 @@ a:hover {
   padding-top: 5px;
 }
 
+.btn-font {
+  font-size: 1em;
+}
+
+.plink {
+  color: #f0ad4e;
+}
+.plink:hover {
+  color: #26a65b;
+}
 
 /*IDS*/
+#map_canvas {
+  width: 100%;
+  height: 100%;
+}
 
-
-#mylocationsearcher {
+#search_bar {
   width: 60%;
-  padding-left: 10px;
+  padding: 6px 20px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   border-right: none;
-  box-sizing: border-box;
-  border: 1px dotted black;
-  /*box-shadow: 0 3px 5px 0 darkgrey;*/
+  border: 1px solid lightgrey;
+  outline: none;
 }
 
 #locationbtn {
-  margin-left: -5px;
   border-radius: 0 20px 20px 0;
+  margin: 0 0 4px -5px;
+  outline: none;
 }
-#autolocator{
+
+#autolocator {
+  outline: none;
   border-radius: 20px;
 }
-
-
 
 
 #profile, #settings, #history, #logout {
