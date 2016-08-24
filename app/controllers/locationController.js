@@ -12,6 +12,7 @@ module.exports = {
       res.json(locations);
     });
   },
+<<<<<<< HEAD
   //create new location
   create: function(req, res, next) {
     var new_location = new Location(req.body);
@@ -28,6 +29,9 @@ module.exports = {
       res.json(new_location);
     });
   },
+=======
+  
+>>>>>>> d1a9657f15e8893e1592fb338ed50a1c8f8f48d3
   //search based on query params
   search: function(req, res, next) {
     //check if query is on specific attribute in db
