@@ -12,7 +12,7 @@ module.exports = function(app, passport) {
 
   //show login form
   app.get('/login', function(req, res) {
-    res.render('pages/login.ejs', {
+    res.render('pages/login', {
       title: 'Login',
       message: req.flash('loginMessage'),
 
@@ -24,35 +24,25 @@ module.exports = function(app, passport) {
   app.get('/signup', function(req, res) {
 
     //render the page and pass in any flash stuff
-    res.render('pages/signup.ejs', {
+    res.render('pages/signup', {
       title: 'Sign Up',
       message: req.flash('signupMessage'),
     });
   });
 
   //process the signup forms
-  app.post('/signup', function(req, res) { passport.authenticate('local-signup', {
-    successRedirect: res.render('pages/profile.ejs', {
-      title: 'Profile',
-      message: req.flash('authMessage'),
-      user: req.user
-    }),
-    failureRedirect: 'pages/signup',
+  app.post('/signup',  passport.authenticate('local-signup', {
+    successRedirect: '/profile',
+    failureRedirect: '/signup',
     failureFlash: true
-  });
-});
+  }));
 
   // process the login form
-  app.post('/login', function(req, res) { passport.authenticate('local-login', {
-    successRedirect: res.render('pages/profile.ejs', {
-      title: 'Profile',
-      message: req.flash('authMessage'),
-      user: req.user
-    }), // redirect to the secure profile section
-    failureRedirect: 'pages/login', // redirect back to the signup page if there is an error
-    failureFlash: true // allow flash messages
-  });
-});
+  app.post('/login',  passport.authenticate('local-login', {
+    successRedirect: '/profile',
+    failureRedirect: '/login',
+    failureFlash: true
+  }));
 
   //PROFILE SECTION
   //we will want this protected so you have to be logged in to visit
