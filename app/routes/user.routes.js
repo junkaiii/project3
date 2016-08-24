@@ -3,15 +3,27 @@ module.exports = function(app, passport) {
 
   //HOME PAGE (with login links)
   app.get('/', function(req, res) {
-    res.render('index'); //load the index.ejs file
+    res.render('pages/index', {
+      title: 'Home',
+      user: req.user
+    }); //load the index.ejs file
+  });
+
+  // Adv Search Page
+  app.get('/advsearch', function(req, res) {
+    res.render('pages/advsearch', {
+      title: 'Advanced Search',
+      user: req.user
+    }); //load the index.ejs file
   });
 
   //login
 
   //show login form
   app.get('/login', function(req, res) {
-    res.render('login', {
-      message: req.flash('loginMessage')
+    res.render('pages/login', {
+      title: 'Login',
+      message: req.flash('loginMessage'),
     });
   });
 
@@ -23,23 +35,24 @@ module.exports = function(app, passport) {
   }));
 
 
+
+
   //signup
 
   //show signup forms
   app.get('/signup', function(req, res) {
-
     //render the page and pass in any flash stuff
-    res.render('signup', {
-      message: req.flash('signupMessage')
+    res.render('pages/signup', {
+      title: 'Sign Up',
+      message: req.flash('signupMessage'),
     });
   });
 
   //process the signup forms
-  app.post('/signup', passport.authenticate('local-signup', {
+  app.post('/signup',  passport.authenticate('local-signup', {
     successRedirect: '/profile',
     failureRedirect: '/signup',
     failureFlash: true
-
   }));
 
   //PROFILE SECTION
@@ -47,8 +60,8 @@ module.exports = function(app, passport) {
   //we will use route middleware to verify this (this isLoggedIn function)
 
   app.get('/profile', isLoggedIn, function(req, res) {
-    res.render('profile', {
-
+    res.render('pages/profile', {
+      title: 'Profile',
       message: req.flash('authMessage'),
       user: req.user //get the user out of  session and pass to template
     });
@@ -78,6 +91,7 @@ module.exports = function(app, passport) {
 function isLoggedIn(req, res, next) {
 
   if (req.isAuthenticated())
+
     return next();
 
   //if not auth then redirect to homepage

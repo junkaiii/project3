@@ -1,0 +1,51 @@
+<div class="container">
+
+    <div class="page-header text-center">
+        <h2>Vendor Submission Page</h2>
+
+    </div>
+
+    <!-- show any messages that come back with authentication -->
+    <% if (message.length > 0) { %>
+        <div class="alert alert-success">
+            <%= message %>
+        </div>
+        <% } %>
+
+
+            <div id="mainform">
+                <div class="innerdiv">
+
+                    <!-- Required Div Starts Here -->
+                    <form id="form" name="form">
+                        <h3>Please fill in your information!</h3>
+                        <div>
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input id="name" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Description</label>
+                                <input id="description" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Category</label>
+                                <input id="category" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Latitude</label>
+                                <input id="lati" class="form-control" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label>Longitude</label>
+                                <input id="longti" class="form-control" type="text">
+                            </div>
+                            <input id="submit" class="btn btn-warning btn-lg" type="button" value="Submit">
+                            <div id="bio"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr>
+        
+</div>

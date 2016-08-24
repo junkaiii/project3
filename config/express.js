@@ -1,14 +1,15 @@
-var config = require('./config'),
-    express = require('express'),
-    morgan = require('morgan'),
-    compress = require('compression'),
-    bodyParser = require('body-parser'),
-    methodOverride = require('method-override'),
-    passport = require('passport'),
-    jwt = require('jsonwebtoken'),
-    flash = require('connect-flash'),
-    cookieParser = require('cookie-parser'),
-    session      = require('express-session');
+var config         = require('./config'),
+      express        = require('express'),
+      morgan         = require('morgan'),
+      compress       = require('compression'),
+      bodyParser     = require('body-parser'),
+      methodOverride = require('method-override'),
+      passport       = require('passport'),
+      flash          = require('connect-flash'),
+      cookieParser   = require('cookie-parser'),
+      session        = require('express-session'),
+      jwt            = require('jsonwebtoken'),
+      expressLayouts = require('express-ejs-layouts');
 
 module.exports = function(){
   var app = express();
@@ -33,6 +34,9 @@ module.exports = function(){
   require('../config/passport')(passport);
   app.use(cookieParser());
   app.set('view engine', 'ejs');
+  app.use(expressLayouts);
+  app.set('views', './app/views/');
+  app.use(express.static('./public'));
   app.use(session({ secret: 'ilovejiaksimi' })); // session secret
   app.use(passport.initialize());
   app.use(passport.session()); // persistent login sessions

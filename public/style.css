@@ -1,24 +1,259 @@
+/*
+black = #071108
+white = #fef9f0
+orange (
+er) = #FF9B42
+btn/links (outside of header) = #f0ad4e
+links (hover "             ") = #26a65b
+lighter black (footer)= #433A3F
+*/
+
+
+/*ELEMENTS*/
+
+* {
+  font-family: 'Crete Round', serif;
+}
+
 html, body {
   height: 100%;
+}
+
+h1 {
+  margin: 5px auto;
+  letter-spacing: 2px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+a {
+  color: #071108;
+  -moz-transition: color 0.4 ease-in-out;
+  -webkit-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fef9f0;
+  -moz-transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+p a.btn {
+  padding: 0 5px;
+}
+
+.trademark a {
+  color: #fef9f0;
+}
+
+
+/*CLASSES*/
+
+
+.navbar {
   margin: 0;
-  padding: 0;
 }
-#map_container {
-  height: 500px;
-  width: 500px;
+
+.navbar-default .navbar-nav>li>a {
+  color: #071108;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #fef9f0;
+}
+
+.navbar-default {
+  background-color: #FF9B42;
+}
+
+.navbar-right {
+  margin-right: 0;
+  margin-top: 5px;
+}
+.navbar-header {
+  padding: 5px 10px;
+}
+
+.glyphicon-log-in {
+  margin-right: 5px;
+}
+
+.header {
+  height: 60px;
+  background: #FF9B42;
+  border-bottom: 2px solid #CCC;
+  width: 100%;
   margin: 0 auto;
+  /*padding-left: 20px;*/
 }
+
+.title {
+  float: left;
+  padding-left: 10px;
+}
+
+.access {
+  vertical-align: middle;
+  float: right;
+  font-size: 1.2em;
+}
+
+.container {
+  margin: 50px auto;
+}
+
+
+.main-window {
+  background: #fef9f0;
+  height: 90%;
+  width: 100%;
+  align-content: center;
+}
+
+.search-engine {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 21px;
+}
+
+.gmap-window {
+  border-style: none;
+
+  width: 95%;
+  height: 65%;
+  margin: 10px auto;
+}
+/*
+.sidenav {
+  border-left: 2px solid #CCC;
+  float: right;
+  height: 100%;
+  width: 20%;
+}*/
+
+.avatar-pic {
+  display: inline-block;
+  box-shadow: 0 0 4px 0 black;
+  height: 80px;
+  width: 80px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.identity {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.logout-tab {
+  border-bottom-style: groove;
+}
+
+.footer {
+  height: 30px;
+  background: #433A3F;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin-top: 10px;
+}
+
+.trademark {
+  text-align: right;
+  color: #fef9f0;
+  padding: 5px 20px;
+}
+
+.btn-lg {
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.btn-font {
+  font-size: 1em;
+}
+
+.plink {
+  color: #f0ad4e;
+}
+.plink:hover {
+  color: #26a65b;
+}
+
+.back {
+  color: #071108;
+}
+
+.back:hover {
+  color: #26a65b;
+}
+
+
+
+/*IDS*/
 #map_canvas {
+  width: 100%;
   height: 100%;
 }
-#btn {
-  display: block;
-  margin: 20px auto;
+
+#search_bar {
+  width: 60%;
+  padding: 6px 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: none;
+  border: 1px solid lightgrey;
+  outline: none;
 }
-#search_bar, #travel_time, #travel_method{
-  display: block;
-  margin: 20px auto;
+
+#locationbtn {
+  border-radius: 0 20px 20px 0;
+  margin: 0 0 4px -5px;
+  outline: none;
 }
-h3 {
-  text-align: center;
+
+#autolocator {
+  outline: none;
+  border-radius: 20px;
+}
+
+
+#profile, #settings, #history, #logout {
+  color: black;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 0 10px 30px;
+  text-decoration: none;
+  box-sizing: border-box;
+  float: right;
+  width: 100%;
+  -webkit-transition: background-color .3s, color .5s, padding-left 0.6s;
+  transition: background-color .3s, color .5s, padding-left 0.6s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+#profile {
+  margin-top: 30px;
+}
+
+
+#profile:hover,
+#settings:hover,
+#history:hover,
+#logout:hover {
+  color: white;
+  padding-left: 120px;
+  background-color: darkgrey;
+  -webkit-transition: background-color .3s, color .5s, padding-left 0.6s;
+  transition: background-color .3s, color .5s, padding-left 0.6s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+#advsearch {
+  font-size: 0.6em;
 }

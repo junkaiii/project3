@@ -1,91 +1,13 @@
+console.log('linked');
 //declaring variables
 
 var $out = $('#out');
-var $btn = $('#btn');
+var $btn = $('#autolocator');
 var longitude;
 var latitude;
 var map;
 var locations_obj;
-//simulated json reply
-// var locations_obj = [{
-//   "_id": "57b7e5bdc0091c10b1e3569d",
-//   "name": "MACS",
-//   "category": "fast food",
-//   "postalCode": "123454",
-//   "__v": 0,
-//   "latLong": {
-//     "coordinates": [
-//       1.403991,
-//       103.905664
-//     ],
-//     "type": "Point"
-//   },
-// }, {
-//   "_id": "57b7e5bdc0091c10b1e3569d",
-//   "name": "KFC",
-//   "category": "fast food",
-//   "postalCode": "123454",
-//   "__v": 0,
-//   "latLong": {
-//     "coordinates": [
-//       1.4052,
-//       103.9024
-//     ],
-//     "type": "Point"
-//   },
-// },{
-//   "_id": "57b7e5bdc0091c10b1e3569d",
-//   "name": "KFC",
-//   "category": "fast food",
-//   "postalCode": "123454",
-//   "__v": 0,
-//   "latLong": {
-//     "coordinates": [
-//       1.4050,
-//       103.924
-//     ],
-//     "type": "Point"
-//   },
-// },{
-//   "_id": "57b7e5bdc0091c10b1e3569d",
-//   "name": "KFC",
-//   "category": "fast food",
-//   "postalCode": "123454",
-//   "__v": 0,
-//   "latLong": {
-//     "coordinates": [
-//       1.4052,
-//       103.904
-//     ],
-//     "type": "Point"
-//   },
-// },{
-//   "_id": "57b7e5bdc0091c10b1e3569d",
-//   "name": "KFC",
-//   "category": "fast food",
-//   "postalCode": "123454",
-//   "__v": 0,
-//   "latLong": {
-//     "coordinates": [
-//       1.4052,
-//       103.904
-//     ],
-//     "type": "Point"
-//   },
-// },{
-//   "_id": "57b7e5bdc0091c10b1e3569d",
-//   "name": "KFC",
-//   "category": "fast food",
-//   "postalCode": "123454",
-//   "__v": 0,
-//   "latLong": {
-//     "coordinates": [
-//       1.4055,
-//       103.9124
-//     ],
-//     "type": "Point"
-//   },
-// }];
+
 
 // Asynchronously loading Gmaps API
 jQuery(function($) {
@@ -102,7 +24,7 @@ function initialize() {
       lat: 1.352083,
       lng: 103.819836
     },
-    zoom: 10
+    zoom: 11
   });
 
   bounds = new google.maps.LatLngBounds();
