@@ -1,9 +1,9 @@
 //declaring variables
 
 var $out = $('#out');
-var $btn = $('#btn');
-var $travel_time = $('#travel_time');
-var $travel_method = $('#travel_method');
+var $btn = $('#adv-autolocator');
+var $travel_time = $('#adv-travel_time');
+var $travel_method = $('#adv-travel_method');
 var longitude;
 var latitude;
 var map;
@@ -210,11 +210,11 @@ $btn.click(getCurrentLocation);
 
 
 //Setting event listener for search bar
-$("#search_bar").keyup(function(e) {
+$("#adv-search_bar").keyup(function(e) {
   if (e.keyCode == 13) {
 
     //declaring variables for search
-    get_search_info = $("#search_bar").val();
+    get_search_info = $("#adv-search_bar").val();
     concat_search = get_search_info.split(" ").join('+');
     console.log('input value is ' + concat_search);
     geocoding_url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + concat_search + '+Singapore&key=AIzaSyAC6yk_-cvrYiP_NO4l75OcVcJlRbdZ_Gw';
@@ -240,7 +240,7 @@ $("#search_bar").keyup(function(e) {
 
 
 
-    $("#search_bar").val(''); //reset search bar
+    $("#adv-search_bar").val(''); //reset search bar
   }
 
 });

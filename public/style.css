@@ -1,11 +1,11 @@
 /*
 black = #071108
 white = #fef9f0
-orange (
-er) = #FF9B42
+orange (header) = #FF9B42
 btn/links (outside of header) = #f0ad4e
 links (hover "             ") = #26a65b
 lighter black (footer)= #433A3F
+button orange = #eea236
 */
 
 
@@ -20,9 +20,21 @@ html, body {
 }
 
 h1 {
+  color: #071108;
+  -moz-transition: color 0.4 ease-in-out;
+  -webkit-transition: color 0.4s ease-in-out;
+  transition: color 0.4s ease-in-out;
   margin: 5px auto;
   letter-spacing: 2px;
   font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1:hover {
+  text-decoration: none;
+  color: #fef9f0;
+  -moz-transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 a {
@@ -89,11 +101,6 @@ p a.btn {
   /*padding-left: 20px;*/
 }
 
-.title {
-  float: left;
-  padding-left: 10px;
-}
-
 .access {
   vertical-align: middle;
   float: right;
@@ -101,15 +108,21 @@ p a.btn {
 }
 
 .container {
-  margin: 50px auto;
+  padding-top: 50px;
 }
 
 
-.main-window {
+.main-window, .container{
   background: #fef9f0;
   height: 90%;
   width: 100%;
   align-content: center;
+}
+
+.full-search {
+  text-align: center;
+  padding-top: 25px;
+  margin-bottom: -25px;
 }
 
 .search-engine {
@@ -119,9 +132,35 @@ p a.btn {
   font-size: 21px;
 }
 
-.gmap-window {
-  border-style: none;
 
+.adv-norm-search-engine {
+  border-radius: 35px;
+  border: 2px dashed black;
+  /*text-align: center;*/
+  width:35%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 21px;
+}
+
+.adv-search-engine {
+  /*border: 5px dashed black;*/
+  text-align: center;
+  /*width: 25%;*/
+  display: inline-block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 21px;
+  vertical-align: middle;
+  padding-bottom: 100px;
+}
+
+.gmap-window {
+  /*border-style: inset;*/
+  border-radius: 5px;
   width: 95%;
   height: 65%;
   margin: 10px auto;
@@ -134,23 +173,6 @@ p a.btn {
   width: 20%;
 }*/
 
-.avatar-pic {
-  display: inline-block;
-  box-shadow: 0 0 4px 0 black;
-  height: 80px;
-  width: 80px;
-  margin-left: 15px;
-  margin-top: 15px;
-}
-
-.identity {
-  display: inline-block;
-  margin-left: 10px;
-}
-
-.logout-tab {
-  border-bottom-style: groove;
-}
 
 .footer {
   height: 30px;
@@ -158,13 +180,30 @@ p a.btn {
   width: 100%;
   position: fixed;
   bottom: 0;
-  margin-top: 10px;
 }
 
 .trademark {
-  text-align: right;
+  float:right;
   color: #fef9f0;
   padding: 5px 20px;
+}
+
+.advsearch {
+  padding: 5px 15px;
+  float: left;
+  display: inline-block;
+} a {
+  color: #fef9f0;
+}
+
+.sentence-end {
+  text-align: center;
+  display: inline-block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 21px;
+  vertical-align: middle;
+  padding-bottom: 100px;
 }
 
 .btn-lg {
@@ -191,12 +230,49 @@ p a.btn {
   color: #26a65b;
 }
 
-
-
 /*IDS*/
 #map_canvas {
   width: 100%;
   height: 100%;
+}
+
+#adv-search_bar {
+  min-width: 260px;
+  width: 70%;
+  padding: 6px 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: none;
+  border: 1px solid lightgrey;
+  outline: none;
+}
+
+#adv-locationbtn {
+  min-width: 20%;
+  border-radius: 0 20px 20px 0;
+  margin: 0 0 4px -5px;
+  outline: none;
+}
+
+#autolocator {
+  outline: none;
+  border-radius: 20px;
+  min-width: 350px;
+  width: 90%;
+}
+
+#adv-travel_time {
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+  padding: 6px 20px;
+  width: 100px;
+  text-align: center;
+}
+
+#adv-travel_method {
+  border: 1px solid lightgrey;
+  font-size: 21px;
+  margin: 6px 20px;
 }
 
 #search_bar {
@@ -215,45 +291,8 @@ p a.btn {
   outline: none;
 }
 
-#autolocator {
+
+#adv-autolocator {
   outline: none;
   border-radius: 20px;
-}
-
-
-#profile, #settings, #history, #logout {
-  color: black;
-  display: inline-block;
-  margin: 0 auto;
-  padding: 10px 0 10px 30px;
-  text-decoration: none;
-  box-sizing: border-box;
-  float: right;
-  width: 100%;
-  -webkit-transition: background-color .3s, color .5s, padding-left 0.6s;
-  transition: background-color .3s, color .5s, padding-left 0.6s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-}
-
-#profile {
-  margin-top: 30px;
-}
-
-
-#profile:hover,
-#settings:hover,
-#history:hover,
-#logout:hover {
-  color: white;
-  padding-left: 120px;
-  background-color: darkgrey;
-  -webkit-transition: background-color .3s, color .5s, padding-left 0.6s;
-  transition: background-color .3s, color .5s, padding-left 0.6s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-}
-
-#advsearch {
-  font-size: 0.6em;
 }

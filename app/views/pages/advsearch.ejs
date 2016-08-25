@@ -1,22 +1,39 @@
 <div class="main-window">
-  <div class="search-engine">
-    <div class="search bar">
-
-
-      <input type="search" id="search_bar" placeholder="Add your address here">
-
-
-      <button type="submit" id="locationbtn" class="btn btn-warning btn-md btn-font">Search</button>
+    <div class="full-search">
+        <!-- Advanced Search Function -->
+        <div class="adv-search-engine">
+          By
+          <select id="adv-travel_method">
+              <option value="walking">Walking</option>
+              <option value="driving">Driving</option>
+          </select>
+           for
+            <input id="adv-travel_time" type="number" min="1" max="99" placeholder="1-99"> minutes from - -
+        </div>
+        <!-- Normal Search Function -->
+        <div class="adv-norm-search-engine">
+            <div class="adv-search bar">
+                <input type="search" id="adv-search_bar" placeholder="Add your address here">
+                <button type="submit" id="adv-locationbtn" class="btn btn-warning btn-md btn-font">Search</button>
+            </div>
+            <div class="or">
+                or
+            </div>
+            <div class="adv-autolocatordiv">
+                <button type="submit" id="adv-autolocator" class="btn btn-warning btn-md btn-font">Use my location</button>
+            </div>
+        </div>
+        <div class="sentence-end">
+          - - where can I eat?
+        </div>
     </div>
-
-    <div class="or">
-      or
+    <!-- Google Map Window -->
+    <div class="gmap-window">
+        <div id="map_canvas"></div>
     </div>
-    <div class="autolocatordiv">
-      <button type="submit" id="autolocator" class="btn btn-warning btn-md btn-font">Use my location</button>
-  </div>
-  </div>
-  <div class="gmap-window">
-    <div id="map_canvas"></div>
-  </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/advanced_search.js"></script>
+</body>
