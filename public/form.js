@@ -19,14 +19,13 @@ var info =
  "description": description,
 "category": category,
  "latLong": {
- "coordinates": [parseInt(longti), parseInt(lati)]
-
+ "coordinates": [parseFloat(longti), parseFloat(lati)]
 }
-}
+};
 
 
-var jinfo = JSON.stringify(info)
-console.log(jinfo)
+var jinfo = JSON.stringify(info);
+console.log(jinfo);
 
 $.ajax({
 type: "POST",
@@ -49,8 +48,8 @@ headers: {
 function successFunction(data) {
 
 
-
-  $bio.html();
+alert("Successful!");
+  // $bio.html();
 
 
 }
