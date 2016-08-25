@@ -15,6 +15,20 @@ module.exports = function(app, passport) {
     }); //load the index.ejs file
   });
 
+  // About Page
+  app.get('/about', function(req, res) {
+    res.render('pages/about', {
+      title: 'About'
+    }); //load the index.ejs file
+  });
+
+  // Team Page
+  app.get('/team', function(req, res) {
+    res.render('pages/team', {
+      title: 'team'
+    }); //load the index.ejs file
+  });
+
   //login PAGE
 
   //show login form
