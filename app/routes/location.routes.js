@@ -12,10 +12,13 @@ module.exports = function(app) {
     .get(locationController.index);
     // .post(locationController.create);
 
-  app.route('/locations/:id')
-    .get(locationController.show)
-    .put(locationController.update)
-    .delete(locationController.delete);
+  // -----
+  // app.route('/locations/:id')
+  //   .get(locationController.show)
+  //   .put(locationController.update)
+  //   .delete(locationController.delete);
+  // -----
+  
   //set routes
   app.route('/locations/search')
     .get(locationController.search);
