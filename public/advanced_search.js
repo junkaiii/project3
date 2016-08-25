@@ -169,8 +169,8 @@ function showCurrentLocation() {
             '<div class="info_content">' +
             '<h3>' + this.name + '</h3>' +
             '<p>Opening Hours: ' + this.description + '</p>' + '</div>' +
-            '<p>Distance Away: ' + this.distance + '</p>' + '</div>' +
-            '<p>Time to Travel: ' + this.time + '</p>' + '</div>';
+            '<p>Distance Away: ' + this.distance + 'KM</p>' + '</div>' +
+            '<p>Time to Travel: ' + this.time + ' minutes.</p>' + '</div>';
           infoWindow.setContent(infoWindowContent);
           infoWindow.open(map, this);
         };
