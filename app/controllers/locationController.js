@@ -69,7 +69,7 @@ module.exports = {
     //hours mins to mins converter
     function hToMinConverter(timeString){
 
-      var hTextLoc = timeString.indexOf('hours');
+      var hTextLoc = timeString.indexOf('hour');
       var mTextLoc = timeString.indexOf('minutes');
 
       //check to see if time has both hours and minutes
