@@ -19,7 +19,7 @@ var info =
  "description": description,
 "category": category,
  "latLong": {
- "coordinates": [parseFloat(longti), parseFloat(lati)]
+ "coordinates": [parseFloat(longti), parseFloa(lati)]
 }
 };
 
