@@ -108,6 +108,7 @@ p a.btn {
 }
 
 .container {
+  margin: 50px auto;
   padding-top: 50px;
 }
 
@@ -127,9 +128,36 @@ p a.btn {
 
 .search-engine {
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   text-align: center;
   font-size: 21px;
+}
+
+
+.adv-norm-search-engine {
+  border-radius: 35px;
+  border: 2px dashed black;
+  /*text-align: center;*/
+  width:35%;
+  min-width: 370px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 21px;
+}
+
+.adv-search-engine {
+  /*border: 5px dashed black;*/
+  text-align: center;
+  /*width: 25%;*/
+  display: inline-block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 21px;
+  vertical-align: middle;
+  padding-bottom: 100px;
 }
 
 
@@ -192,8 +220,39 @@ p a.btn {
   padding: 5px 15px;
   float: left;
   display: inline-block;
-} a {
+}
+
+a {
   color: #fef9f0;
+  display: block;
+  display: inline-block;
+  margin-bottom: -20px;
+}
+
+.advsearch a {
+  color: #black;
+  font-size: 12px;
+}
+
+.advsearch a:hover {
+  color: #26a65b;
+  transition: color 0.3s;
+}
+
+.normsearch {
+  display: block;
+  display: inline-block;
+  margin-bottom: -20px;
+}
+
+.normsearch a {
+  color: #black;
+  font-size: 12px;
+}
+
+.normsearch a:hover {
+  color: #26a65b;
+  transition: color 0.3s;
 }
 
 .sentence-end {
@@ -247,6 +306,44 @@ p a.btn {
   outline: none;
 }
 
+#adv-locationbtn {
+  min-width: 20%;
+  border-radius: 0 20px 20px 0;
+  margin: 0 0 4px -5px;
+  outline: none;
+}
+
+#adv-autolocator {
+  outline: none;
+  border-radius: 20px;
+  min-width: 350px;
+  width: 90%;
+}
+
+#travel_time {
+  border-radius: 20px;
+  border: 1px solid lightgrey;
+  padding: 6px 20px;
+  width: 100px;
+  text-align: center;
+}
+
+#travel_method {
+  border: 1px solid lightgrey;
+  font-size: 21px;
+  margin: 6px 20px;
+}
+
+#search_bar {
+  width: 60%;
+  padding: 6px 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: none;
+  border: 1px solid lightgrey;
+  outline: none;
+}
+
 .search-engine a {
   color: black;
   font-size: 16px;
@@ -262,6 +359,7 @@ p a.btn {
   margin: 0 0 4px -5px;
   outline: none;
 }
+
 
 #autolocator {
   outline: none;
@@ -304,4 +402,63 @@ p a.btn {
 #adv-autolocator {
   outline: none;
   border-radius: 20px;
+}
+
+#advsearch {
+  font-size: 0.6em;
+
+/*About Page*/
+.translation {
+  border-style: double;
+  background-color: white;
+  float: right;
+  height: 240px;
+  width: 120px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 30px;
+}
+
+.about-title {
+  margin-left: 50px;
+  padding-left: 10px;
+  border-bottom: 1px solid black;
+  width: 70%;
+}
+
+.about {
+  padding-left: 75px;
+  padding-top: 45px;
+  width: 40%;
+}
+
+.endline {
+  margin-top: 75px;
+  margin-left: 50px;
+  width: 90%;
+  border-top: 1px solid black;
+  text-align: right;
+}
+
+/*Team Page*/
+.team-title {
+  display: block;
+  margin: 0 auto;
+  margin-top: -40px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  width: 60%;
+}
+
+.us {
+  margin: 0 auto;
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+.team-desc {
+  display: block;
+  margin: 0 auto;
+  width: 48.5%;
 }
