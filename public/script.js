@@ -1,4 +1,3 @@
-console.log('linked');
 //declaring variables
 
 var $out = $('#out');
@@ -159,6 +158,36 @@ $("#search_bar").keyup(function(e) {
     $("#search_bar").val(''); //reset search bar
   }
 
+});
+
+$("#locationbtn").click(function(e) {
+
+
+    //declaring variables for search
+    get_search_info = $("#search_bar").val();
+    concat_search = get_search_info.split(" ").join('+');
+    console.log('input value is ' + concat_search);
+    geocoding_url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + concat_search + '+Singapore&key=AIzaSyAC6yk_-cvrYiP_NO4l75OcVcJlRbdZ_Gw';
+
+
+    //ajax call to google geocoding api to convert address to lat long
+    $.ajax({
+      url: geocoding_url,
+      dataType: 'json',
+    }).done(function successFunction(data) {
+      latitude = data.results[0].geometry.location.lat; //only shows the first result, possibility to show other results by changing index number
+      longitude = data.results[0].geometry.location.lng;
+      // console.log('Searched location is ' + search_latitude + ' ' + search_longitude);
+      jiakApiCall();
+    })
+
+      .fail(function failFunction(request, textStatus, errorThrown) {
+        // console.log('An error occurred during your request: ' + request.status + ' ' + textStatus + ' ' + errorThrown);
+      })
+      .always(function alwaysFunction() {
+        // console.log('always function');
+      });
+    $("#search_bar").val(''); //reset search bar
 });
 
 var jiakApiCall = function () {
