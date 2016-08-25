@@ -5605,8 +5605,6 @@ module.exports = function(app) {
 
       console.log('User saved successfully');
 
-
-
     });
   }
   });
@@ -5614,14 +5612,6 @@ module.exports = function(app) {
   //set routes
   app.route('/locations')
     .get(locationController.index);
-    // .post(locationController.create);
-
-  // -----
-  // app.route('/locations/:id')
-  //   .get(locationController.show)
-  //   .put(locationController.update)
-  //   .delete(locationController.delete);
-  // -----
 
   //set routes
   app.route('/locations/search')
@@ -5630,4 +5620,10 @@ module.exports = function(app) {
     //set routes
   app.route('/locations/advSearch')
     .get(locationController.advSearch);
+
+    // -----
+    app.route('/locations/:id')
+    .get(locationController.show);
+    // -----
+
 };
