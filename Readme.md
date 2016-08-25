@@ -4,7 +4,7 @@
 ### App Usage
 Vendors/ restaurant owners
 * Signup and login to the app
-* Upon signup and login, vendors can create locations based on their specified latitude and longitude coordinates.
+* Upon signup and login, vendors can create locations based on their specified latitude and longitude coordinates
 
 Users (non-vendors)
 * Users can enter a specific address to view nearby eateries
@@ -37,7 +37,7 @@ Users (non-vendors)
   Parameters: lat: latitude, lon: longitude, dist: distance in KM
 
   e.g https://jiak-simi.herokuapp.com/locations/search?lon=103.8417&lat=1.280639&dist=10
-
+  
 **Advanced search queries**
 
 - Search based on distance of walking/driving route
@@ -47,7 +47,7 @@ Users (non-vendors)
   Parameters: lat: latitude, lon: longitude, dist: distance in KM, mode: driving or walking
 
   e.g https://jiak-simi.herokuapp.com/locations/advSearch?lat=1.357172&lon=103.939992&dist=5&mode=driving
-
+  
 - Search based on travel time
 
   API call: https://jiak-simi.herokuapp.com/locations/advSearch?lat={latitude}&lon={longitude}&time={time_in_minutes}
@@ -55,7 +55,7 @@ Users (non-vendors)
   Parameters: lat: latitude, longitude: longitude, time: travel time
 
   e.g https://jiak-simi.herokuapp.com/locations/advSearch?lat=1.349759&lon=103.868673&mode=walking&time=20
-
+  
 ### Resources
 **npm Packages**
 - [@google/maps](https://www.npmjs.com/package/@google/maps)
@@ -81,7 +81,6 @@ Users (non-vendors)
 **External APIs**
 - [Google geocode API](https://developers.google.com/maps/documentation/geocoding/intro)
 - [Google distance matric API](https://developers.google.com/maps/documentation/distance-matrix)
-- [HTML 5 Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation)
 
 ### References
 - [Passport authentication and FB login](https://scotch.io/tutorials/easy-node-authentication-setup-and-local)
