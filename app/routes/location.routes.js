@@ -16,6 +16,7 @@ module.exports = function(app) {
     "name": "Mellben Seafood (Ang Mo Kio)",
     "category": "zi-char",
     "postal": "560232",
+    "description": "thursday: 04:30pm - 11:30pm| sunday: 04:30pm - 11:30pm| tuesday 04:30pm - 11:30pm| saturday: 04:30pm - 11:30pm| friday: 04:30pm - 11:30pm| wednesday: 04:30pm - 11:30pm| monday: 04:30pm - 11:30pm",
     "latLong": {
       "coordinates": [
         103.837143,
@@ -27,6 +28,7 @@ module.exports = function(app) {
     "name": "Potato Head Folk",
     "category": "western",
     "postal": "089143",
+    "description": "thursday: 11:00am - 11:30pm| sunday: 11:00am - 11:30pm| tuesday 11:00am - 11:30pm| saturday: 11:00am - 11:30pm| friday: 11:00am - 11:30pm| wednesday: 11:00am - 11:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8417,
@@ -38,6 +40,7 @@ module.exports = function(app) {
     "name": "Oriole Coffee + Bar (Somerset)",
     "category": "western",
     "postal": "238163",
+    "description": "thursday: 08:00am - 11:00pm| sunday: 08:00am - 11:00pm| tuesday 08:00am - 11:00pm| saturday: 08:00am - 12:00am| friday: 08:00am - 12:00am| wednesday: 08:00am - 11:00pm| monday: 08:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.837924,
@@ -49,6 +52,7 @@ module.exports = function(app) {
     "name": "136 Hong Kong Street Fish Head Steamboat (Clementi)",
     "category": "steamboat",
     "postal": "120713",
+    "description": "thursday: 05:00pm - 10:45pm,11:00am - 02:00pm| sunday: 05:00pm - 10:45pm,11:00am - 02:00pm| tuesday 05:00pm - 10:45pm,11:00am - 02:00pm| saturday: 05:00pm - 10:45pm,11:00am - 02:00pm| friday: 05:00pm - 10:45pm,11:00am - 02:00pm| wednesday: 05:00pm - 10:45pm,11:00am - 02:00pm| monday: 05:00pm - 10:45pm,11:00am - 02:00pm",
     "latLong": {
       "coordinates": [
         103.762082,
@@ -60,6 +64,7 @@ module.exports = function(app) {
     "name": "Soon Huat Bak Kut Teh   (Jalan Kayu)",
     "category": "bak-kut-teh",
     "postal": "799458",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.873205,
@@ -69,8 +74,9 @@ module.exports = function(app) {
   },
   {
     "name": "Thai Gold Food",
-    "category": "bencoolen",
+    "category": "",
     "postal": "189652",
+    "description": "thursday: 05:00pm - 10:30pm,11:30am - 03:30pm| sunday: 05:00pm - 10:30pm,11:30am - 03:30pm| tuesday 05:00pm - 10:30pm,11:30am - 03:30pm| saturday: 05:00pm - 10:30pm,11:30am - 03:30pm| friday: 05:00pm - 10:30pm,11:30am - 03:30pm| wednesday: 05:00pm - 10:30pm,11:30am - 03:30pm| monday: 05:00pm - 10:30pm,11:30am - 03:30pm",
     "latLong": {
       "coordinates": [
         103.851193,
@@ -82,6 +88,7 @@ module.exports = function(app) {
     "name": "Tom Yum Kungfu (Boat Quay)",
     "category": "steamboat",
     "postal": "049372",
+    "description": "thursday: 06:00pm - 10:30pm,11:30am - 02:30pm| sunday: 06:00pm - 10:30pm| tuesday 06:00pm - 10:30pm,11:30am - 02:30pm| saturday: 06:00pm - 10:30pm| friday: 06:00pm - 10:30pm,11:30am - 02:30pm| wednesday: 06:00pm - 10:30pm,11:30am - 02:30pm| monday: 06:00pm - 10:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.848912,
@@ -91,8 +98,9 @@ module.exports = function(app) {
   },
   {
     "name": "The BetterField",
-    "category": "clarke-quay",
+    "category": "",
     "postal": "179434",
+    "description": "thursday: 08:00am - 11:00pm| sunday: 08:00am - 11:00pm| tuesday 08:00am - 11:00pm| saturday: 08:00am - 11:00pm| friday: 08:00am - 11:00pm| wednesday: 08:00am - 11:00pm| monday: 08:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.849526,
@@ -102,8 +110,9 @@ module.exports = function(app) {
   },
   {
     "name": "Strangers' Reunion",
-    "category": "outram-park",
+    "category": "",
     "postal": "169356",
+    "description": "thursday: 09:00am - 10:00pm| sunday: 09:00am - 10:00pm| tuesday | saturday: 09:00am - 12:00am| friday: 09:00am - 12:00am| wednesday: 09:00am - 10:00pm| monday: 09:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.836282,
@@ -115,6 +124,7 @@ module.exports = function(app) {
     "name": "The Chop House (VivoCity)",
     "category": "steak",
     "postal": "095858",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:30am - 10:00pm| friday: 11:30am - 10:00pm| wednesday: 11:30am - 10:00pm| monday: 11:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -126,6 +136,7 @@ module.exports = function(app) {
     "name": "UsQuBa - Scottish Restaurant & Bar",
     "category": "steak",
     "postal": "049213",
+    "description": "thursday: 11:30am - 12:00am| sunday: 11:00am - 10:30pm| tuesday 11:30am - 12:00am| saturday: 11:30am - 01:00am| friday: 11:30am - 01:00am| wednesday: 11:30am - 12:00am| monday: 11:30am - 12:00am",
     "latLong": {
       "coordinates": [
         103.853889,
@@ -137,6 +148,7 @@ module.exports = function(app) {
     "name": "Sufi's Corner",
     "category": "turkish",
     "postal": "199747",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.85965,
@@ -148,6 +160,7 @@ module.exports = function(app) {
     "name": "Borshch Steakhouse",
     "category": "russian",
     "postal": "555954",
+    "description": "thursday: 06:00pm - 10:00pm,11:00am - 03:00pm| sunday: 06:00pm - 10:00pm,11:00am - 03:00pm| tuesday 06:00pm - 10:00pm,11:00am - 03:00pm| saturday: 06:00pm - 10:00pm,11:00am - 03:00pm| friday: 06:00pm - 10:00pm,11:00am - 03:00pm| wednesday: 06:00pm - 10:00pm,11:00am - 03:00pm| monday: 06:00pm - 10:00pm,11:00am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.865592,
@@ -159,6 +172,7 @@ module.exports = function(app) {
     "name": "FOC Restaurant",
     "category": "spanish",
     "postal": "059679",
+    "description": "thursday: 12:00pm - 12:00am| sunday: closed| tuesday 12:00pm - 12:00am| saturday: 12:00pm - 12:00am| friday: 12:00pm - 12:00am| wednesday: 12:00pm - 12:00am| monday: 12:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.847527,
@@ -170,6 +184,7 @@ module.exports = function(app) {
     "name": "BUYAN Russian Restaurant and Caviar Bar",
     "category": "russian",
     "postal": "089593",
+    "description": "thursday: 06:00pm - 10:30pm,12:00pm - 03:00pm| sunday: closed| tuesday 06:00pm - 10:30pm,12:00pm - 03:00pm| saturday: 06:00pm - 10:30pm| friday: 06:00pm - 10:30pm,12:00pm - 03:00pm| wednesday: 06:00pm - 10:30pm,12:00pm - 03:00pm| monday: 06:00pm - 10:30pm",
     "latLong": {
       "coordinates": [
         103.842879,
@@ -181,6 +196,7 @@ module.exports = function(app) {
     "name": "Russkiy Dome",
     "category": "russian",
     "postal": "117867",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 02:00pm - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 12:00pm - 10:00pm| friday: 12:00pm - 10:00pm| wednesday: 12:00pm - 10:00pm| monday: 12:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.780681,
@@ -192,6 +208,7 @@ module.exports = function(app) {
     "name": "The Naked Finn",
     "category": "seafood",
     "postal": "109454",
+    "description": "thursday: 06:00pm - 12:00am| sunday: closed| tuesday 06:00pm - 12:00am| saturday: 06:00pm - 02:00am| friday: 06:00pm - 02:00am| wednesday: 06:00pm - 12:00am| monday: 06:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.804233,
@@ -203,6 +220,7 @@ module.exports = function(app) {
     "name": "Cicheti",
     "category": "pizza",
     "postal": "198901",
+    "description": "thursday: 12:00pm - 03:00pm,06:30pm - 11:00pm| sunday: closed| tuesday 12:00pm - 03:00pm,06:30pm - 11:00pm| saturday: 06:30pm - 11:00pm| friday: 12:00pm - 03:00pm,06:30pm - 11:00pm| wednesday: 12:00pm - 03:00pm,06:30pm - 11:00pm| monday: 12:00pm - 03:00pm,06:30pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.860124,
@@ -214,6 +232,7 @@ module.exports = function(app) {
     "name": "La Nonna (Holland Village)",
     "category": "pizza",
     "postal": "Singapore",
+    "description": "thursday: 06:00pm - 10:30pm| sunday: 06:00pm - 10:30pm| tuesday 06:00pm - 10:30pm| saturday: 06:00pm - 10:30pm| friday: 06:00pm - 10:30pm| wednesday: 06:00pm - 10:30pm| monday: 06:00pm - 10:30pm",
     "latLong": {
       "coordinates": [
         103.8677444,
@@ -225,6 +244,7 @@ module.exports = function(app) {
     "name": "New Ubin Seafood",
     "category": "seafood",
     "postal": "575680",
+    "description": "thursday: 05:30pm - 10:30pm,11:30am - 02:30pm| sunday: 05:30pm - 10:30pm,11:30am - 02:30pm| tuesday 05:30pm - 10:30pm,11:30am - 02:30pm| saturday: 05:30pm - 10:30pm,11:30am - 02:30pm| friday: 05:30pm - 10:30pm,11:30am - 02:30pm| wednesday: 05:30pm - 10:30pm,11:30am - 02:30pm| monday: 05:30pm - 10:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.839838,
@@ -236,6 +256,7 @@ module.exports = function(app) {
     "name": "Alt. Pizza (Suntec City)",
     "category": "pizza",
     "postal": "038983",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 10:00pm| friday: 11:00am - 10:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.858967,
@@ -247,6 +268,7 @@ module.exports = function(app) {
     "name": "Pizzeria Mozza",
     "category": "pizza",
     "postal": "018956",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.858322,
@@ -258,6 +280,7 @@ module.exports = function(app) {
     "name": "The Ramen Stall",
     "category": "ramen",
     "postal": "198755",
+    "description": "thursday: 05:00pm - 06:00am| sunday: 12:00pm - 06:00am| tuesday 05:00pm - 06:00am| saturday: 12:00pm - 06:00am| friday: 05:00pm - 06:00am| wednesday: 05:00pm - 06:00am| monday: 05:00pm - 06:00am",
     "latLong": {
       "coordinates": [
         103.859931,
@@ -269,6 +292,7 @@ module.exports = function(app) {
     "name": "Mad for Garlic (Suntec City)",
     "category": "pizza",
     "postal": "038983",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:30am - 11:00pm| friday: 11:30am - 11:00pm| wednesday: 11:30am - 10:00pm| monday: 11:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.858967,
@@ -280,6 +304,7 @@ module.exports = function(app) {
     "name": "Kanshoku Ramen Bar (Orchard Gateway)",
     "category": "ramen",
     "postal": "238858",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 10:00pm| friday: 11:00am - 10:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.839192,
@@ -291,6 +316,7 @@ module.exports = function(app) {
     "name": "Ippudo Singapore (Mandarin Gallery)",
     "category": "ramen",
     "postal": "238897",
+    "description": "thursday: 11:00am - 11:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 11:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 11:00pm| monday: 11:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.836501,
@@ -302,6 +328,7 @@ module.exports = function(app) {
     "name": "A Noodle Story (Amoy Street Food Centre)",
     "category": "ramen",
     "postal": "069111",
+    "description": "thursday: 05:30pm - 07:30pm,11:15am - 02:30pm| sunday: closed| tuesday 05:30pm - 07:30pm,11:15am - 02:30pm| saturday: 10:30am - 01:30pm| friday: 05:30pm - 07:30pm,11:15am - 02:30pm| wednesday: 05:30pm - 07:30pm,11:15am - 02:30pm| monday: 05:30pm - 07:30pm,11:15am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.846712,
@@ -313,6 +340,7 @@ module.exports = function(app) {
     "name": "DSTLLRY",
     "category": "ramen",
     "postal": "138562",
+    "description": "thursday: 06:00pm - 12:00am,12:00pm - 03:00pm| sunday: closed| tuesday 06:00pm - 12:00am,12:00pm - 03:00pm| saturday: 06:00pm - 12:00am,12:00pm - 03:00pm| friday: 06:00pm - 12:00am,12:00pm - 03:00pm| wednesday: 06:00pm - 12:00am,12:00pm - 03:00pm| monday: 06:00pm - 12:00am,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.7945525,
@@ -324,6 +352,7 @@ module.exports = function(app) {
     "name": "Ramen Bari-Uma (Tanglin)",
     "category": "ramen",
     "postal": "247909",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:30am - 10:00pm| friday: 11:30am - 10:00pm| wednesday: 11:30am - 10:00pm| monday: 11:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.827018,
@@ -333,8 +362,9 @@ module.exports = function(app) {
   },
   {
     "name": "Ramen Keisuke Tonkotsu King (Tanjong Pagar)",
-    "category": "tanjong-pagar",
+    "category": "",
     "postal": "078867",
+    "description": "thursday: 11:30am - 03:00pm,06:00pm - 10:00pm| sunday: 11:30am - 03:00pm,06:00pm - 10:00pm| tuesday 11:30am - 03:00pm,06:00pm - 10:00pm| saturday: 11:30am - 03:00pm,06:00pm - 10:00pm| friday: 11:30am - 03:00pm,06:00pm - 10:00pm| wednesday: 11:30am - 03:00pm,06:00pm - 10:00pm| monday: 11:30am - 03:00pm,06:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.843891,
@@ -346,6 +376,7 @@ module.exports = function(app) {
     "name": "JINzakaya",
     "category": "ramen",
     "postal": "217562",
+    "description": "thursday: 07:00pm - 11:00pm,12:00pm - 03:00pm| sunday: closed| tuesday 07:00pm - 11:00pm,12:00pm - 03:00pm| saturday: 07:00pm - 11:00pm,12:00pm - 03:00pm| friday: 07:00pm - 11:00pm,12:00pm - 03:00pm| wednesday: 07:00pm - 11:00pm,12:00pm - 03:00pm| monday: 07:00pm - 11:00pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.854285,
@@ -357,6 +388,7 @@ module.exports = function(app) {
     "name": "Sapporo Ramen Miharu",
     "category": "ramen",
     "postal": "039596",
+    "description": "thursday: 12:00pm - 03:00pm,06:00pm - 09:00pm| sunday: 12:00pm - 03:00pm,06:00pm - 09:00pm| tuesday 12:00pm - 03:00pm,06:00pm - 09:00pm| saturday: 12:00pm - 03:00pm,06:00pm - 09:00pm| friday: 12:00pm - 03:00pm,06:00pm - 09:00pm| wednesday: closed| monday: 12:00pm - 03:00pm,06:00pm - 09:00pm",
     "latLong": {
       "coordinates": [
         103.860166,
@@ -368,6 +400,7 @@ module.exports = function(app) {
     "name": "Peperoni Pizzeria (Greenwood)",
     "category": "pizza",
     "postal": "289195",
+    "description": "thursday: 12:00pm - 10:30pm| sunday: 11:00am - 10:30pm| tuesday 12:00pm - 10:30pm| saturday: 12:00pm - 10:30pm| friday: 12:00pm - 10:30pm| wednesday: 12:00pm - 10:30pm| monday: 12:00pm - 10:30pm",
     "latLong": {
       "coordinates": [
         103.807242,
@@ -377,8 +410,9 @@ module.exports = function(app) {
   },
   {
     "name": "Kith (Park Mall)",
-    "category": "dhoby-ghaut",
+    "category": "",
     "postal": "238459",
+    "description": "thursday: 08:00am - 10:00pm| sunday: 08:00am - 10:00pm| tuesday 08:00am - 10:00pm| saturday: 08:00am - 10:00pm| friday: 08:00am - 10:00pm| wednesday: 08:00am - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.844577,
@@ -390,6 +424,7 @@ module.exports = function(app) {
     "name": "La Pizzaiola (Braddell Heights Estate)",
     "category": "pizza",
     "postal": "358987",
+    "description": "thursday: 11:30am - 03:00pm,05:30pm - 10:30pm| sunday: 11:30am - 10:30pm| tuesday | saturday: 11:30am - 03:00pm,05:30pm - 10:30pm| friday: 11:30am - 03:00pm,05:30pm - 10:30pm| wednesday: 11:30am - 03:00pm,05:30pm - 10:30pm| monday: 11:30am - 03:00pm,05:30pm - 10:30pm",
     "latLong": {
       "coordinates": [
         103.867568,
@@ -399,8 +434,9 @@ module.exports = function(app) {
   },
   {
     "name": "Ramen Keisuke Lobster King",
-    "category": "clarke-quay",
+    "category": "",
     "postal": "179022",
+    "description": "thursday: 06:00pm - 05:00am| sunday: 06:00pm - 05:00am| tuesday 06:00pm - 05:00am| saturday: 06:00pm - 05:00am| friday: 06:00pm - 05:00am| wednesday: 06:00pm - 05:00am| monday: 06:00pm - 05:00am",
     "latLong": {
       "coordinates": [
         103.846009,
@@ -412,6 +448,7 @@ module.exports = function(app) {
     "name": "Supply & Demand (Orchard Gateway)",
     "category": "pizza",
     "postal": "238858",
+    "description": "thursday: 11:30am - 10:30pm| sunday: 11:30am - 10:30pm| tuesday 11:30am - 10:30pm| saturday: 11:30am - 10:30pm| friday: 11:30am - 10:30pm| wednesday: 11:30am - 10:30pm| monday: 11:30am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.839192,
@@ -421,8 +458,9 @@ module.exports = function(app) {
   },
   {
     "name": "HOUSE",
-    "category": "dempsey",
+    "category": "",
     "postal": "249672",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 06:00pm - 11:00pm,09:00am - 04:00pm| tuesday 12:00pm - 11:00pm| saturday: 06:00pm - 12:00am,11:00am - 04:00pm| friday: 12:00pm - 12:00am| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.809365,
@@ -434,6 +472,7 @@ module.exports = function(app) {
     "name": "Yong Kee Seafood",
     "category": "seafood",
     "postal": "208804",
+    "description": "thursday: 05:00pm - 03:00am| sunday: 05:00pm - 03:00am| tuesday 05:00pm - 03:00am| saturday: 05:00pm - 03:00am| friday: 05:00pm - 03:00am| wednesday: 05:00pm - 03:00am| monday: 05:00pm - 03:00am",
     "latLong": {
       "coordinates": [
         103.8547059,
@@ -445,6 +484,7 @@ module.exports = function(app) {
     "name": "Mellben Seafood (Ang Mo Kio)",
     "category": "seafood",
     "postal": "560232",
+    "description": "thursday: 04:30pm - 11:30pm| sunday: 04:30pm - 11:30pm| tuesday 04:30pm - 11:30pm| saturday: 04:30pm - 11:30pm| friday: 04:30pm - 11:30pm| wednesday: 04:30pm - 11:30pm| monday: 04:30pm - 11:30pm",
     "latLong": {
       "coordinates": [
         103.837143,
@@ -454,8 +494,9 @@ module.exports = function(app) {
   },
   {
     "name": "Penang Seafood Restaurant",
-    "category": "aljunied",
+    "category": "",
     "postal": "388258",
+    "description": "thursday: 11:00am - 12:00am| sunday: 11:00am - 12:00am| tuesday 11:00am - 12:00am| saturday: 11:00am - 12:00am| friday: 11:00am - 12:00am| wednesday: 11:00am - 12:00am| monday: 11:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.883363,
@@ -467,6 +508,7 @@ module.exports = function(app) {
     "name": "Keng Eng Kee Seafood (Alexandra)",
     "category": "seafood",
     "postal": "150124",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 12:00pm - 10:00pm| friday: 12:00pm - 10:00pm| wednesday: 12:00pm - 10:00pm| monday: 12:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.803405,
@@ -478,6 +520,7 @@ module.exports = function(app) {
     "name": "Humpback",
     "category": "seafood",
     "postal": "089832",
+    "description": "thursday: 05:00pm - 12:00am| sunday: closed| tuesday 05:00pm - 12:00am| saturday: 05:00pm - 12:00am| friday: 05:00pm - 12:00am| wednesday: 05:00pm - 12:00am| monday: 05:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.840814,
@@ -489,6 +532,7 @@ module.exports = function(app) {
     "name": "JB Ah Meng",
     "category": "seafood",
     "postal": "388353",
+    "description": "thursday: 05:00pm - 03:00am| sunday: 05:00pm - 03:00am| tuesday 05:00pm - 03:00am| saturday: 05:00pm - 03:00am| friday: 05:00pm - 03:00am| wednesday: 05:00pm - 03:00am| monday: 05:00pm - 03:00am",
     "latLong": {
       "coordinates": [
         103.881463,
@@ -500,6 +544,7 @@ module.exports = function(app) {
     "name": "Diamond Kitchen (Science Park)",
     "category": "chinese",
     "postal": "118260",
+    "description": "thursday: 05:30pm - 11:00pm,11:00am - 02:30pm| sunday: 05:30pm - 11:00pm,11:00am - 02:30pm| tuesday 05:30pm - 11:00pm,11:00am - 02:30pm| saturday: 05:30pm - 11:00pm,11:00am - 02:30pm| friday: 05:30pm - 11:00pm,11:00am - 02:30pm| wednesday: 05:30pm - 11:00pm,11:00am - 02:30pm| monday: 05:30pm - 11:00pm,11:00am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.7904159,
@@ -511,6 +556,7 @@ module.exports = function(app) {
     "name": "Pince & Pints",
     "category": "seafood",
     "postal": "089497",
+    "description": "thursday: 05:00pm - 11:00pm| sunday: closed| tuesday 05:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 05:00pm - 11:00pm| wednesday: 05:00pm - 11:00pm| monday: 05:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.843442,
@@ -522,6 +568,7 @@ module.exports = function(app) {
     "name": "Two Men Bagel House",
     "category": "sandwiches",
     "postal": "079717",
+    "description": "thursday: 08:00am - 07:00pm| sunday: 09:00am - 06:00pm| tuesday 08:00am - 07:00pm| saturday: 09:00am - 06:00pm| friday: 08:00am - 07:00pm| wednesday: 08:00am - 07:00pm| monday: 08:00am - 07:00pm",
     "latLong": {
       "coordinates": [
         103.844368,
@@ -531,8 +578,9 @@ module.exports = function(app) {
   },
   {
     "name": "The Hangar",
-    "category": "haji-lane",
+    "category": "",
     "postal": "199724",
+    "description": "thursday: 09:00am - 10:00pm| sunday: 09:00am - 10:00pm| tuesday 09:00am - 10:00pm| saturday: 09:00am - 10:00pm| friday: 09:00am - 10:00pm| wednesday: 09:00am - 10:00pm| monday: 09:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.859558,
@@ -544,6 +592,7 @@ module.exports = function(app) {
     "name": "Flock Caf (Tiong Bahru)",
     "category": "sandwiches",
     "postal": "162078",
+    "description": "thursday: 08:00am - 06:00pm| sunday: 08:00am - 06:00pm| tuesday 08:00am - 06:00pm| saturday: 08:00am - 06:00pm| friday: 08:00am - 06:00pm| wednesday: 08:00am - 06:00pm| monday: 08:00am - 06:00pm",
     "latLong": {
       "coordinates": [
         103.830405,
@@ -553,8 +602,9 @@ module.exports = function(app) {
   },
   {
     "name": "Park Bench Deli",
-    "category": "telok-ayer",
+    "category": "",
     "postal": "068627",
+    "description": "thursday: 10:30am - 10:00pm| sunday: closed| tuesday 10:30am - 10:00pm| saturday: closed| friday: 10:30am - 10:00pm| wednesday: 10:30am - 10:00pm| monday: 10:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.847277,
@@ -564,8 +614,9 @@ module.exports = function(app) {
   },
   {
     "name": "GST",
-    "category": "telok-ayer",
+    "category": "",
     "postal": "069047",
+    "description": "thursday: 07:30am - 04:30pm| sunday: 08:30am - 03:30pm| tuesday 07:30am - 04:30pm| saturday: 08:30am - 03:30pm| friday: 07:30am - 04:30pm| wednesday: 07:30am - 04:30pm| monday: 07:30am - 04:30pm",
     "latLong": {
       "coordinates": [
         103.847336,
@@ -577,6 +628,7 @@ module.exports = function(app) {
     "name": "Sarnies (Telok Ayer)",
     "category": "sandwiches",
     "postal": "068601",
+    "description": "thursday: 07:30am - 11:30pm| sunday: 08:30am - 04:00pm| tuesday 07:30am - 10:30pm| saturday: 08:30am - 04:00pm| friday: 07:30am - 11:30pm| wednesday: 07:30am - 11:30pm| monday: 07:30am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.848086,
@@ -588,6 +640,7 @@ module.exports = function(app) {
     "name": "Sacha & Sons",
     "category": "sandwiches",
     "postal": "238897",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 10:00am - 11:00pm| friday: 10:00am - 11:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.836501,
@@ -597,8 +650,9 @@ module.exports = function(app) {
   },
   {
     "name": "Selfish Gene Cafe",
-    "category": "duxton",
+    "category": "",
     "postal": "089678",
+    "description": "thursday: 10:00am - 05:00pm| sunday: 09:30am - 05:00pm| tuesday | saturday: 09:30am - 05:00pm| friday: 10:00am - 05:00pm| wednesday: 10:00am - 05:00pm| monday: 10:00am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.84203,
@@ -610,6 +664,7 @@ module.exports = function(app) {
     "name": "Percolate",
     "category": "sandwiches",
     "postal": "460136",
+    "description": "thursday: 10:30am - 09:30pm| sunday: 09:00am - 09:30pm| tuesday | saturday: 09:00am - 09:30pm| friday: 10:30am - 09:30pm| wednesday: 10:30am - 09:30pm| monday: 10:30am - 09:30pm",
     "latLong": {
       "coordinates": [
         103.935139,
@@ -619,8 +674,9 @@ module.exports = function(app) {
   },
   {
     "name": "Brawn & Brains",
-    "category": "geylang",
+    "category": "",
     "postal": "399718",
+    "description": "thursday: 09:00am - 07:00pm| sunday: 09:30am - 07:00pm| tuesday 09:00am - 07:00pm| saturday: 09:30am - 07:00pm| friday: 09:00am - 07:00pm| wednesday: 09:00am - 07:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.881833,
@@ -632,6 +688,7 @@ module.exports = function(app) {
     "name": "Shashlik Restaurant",
     "category": "russian",
     "postal": "238882",
+    "description": "thursday: 06:00pm - 09:15pm,12:00pm - 02:15pm| sunday: 06:00pm - 09:15pm,12:00pm - 02:15pm| tuesday 06:00pm - 09:15pm,12:00pm - 02:15pm| saturday: 06:00pm - 09:15pm,12:00pm - 02:15pm| friday: 06:00pm - 09:15pm,12:00pm - 02:15pm| wednesday: 06:00pm - 09:15pm,12:00pm - 02:15pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.830139,
@@ -643,6 +700,7 @@ module.exports = function(app) {
     "name": "UNA at One Rochester",
     "category": "spanish",
     "postal": "139212",
+    "description": "thursday: 12:00pm - 03:00am,05:00pm - 11:00pm| sunday: 11:00am - 03:00pm| tuesday 05:00pm - 11:00pm| saturday: 05:00pm - 11:00pm| friday: 12:00pm - 03:00am,05:00pm - 11:00pm| wednesday: 12:00pm - 03:00am,05:00pm - 11:00pm| monday: 05:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.787689,
@@ -654,6 +712,7 @@ module.exports = function(app) {
     "name": "Salt Tapas & Bar",
     "category": "spanish",
     "postal": "179103",
+    "description": "thursday: 11:30am - 11:30pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 11:30pm| saturday: 11:30am - 11:30am| friday: 11:30am - 11:30am| wednesday: 11:30am - 11:30pm| monday: 11:30am - 11:30pm",
     "latLong": {
       "coordinates": [
         103.852807,
@@ -665,6 +724,7 @@ module.exports = function(app) {
     "name": "My Little Tapas Bar",
     "category": "spanish",
     "postal": "069420",
+    "description": "thursday: 05:00pm - 12:00am| sunday: 05:00pm - 12:00am| tuesday 05:00pm - 12:00am| saturday: 05:00pm - 02:00am| friday: 05:00pm - 02:00am| wednesday: 05:00pm - 12:00am| monday: 05:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.845958,
@@ -676,6 +736,7 @@ module.exports = function(app) {
     "name": "Moosehead",
     "category": "spanish",
     "postal": "068579",
+    "description": "thursday: 11:00am - 11:00pm| sunday: closed| tuesday 11:00am - 11:00pm| saturday: 05:00pm - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 11:00pm| monday: 11:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.848421,
@@ -687,6 +748,7 @@ module.exports = function(app) {
     "name": "My Little Spanish Place (Boat Quay)",
     "category": "spanish",
     "postal": "049843",
+    "description": "thursday: 05:00pm - 12:00am,12:00pm - 02:30pm| sunday: closed| tuesday 05:00pm - 12:00am,12:00pm - 02:30pm| saturday: 05:00pm - 12:00am| friday: 05:00pm - 12:00am,12:00pm - 02:30pm| wednesday: 05:00pm - 12:00am,12:00pm - 02:30pm| monday: 05:00pm - 12:00am,12:00pm - 02:30pm",
     "latLong": {
       "coordinates": [
         103.849375,
@@ -698,6 +760,7 @@ module.exports = function(app) {
     "name": "Sabio By The Sea",
     "category": "spanish",
     "postal": "098395",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 10:30am - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 12:00pm - 12:00am| friday: 12:00pm - 12:00am| wednesday: 12:00pm - 10:00pm| monday: 12:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.836539,
@@ -709,6 +772,7 @@ module.exports = function(app) {
     "name": "Esquina",
     "category": "spanish",
     "postal": "089267",
+    "description": "thursday: 06:00pm - 10:30pm,12:00pm - 02:30pm| sunday: closed| tuesday 06:00pm - 10:30pm,12:00pm - 02:30pm| saturday: 06:00pm - 10:30pm| friday: 06:00pm - 10:30pm,12:00pm - 02:30pm| wednesday: 06:00pm - 10:30pm,12:00pm - 02:30pm| monday: 06:00pm - 10:30pm,12:00pm - 02:30pm",
     "latLong": {
       "coordinates": [
         103.842043,
@@ -718,8 +782,9 @@ module.exports = function(app) {
   },
   {
     "name": "My Little Spanish Place (Bukit Timah)",
-    "category": "coronation",
+    "category": "",
     "postal": "269720",
+    "description": "thursday: 06:30pm - 11:00pm| sunday: 11:00am - 03:00pm,06:30pm - 11:00pm| tuesday 06:30pm - 11:00pm| saturday: 11:00am - 03:00pm,06:30pm - 11:00pm| friday: 06:30pm - 11:00pm| wednesday: 06:30pm - 11:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.809309,
@@ -731,6 +796,7 @@ module.exports = function(app) {
     "name": "Churro 101 (Bugis+)",
     "category": "spanish",
     "postal": "188067",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.854302,
@@ -742,6 +808,7 @@ module.exports = function(app) {
     "name": "Itacho Sushi (Plaza Singapura)",
     "category": "sushi",
     "postal": "238839",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.845411,
@@ -753,6 +820,7 @@ module.exports = function(app) {
     "name": "Hana-Hana",
     "category": "sushi",
     "postal": "078867",
+    "description": "thursday: 06:30pm - 10:30pm,11:45am - 02:30pm| sunday: closed| tuesday 06:30pm - 10:30pm,11:45am - 02:30pm| saturday: 06:30pm - 10:30pm,12:00pm - 02:30pm| friday: 06:30pm - 10:30pm,11:45am - 02:30pm| wednesday: 06:30pm - 10:30pm,11:45am - 02:30pm| monday: 06:30pm - 10:30pm,11:45am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.843891,
@@ -764,6 +832,7 @@ module.exports = function(app) {
     "name": "Koji Sushi Bar",
     "category": "sushi",
     "postal": "048660",
+    "description": "thursday: 05:00pm - 10:00pm,11:30am - 03:00pm| sunday: closed| tuesday 05:00pm - 10:00pm,11:30am - 03:00pm| saturday: 05:00pm - 10:00pm,11:30am - 03:00pm| friday: 05:00pm - 10:00pm,11:30am - 03:00pm| wednesday: 05:00pm - 10:00pm,11:30am - 03:00pm| monday: 05:00pm - 10:00pm,11:30am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.847664,
@@ -775,6 +844,7 @@ module.exports = function(app) {
     "name": "Standing Sushi Bar (8Q SAM)",
     "category": "sushi",
     "postal": "188535",
+    "description": "thursday: 06:00pm - 10:30pm,12:00pm - 02:30pm| sunday: 06:00pm - 10:30pm,12:00pm - 02:30pm| tuesday 06:00pm - 10:30pm,12:00pm - 02:30pm| saturday: 06:00pm - 10:30pm,12:00pm - 02:30pm| friday: 06:00pm - 10:30pm,12:00pm - 02:30pm| wednesday: 06:00pm - 10:30pm,12:00pm - 02:30pm| monday: 06:00pm - 10:30pm,12:00pm - 02:30pm",
     "latLong": {
       "coordinates": [
         103.851683,
@@ -786,6 +856,7 @@ module.exports = function(app) {
     "name": "Tatsu (Asia Square)",
     "category": "sushi",
     "postal": "018961",
+    "description": "thursday: 06:00pm - 09:30pm,11:30am - 02:30pm| sunday: closed| tuesday 06:00pm - 09:30pm,11:30am - 02:30pm| saturday: 06:30pm - 10:00pm,12:00pm - 02:30pm| friday: 06:00pm - 09:30pm,11:30am - 02:30pm| wednesday: 06:00pm - 09:30pm,11:30am - 02:30pm| monday: 06:00pm - 09:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.850662,
@@ -797,6 +868,7 @@ module.exports = function(app) {
     "name": "Fat Cow",
     "category": "sushi",
     "postal": "248649",
+    "description": "thursday: 06:00pm - 11:00pm,12:00pm - 03:00pm| sunday: 06:00pm - 11:00pm,12:00pm - 03:00pm| tuesday 06:00pm - 11:00pm,12:00pm - 03:00pm| saturday: 06:00pm - 11:00pm,12:00pm - 03:00pm| friday: 06:00pm - 11:00pm,12:00pm - 03:00pm| wednesday: 06:00pm - 11:00pm,12:00pm - 03:00pm| monday: 06:00pm - 11:00pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.823715,
@@ -806,8 +878,9 @@ module.exports = function(app) {
   },
   {
     "name": "Sushiro",
-    "category": "thomson",
+    "category": "",
     "postal": "574408",
+    "description": "thursday: 05:30pm - 09:30pm,11:30am - 02:30pm| sunday: 05:30pm - 09:30pm,11:30am - 02:30pm| tuesday | saturday: 05:30pm - 09:30pm,11:30am - 02:30pm| friday: 05:30pm - 09:30pm,11:30am - 02:30pm| wednesday: 05:30pm - 09:30pm,11:30am - 02:30pm| monday: 05:30pm - 09:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.830935,
@@ -819,6 +892,7 @@ module.exports = function(app) {
     "name": "The Sushi Bar (Far East Plaza)",
     "category": "japanese",
     "postal": "228213",
+    "description": "thursday: 05:30pm - 09:00pm,12:30pm - 03:00pm| sunday: closed| tuesday 05:30pm - 09:00pm,12:30pm - 03:00pm| saturday: 12:30pm - 09:00pm| friday: 05:30pm - 09:00pm,12:30pm - 03:00pm| wednesday: 05:30pm - 09:00pm,12:30pm - 03:00pm| monday: 05:30pm - 09:00pm,12:30pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.833358,
@@ -830,6 +904,7 @@ module.exports = function(app) {
     "name": "Ollie Cafe",
     "category": "salads",
     "postal": "238858",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.839192,
@@ -839,8 +914,9 @@ module.exports = function(app) {
   },
   {
     "name": "Sumiya Charcoal Grill Izakaya (Orchard Central)",
-    "category": "somerset",
+    "category": "",
     "postal": "238896",
+    "description": "thursday: 06:00pm - 10:30pm,12:00pm - 03:00pm| sunday: 06:00pm - 10:30pm,12:00pm - 03:00pm| tuesday 06:00pm - 10:30pm,12:00pm - 03:00pm| saturday: 06:00pm - 10:30pm,12:00pm - 03:00pm| friday: 06:00pm - 10:30pm,12:00pm - 03:00pm| wednesday: 06:00pm - 10:30pm,12:00pm - 03:00pm| monday: 06:00pm - 10:30pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -852,6 +928,7 @@ module.exports = function(app) {
     "name": "The Daily Cut (One Raffles Place)",
     "category": "salads",
     "postal": "048616",
+    "description": "thursday: 06:00pm - 08:30pm,11:00am - 03:00pm| sunday: 11:00am - 03:30pm| tuesday 06:00pm - 08:30pm,11:00am - 03:00pm| saturday: 11:00am - 03:30pm| friday: 06:00pm - 08:30pm,11:00am - 03:00pm| wednesday: 06:00pm - 08:30pm,11:00am - 03:00pm| monday: 06:00pm - 08:30pm,11:00am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.851082,
@@ -863,6 +940,7 @@ module.exports = function(app) {
     "name": "The Green Bucket",
     "category": "salads",
     "postal": "338729",
+    "description": "thursday: 11:30am - 07:00pm| sunday: closed| tuesday 11:30am - 07:00pm| saturday: closed| friday: 11:30am - 07:00pm| wednesday: 11:30am - 07:00pm| monday: 11:30am - 07:00pm",
     "latLong": {
       "coordinates": [
         103.862322,
@@ -874,6 +952,7 @@ module.exports = function(app) {
     "name": "PasarBella (Suntec City)",
     "category": "salads",
     "postal": "038987",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.85852,
@@ -885,6 +964,7 @@ module.exports = function(app) {
     "name": "Aloha Pok (Amoy Street)",
     "category": "salads",
     "postal": "069911",
+    "description": "thursday: 05:30pm - 11:00pm,11:30am - 02:30pm| sunday: closed| tuesday 05:30pm - 11:00pm,11:30am - 02:30pm| saturday: 05:30pm - 11:00pm,11:30am - 02:30pm| friday: 05:30pm - 11:00pm,11:30am - 02:30pm| wednesday: 05:30pm - 11:00pm,11:30am - 02:30pm| monday: 05:30pm - 11:00pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.847223,
@@ -896,6 +976,7 @@ module.exports = function(app) {
     "name": "JINzakaya",
     "category": "salads",
     "postal": "217562",
+    "description": "thursday: 07:00pm - 11:00pm,12:00pm - 03:00pm| sunday: closed| tuesday 07:00pm - 11:00pm,12:00pm - 03:00pm| saturday: 07:00pm - 11:00pm,12:00pm - 03:00pm| friday: 07:00pm - 11:00pm,12:00pm - 03:00pm| wednesday: 07:00pm - 11:00pm,12:00pm - 03:00pm| monday: 07:00pm - 11:00pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.854285,
@@ -907,6 +988,7 @@ module.exports = function(app) {
     "name": "The Lawn Grill & Salad Cafe (Biopolis)",
     "category": "salads",
     "postal": "138669",
+    "description": "thursday: 11:15am - 09:00pm| sunday: 10:00am - 04:00pm| tuesday 11:15am - 09:00pm| saturday: closed| friday: 11:15am - 09:00pm| wednesday: 11:15am - 09:00pm| monday: 11:15am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.79233,
@@ -918,6 +1000,7 @@ module.exports = function(app) {
     "name": "Grain Traders (Telok Ayer)",
     "category": "salads",
     "postal": "048946",
+    "description": "thursday: 08:00am - 08:00pm| sunday: closed| tuesday 08:00am - 08:00pm| saturday: closed| friday: 08:00am - 08:00pm| wednesday: 08:00am - 08:00pm| monday: 08:00am - 08:00pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -929,6 +1012,7 @@ module.exports = function(app) {
     "name": "Deli Turk Turkish Cuisine (Upper East Coast)",
     "category": "turkish",
     "postal": "455259",
+    "description": "thursday: 06:00pm - 10:00pm| sunday: 06:00pm - 10:00pm,12:00pm - 03:00pm| tuesday 06:00pm - 10:00pm| saturday: 06:00pm - 10:00pm,12:00pm - 03:00pm| friday: 06:00pm - 10:00pm| wednesday: 06:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.931769,
@@ -940,6 +1024,7 @@ module.exports = function(app) {
     "name": "Arkada Cafe",
     "category": "turkish",
     "postal": "138577",
+    "description": "thursday: 11:00am - 09:00pm| sunday: 11:00am - 09:00pm| tuesday 11:00am - 09:00pm| saturday: 11:00am - 09:00pm| friday: 11:00am - 09:00pm| wednesday: 11:00am - 09:00pm| monday: 11:00am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.7894257,
@@ -951,6 +1036,7 @@ module.exports = function(app) {
     "name": "Koh Grill & Sushi Bar",
     "category": "japanese",
     "postal": "238877",
+    "description": "thursday: 11:30am - 10:30pm| sunday: 11:30am - 10:30pm| tuesday 11:30am - 10:30pm| saturday: 11:30am - 10:30pm| friday: 11:30am - 10:30pm| wednesday: 11:30am - 10:30pm| monday: 11:30am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.833056,
@@ -962,6 +1048,7 @@ module.exports = function(app) {
     "name": "Maras",
     "category": "turkish",
     "postal": "437157",
+    "description": "thursday: 11:00am - 09:30pm| sunday: 11:00am - 09:30pm| tuesday 11:00am - 09:30pm| saturday: 11:00am - 09:30pm| friday: 11:00am - 09:30pm| wednesday: 11:00am - 09:30pm| monday: 11:00am - 09:30pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -973,6 +1060,7 @@ module.exports = function(app) {
     "name": "Stuff'd (City Square Mall)",
     "category": "turkish",
     "postal": "208539",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.85662,
@@ -984,6 +1072,7 @@ module.exports = function(app) {
     "name": "Alaturka",
     "category": "turkish",
     "postal": "199437",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.859851,
@@ -995,6 +1084,7 @@ module.exports = function(app) {
     "name": "Derwish Turkish Restaurant",
     "category": "turkish",
     "postal": "199476",
+    "description": "thursday: 11:00am - 11:00pm| sunday: 11:00am - 11:00pm| tuesday 11:00am - 11:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 11:00pm| monday: 11:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.859492,
@@ -1006,6 +1096,7 @@ module.exports = function(app) {
     "name": "The Bakery Chef",
     "category": "waffles",
     "postal": "150161",
+    "description": "thursday: 10:00am - 07:00pm| sunday: 10:00am - 09:00pm| tuesday 10:00am - 07:00pm| saturday: 10:00am - 09:00pm| friday: 10:00am - 09:00pm| wednesday: 10:00am - 07:00pm| monday: 10:00am - 07:00pm",
     "latLong": {
       "coordinates": [
         103.816147,
@@ -1017,6 +1108,7 @@ module.exports = function(app) {
     "name": "Sofra Turkish Cafe & Restaurant",
     "category": "turkish",
     "postal": "189702",
+    "description": "thursday: 06:00pm - 09:30pm,11:30am - 02:30pm| sunday: 12:00pm - 09:30pm| tuesday 06:00pm - 09:30pm,11:30am - 02:30pm| saturday: 12:00pm - 10:00pm| friday: 06:00pm - 10:00pm,11:30am - 02:30pm| wednesday: 06:00pm - 09:30pm,11:30am - 02:30pm| monday: 06:00pm - 09:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.856559,
@@ -1028,6 +1120,7 @@ module.exports = function(app) {
     "name": "Ottoman Kebab & Grill",
     "category": "turkish",
     "postal": "467360",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -1039,6 +1132,7 @@ module.exports = function(app) {
     "name": "The Populus Coffee & Food Co.",
     "category": "waffles",
     "postal": "088875",
+    "description": "thursday: 09:00am - 10:30pm| sunday: 09:30am - 07:00pm| tuesday | saturday: 09:30am - 10:30pm| friday: 09:00am - 10:30pm| wednesday: 09:00am - 07:00pm| monday: 09:00am - 07:00pm",
     "latLong": {
       "coordinates": [
         103.840769,
@@ -1050,6 +1144,7 @@ module.exports = function(app) {
     "name": "Montana Singapore",
     "category": "waffles",
     "postal": "188306",
+    "description": "thursday: 11:00am - 10:30pm| sunday: 09:00am - 10:00pm| tuesday 11:00am - 10:30pm| saturday: 09:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:30pm| monday: 11:00am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.849316,
@@ -1061,6 +1156,7 @@ module.exports = function(app) {
     "name": "Curious Palette",
     "category": "waffles",
     "postal": "188667",
+    "description": "thursday: 09:00am - 10:00pm| sunday: 09:00am - 10:00pm| tuesday | saturday: 09:00am - 12:00am| friday: 09:00am - 12:00am| wednesday: 09:00am - 10:00pm| monday: 09:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.849815,
@@ -1072,6 +1168,7 @@ module.exports = function(app) {
     "name": "The Refinery",
     "category": "waffles",
     "postal": "208561",
+    "description": "thursday: 06:00pm - 12:00am,12:00pm - 03:00pm| sunday: 11:00am - 04:00pm| tuesday 06:00pm - 12:00am,12:00pm - 03:00pm| saturday: 11:00am - 04:00pm,06:00pm - 01:00am| friday: 06:00pm - 01:00am,12:00pm - 03:00pm| wednesday: 06:00pm - 12:00am,12:00pm - 03:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.862283,
@@ -1083,6 +1180,7 @@ module.exports = function(app) {
     "name": "Creamier (Toa Payoh)",
     "category": "waffles",
     "postal": "310128",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8443379,
@@ -1094,6 +1192,7 @@ module.exports = function(app) {
     "name": "Sin Lee Foods",
     "category": "waffles",
     "postal": "162004",
+    "description": "thursday: 11:00am - 09:00pm| sunday: 09:30am - 06:00pm| tuesday 11:00am - 09:00pm| saturday: 09:30am - 09:00pm| friday: 11:00am - 09:00pm| wednesday: 11:00am - 09:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8310429,
@@ -1105,6 +1204,7 @@ module.exports = function(app) {
     "name": "FATCAT Ice Cream Bar",
     "category": "waffles",
     "postal": "460416",
+    "description": "thursday: 01:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday | saturday: 12:00pm - 11:00pm| friday: 01:00pm - 11:00pm| wednesday: 01:00pm - 10:00pm| monday: 01:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.930534,
@@ -1116,6 +1216,7 @@ module.exports = function(app) {
     "name": "Bedrock Bar & Grill",
     "category": "steak",
     "postal": "238163",
+    "description": "thursday: 06:00pm - 11:00pm,12:00pm - 03:00pm| sunday: 06:00pm - 11:00pm,12:00pm - 03:00pm| tuesday 06:00pm - 11:00pm,12:00pm - 03:00pm| saturday: 06:00pm - 11:00pm,12:00pm - 03:00pm| friday: 06:00pm - 11:00pm,12:00pm - 03:00pm| wednesday: 06:00pm - 11:00pm,12:00pm - 03:00pm| monday: 06:00pm - 11:00pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.837924,
@@ -1127,6 +1228,7 @@ module.exports = function(app) {
     "name": "Steakout",
     "category": "steak",
     "postal": "188017",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:30am - 10:00pm| friday: 11:30am - 10:00pm| wednesday: 11:30am - 10:00pm| monday: 11:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.852434,
@@ -1138,6 +1240,7 @@ module.exports = function(app) {
     "name": "New Ubin Seafood",
     "category": "steak",
     "postal": "575680",
+    "description": "thursday: 05:30pm - 10:30pm,11:30am - 02:30pm| sunday: 05:30pm - 10:30pm,11:30am - 02:30pm| tuesday 05:30pm - 10:30pm,11:30am - 02:30pm| saturday: 05:30pm - 10:30pm,11:30am - 02:30pm| friday: 05:30pm - 10:30pm,11:30am - 02:30pm| wednesday: 05:30pm - 10:30pm,11:30am - 02:30pm| monday: 05:30pm - 10:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.839838,
@@ -1149,6 +1252,7 @@ module.exports = function(app) {
     "name": "Le Steak by Chef Amri  (Jalan Kayu)",
     "category": "steak",
     "postal": "799472",
+    "description": "thursday: 03:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 03:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 03:00pm - 11:00pm| wednesday: 03:00pm - 11:00pm| monday: 05:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.873212,
@@ -1160,6 +1264,7 @@ module.exports = function(app) {
     "name": "Burnt Ends",
     "category": "date-night",
     "postal": "088391",
+    "description": "thursday: 06:00pm - 12:00am,11:45am - 02:00pm| sunday: closed| tuesday 06:00pm - 12:00am| saturday: 06:00pm - 12:00am,11:45am - 02:00pm| friday: 06:00pm - 12:00am,11:45am - 02:00pm| wednesday: 06:00pm - 12:00am,11:45am - 02:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.841804,
@@ -1171,6 +1276,7 @@ module.exports = function(app) {
     "name": "Shang Pin Hot Pot",
     "category": "steamboat",
     "postal": "189559",
+    "description": "thursday: 12:00pm - 12:00am| sunday: 12:00pm - 12:00am| tuesday 12:00pm - 12:00am| saturday: 12:00pm - 12:00am| friday: 12:00pm - 12:00am| wednesday: 12:00pm - 12:00am| monday: 12:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.848947,
@@ -1182,6 +1288,7 @@ module.exports = function(app) {
     "name": "Hai Di Lao Hot Pot (313@Somerset)",
     "category": "steamboat",
     "postal": "238895",
+    "description": "thursday: 10:30am - 06:00am| sunday: 10:30am - 06:00am| tuesday 10:30am - 06:00am| saturday: 10:30am - 06:00am| friday: 10:30am - 06:00am| wednesday: 10:30am - 06:00am| monday: 10:30am - 06:00am",
     "latLong": {
       "coordinates": [
         103.8383939,
@@ -1191,8 +1298,9 @@ module.exports = function(app) {
   },
   {
     "name": "Spicy Thai - Thai Cafe",
-    "category": "paya-lebar",
+    "category": "",
     "postal": "380115",
+    "description": "thursday: 11:00am - 12:00am| sunday: 11:00am - 12:00am| tuesday 11:00am - 12:00am| saturday: 11:00am - 12:00am| friday: 11:00am - 12:00am| wednesday: 11:00am - 12:00am| monday: 11:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.887252,
@@ -1204,6 +1312,7 @@ module.exports = function(app) {
     "name": "NEATO",
     "category": "salads",
     "postal": "189649",
+    "description": "thursday: 10:00am - 06:30pm| sunday: 01:00pm - 06:30pm| tuesday 10:00am - 06:30pm| saturday: 01:00pm - 06:30pm| friday: 10:00am - 06:30pm| wednesday: 10:00am - 06:30pm| monday: 10:00am - 06:30pm",
     "latLong": {
       "coordinates": [
         103.8524939,
@@ -1215,6 +1324,7 @@ module.exports = function(app) {
     "name": "Sarnies (Telok Ayer)",
     "category": "salads",
     "postal": "068601",
+    "description": "thursday: 07:30am - 11:30pm| sunday: 08:30am - 04:00pm| tuesday 07:30am - 10:30pm| saturday: 08:30am - 04:00pm| friday: 07:30am - 11:30pm| wednesday: 07:30am - 11:30pm| monday: 07:30am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.848086,
@@ -1226,6 +1336,7 @@ module.exports = function(app) {
     "name": "Tsukada Nojo (Plaza Singapura)",
     "category": "steamboat",
     "postal": "238839",
+    "description": "thursday: 05:00pm - 10:00pm,11:30am - 03:00pm| sunday: 05:00pm - 10:00pm,11:30am - 03:00pm| tuesday 05:00pm - 10:00pm,11:30am - 03:00pm| saturday: 05:00pm - 10:00pm,11:30am - 03:00pm| friday: 05:00pm - 10:00pm,11:30am - 03:00pm| wednesday: 05:00pm - 10:00pm,11:30am - 03:00pm| monday: 05:00pm - 10:00pm,11:30am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.845411,
@@ -1237,6 +1348,7 @@ module.exports = function(app) {
     "name": "Sunday Folks",
     "category": "waffles",
     "postal": "278116",
+    "description": "thursday: 01:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 01:00pm - 10:00pm| saturday: 12:00pm - 11:00pm| friday: 01:00pm - 11:00pm| wednesday: 01:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.797152,
@@ -1248,6 +1360,7 @@ module.exports = function(app) {
     "name": "Fat Cow",
     "category": "steak",
     "postal": "248649",
+    "description": "thursday: 06:00pm - 11:00pm,12:00pm - 03:00pm| sunday: 06:00pm - 11:00pm,12:00pm - 03:00pm| tuesday 06:00pm - 11:00pm,12:00pm - 03:00pm| saturday: 06:00pm - 11:00pm,12:00pm - 03:00pm| friday: 06:00pm - 11:00pm,12:00pm - 03:00pm| wednesday: 06:00pm - 11:00pm,12:00pm - 03:00pm| monday: 06:00pm - 11:00pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.823715,
@@ -1259,6 +1372,7 @@ module.exports = function(app) {
     "name": "Hai Di Lao Hot Pot (Clarke Quay)",
     "category": "steamboat",
     "postal": "179023",
+    "description": "thursday: 10:30am - 06:00am| sunday: 10:30am - 06:00am| tuesday 10:30am - 06:00am| saturday: 10:30am - 06:00am| friday: 10:30am - 06:00am| wednesday: 10:30am - 06:00am| monday: 10:30am - 06:00am",
     "latLong": {
       "coordinates": [
         103.845707,
@@ -1270,6 +1384,7 @@ module.exports = function(app) {
     "name": "Captain K Seafood Tower",
     "category": "steamboat",
     "postal": "188647",
+    "description": "thursday: 12:00pm - 03:00pm,06:00pm - 10:30pm| sunday: 05:00pm - 10:30pm,11:30am - 03:00pm| tuesday 12:00pm - 03:00pm,06:00pm - 10:30pm| saturday: 05:00pm - 11:00pm,11:30am - 03:00pm| friday: 06:00pm - 11:00pm,12:00pm - 03:00pm| wednesday: 12:00pm - 03:00pm,06:00pm - 10:30pm| monday: 06:00pm - 10:30pm",
     "latLong": {
       "coordinates": [
         103.849211,
@@ -1281,6 +1396,7 @@ module.exports = function(app) {
     "name": "Beauty in the Pot",
     "category": "steamboat",
     "postal": "430013",
+    "description": "thursday: 11:00am - 01:00am| sunday: 11:00am - 01:00am| tuesday 11:00am - 01:00am| saturday: 11:00am - 03:00am| friday: 11:00am - 03:00am| wednesday: 11:00am - 01:00am| monday: 11:00am - 01:00am",
     "latLong": {
       "coordinates": [
         103.895167,
@@ -1292,6 +1408,7 @@ module.exports = function(app) {
     "name": "GoroGoro Steamboat & Korean Buffet",
     "category": "steamboat",
     "postal": "238851",
+    "description": "thursday: 05:00pm - 10:30pm,11:30am - 02:30pm| sunday: 11:30am - 03:30pm,05:00pm - 10:30pm| tuesday 05:00pm - 10:30pm,11:30am - 02:30pm| saturday: 11:30am - 03:30pm,05:00pm - 10:30pm| friday: 05:00pm - 10:30pm,11:30am - 02:30pm| wednesday: 05:00pm - 10:30pm,11:30am - 02:30pm| monday: 05:00pm - 10:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.838784,
@@ -1303,6 +1420,7 @@ module.exports = function(app) {
     "name": "Jai Thai (Purvis Street)",
     "category": "thai",
     "postal": "188604",
+    "description": "thursday: 06:00pm - 10:00pm,11:30am - 03:00pm| sunday: 06:00pm - 10:00pm,11:30am - 03:00pm| tuesday 06:00pm - 10:00pm,11:30am - 03:00pm| saturday: 06:00pm - 10:00pm,11:30am - 03:00pm| friday: 06:00pm - 10:00pm,11:30am - 03:00pm| wednesday: 06:00pm - 10:00pm,11:30am - 03:00pm| monday: 06:00pm - 10:00pm,11:30am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.855258,
@@ -1314,6 +1432,7 @@ module.exports = function(app) {
     "name": "Gin Khao (East Coast)",
     "category": "thai",
     "postal": "449878",
+    "description": "thursday: 11:30am - 03:00pm,05:30pm - 10:00pm| sunday: 11:30am - 10:30pm| tuesday 11:30am - 03:00pm,05:30pm - 10:00pm| saturday: 11:30am - 10:30pm| friday: 11:30am - 10:30pm| wednesday: 11:30am - 03:00pm,05:30pm - 10:00pm| monday: 11:30am - 03:00pm,05:30pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.916065,
@@ -1323,8 +1442,9 @@ module.exports = function(app) {
   },
   {
     "name": "Kombi Rocks Diner",
-    "category": "kovan",
+    "category": "",
     "postal": "545568",
+    "description": "thursday: 12:00pm - 02:00am| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 02:00am| saturday: 12:00pm - 02:00am| friday: 12:00pm - 02:00am| wednesday: 12:00pm - 02:00am| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.8755539,
@@ -1336,6 +1456,7 @@ module.exports = function(app) {
     "name": "Priv (Keppel Bay)",
     "category": "steak",
     "postal": "098382",
+    "description": "thursday: 09:00am - 12:00am| sunday: 08:00am - 12:00am| tuesday 09:00am - 12:00am| saturday: 08:00am - 12:00am| friday: 09:00am - 12:00am| wednesday: 09:00am - 12:00am| monday: 09:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.812509,
@@ -1347,6 +1468,7 @@ module.exports = function(app) {
     "name": "Joe's Kitchen Thai Cuisine",
     "category": "thai",
     "postal": "150125",
+    "description": "thursday: 11:00am - 03:00pm,05:00pm - 10:00pm| sunday: 11:00am - 03:00pm,05:00pm - 10:00pm| tuesday 11:00am - 03:00pm,05:00pm - 10:00pm| saturday: 11:00am - 03:00pm,05:00pm - 10:00pm| friday: 11:00am - 03:00pm,05:00pm - 10:00pm| wednesday: 11:00am - 03:00pm,05:00pm - 10:00pm| monday: 11:00am - 03:00pm,05:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.802953,
@@ -1358,6 +1480,7 @@ module.exports = function(app) {
     "name": "Som Tam Modern Thai Fusion",
     "category": "thai",
     "postal": "238896",
+    "description": "thursday: 05:30pm - 10:00pm,11:30am - 03:30pm| sunday: 11:30am - 10:00pm| tuesday 05:30pm - 10:00pm,11:30am - 03:30pm| saturday: 11:30am - 10:00pm| friday: 11:30am - 10:00pm| wednesday: 05:30pm - 10:00pm,11:30am - 03:30pm| monday: 05:30pm - 10:00pm,11:30am - 03:30pm",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -1369,6 +1492,7 @@ module.exports = function(app) {
     "name": "ParaThai",
     "category": "thai",
     "postal": "437157",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 10:30am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 10:30am - 10:00pm| friday: 11:00am - 10:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -1378,8 +1502,9 @@ module.exports = function(app) {
   },
   {
     "name": "Nakhon Kitchen (Hougang)",
-    "category": "kovan",
+    "category": "",
     "postal": "530212",
+    "description": "thursday: 12:00pm - 03:00pm,05:30pm - 10:00pm| sunday: 12:00pm - 03:00pm,05:30pm - 10:00pm| tuesday 12:00pm - 03:00pm,05:30pm - 10:00pm| saturday: 12:00pm - 03:00pm,05:30pm - 10:00pm| friday: 12:00pm - 03:00pm,05:30pm - 10:00pm| wednesday: 12:00pm - 03:00pm,05:30pm - 10:00pm| monday: 12:00pm - 03:00pm,05:30pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.888103,
@@ -1391,6 +1516,7 @@ module.exports = function(app) {
     "name": "Nara Thai Cuisine (ION Orchard)",
     "category": "thai",
     "postal": "238801",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:30am - 10:00pm| friday: 11:30am - 10:00pm| wednesday: 11:30am - 10:00pm| monday: 11:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.831767,
@@ -1402,6 +1528,7 @@ module.exports = function(app) {
     "name": "Hyde & Co.",
     "category": "western",
     "postal": "198753",
+    "description": "thursday: 11:00am - 09:00pm| sunday: 11:00am - 06:00pm| tuesday | saturday: 11:00am - 09:00pm| friday: 11:00am - 09:00pm| wednesday: 11:00am - 09:00pm| monday: 11:00am - 06:00pm",
     "latLong": {
       "coordinates": [
         103.859887,
@@ -1413,6 +1540,7 @@ module.exports = function(app) {
     "name": "Tuk Tuk Cha (Suntec City)",
     "category": "thai",
     "postal": "038983",
+    "description": "thursday: 09:00am - 09:00pm| sunday: 09:00am - 09:00pm| tuesday 09:00am - 09:00pm| saturday: 09:00am - 09:00pm| friday: 09:00am - 09:00pm| wednesday: 09:00am - 09:00pm| monday: 09:00am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.858967,
@@ -1424,6 +1552,7 @@ module.exports = function(app) {
     "name": "The Lab",
     "category": "western",
     "postal": "199069",
+    "description": "thursday: 12:30pm - 10:00pm| sunday: 01:00pm - 09:30pm| tuesday 12:30pm - 10:00pm| saturday: 12:30pm - 10:00pm| friday: 12:30pm - 10:00pm| wednesday: 12:30pm - 10:00pm| monday: 12:30pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.858834,
@@ -1435,6 +1564,7 @@ module.exports = function(app) {
     "name": "The Lokal",
     "category": "breakfast-and-brunch",
     "postal": "088865",
+    "description": "thursday: 08:00am - 10:30pm| sunday: 09:00am - 04:00pm| tuesday 08:00am - 10:30pm| saturday: 09:00am - 10:30pm| friday: 08:00am - 10:30pm| wednesday: 08:00am - 10:30pm| monday: 08:00am - 05:00pm",
     "latLong": {
       "coordinates": [
         103.841038,
@@ -1446,6 +1576,7 @@ module.exports = function(app) {
     "name": "Burnt Ends",
     "category": "western",
     "postal": "088391",
+    "description": "thursday: 06:00pm - 12:00am,11:45am - 02:00pm| sunday: closed| tuesday 06:00pm - 12:00am| saturday: 06:00pm - 12:00am,11:45am - 02:00pm| friday: 06:00pm - 12:00am,11:45am - 02:00pm| wednesday: 06:00pm - 12:00am,11:45am - 02:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.841804,
@@ -1457,6 +1588,7 @@ module.exports = function(app) {
     "name": "I Am",
     "category": "western",
     "postal": "188804",
+    "description": "thursday: 11:30am - 11:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 11:00pm| saturday: 11:30am - 01:00am| friday: 11:30am - 01:00am| wednesday: 11:30am - 11:00pm| monday: 11:30am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.858468,
@@ -1468,6 +1600,7 @@ module.exports = function(app) {
     "name": "JB Ah Meng",
     "category": "supper",
     "postal": "388353",
+    "description": "thursday: 05:00pm - 03:00am| sunday: 05:00pm - 03:00am| tuesday 05:00pm - 03:00am| saturday: 05:00pm - 03:00am| friday: 05:00pm - 03:00am| wednesday: 05:00pm - 03:00am| monday: 05:00pm - 03:00am",
     "latLong": {
       "coordinates": [
         103.881463,
@@ -1479,6 +1612,7 @@ module.exports = function(app) {
     "name": "The BetterField",
     "category": "western",
     "postal": "179434",
+    "description": "thursday: 08:00am - 11:00pm| sunday: 08:00am - 11:00pm| tuesday 08:00am - 11:00pm| saturday: 08:00am - 11:00pm| friday: 08:00am - 11:00pm| wednesday: 08:00am - 11:00pm| monday: 08:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.849526,
@@ -1490,6 +1624,7 @@ module.exports = function(app) {
     "name": "Sinpopo Brand",
     "category": "supper",
     "postal": "427671",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 12:00pm - 12:00am| friday: 12:00pm - 12:00am| wednesday: 12:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.904569,
@@ -1501,6 +1636,7 @@ module.exports = function(app) {
     "name": "Symmetry",
     "category": "western",
     "postal": "199206",
+    "description": "thursday: 10:30am - 11:00pm| sunday: 09:00am - 07:00pm| tuesday 10:30am - 11:00pm| saturday: 09:00am - 12:00am| friday: 10:30am - 12:00am| wednesday: 10:30am - 11:00pm| monday: 10:30am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.8593379,
@@ -1512,6 +1648,7 @@ module.exports = function(app) {
     "name": "Artistry",
     "category": "western",
     "postal": "199149",
+    "description": "thursday: 09:00am - 11:00pm| sunday: 09:00am - 04:00pm| tuesday 09:00am - 11:00pm| saturday: 09:00am - 11:00pm| friday: 09:00am - 11:00pm| wednesday: 09:00am - 11:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.858256,
@@ -1523,6 +1660,7 @@ module.exports = function(app) {
     "name": "Kko Kko Na Ra",
     "category": "supper",
     "postal": "088489",
+    "description": "thursday: 11:00am - 03:00am| sunday: 11:00am - 03:00am| tuesday 11:00am - 03:00am| saturday: 11:00am - 03:00am| friday: 11:00am - 03:00am| wednesday: 11:00am - 03:00am| monday: 11:00am - 03:00am",
     "latLong": {
       "coordinates": [
         103.843881,
@@ -1534,6 +1672,7 @@ module.exports = function(app) {
     "name": "Ramen Keisuke Lobster King",
     "category": "late-night",
     "postal": "179022",
+    "description": "thursday: 06:00pm - 05:00am| sunday: 06:00pm - 05:00am| tuesday 06:00pm - 05:00am| saturday: 06:00pm - 05:00am| friday: 06:00pm - 05:00am| wednesday: 06:00pm - 05:00am| monday: 06:00pm - 05:00am",
     "latLong": {
       "coordinates": [
         103.846009,
@@ -1545,6 +1684,7 @@ module.exports = function(app) {
     "name": "Springleaf Prata Place (Jalan Tua Kong)",
     "category": "supper",
     "postal": "457251",
+    "description": "thursday: 07:00am - 12:00am| sunday: 07:00am - 12:00am| tuesday 07:00am - 12:00am| saturday: 07:00am - 12:00am| friday: 07:00am - 12:00am| wednesday: 07:00am - 12:00am| monday: 07:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.925636,
@@ -1556,6 +1696,7 @@ module.exports = function(app) {
     "name": "Salted Caramel",
     "category": "supper",
     "postal": "574370",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 02:00am| friday: 12:00pm - 02:00am| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.834316,
@@ -1567,6 +1708,7 @@ module.exports = function(app) {
     "name": "49 Seats (Kreta Ayer)",
     "category": "supper",
     "postal": "089007",
+    "description": "thursday: 06:00pm - 02:00am| sunday: closed| tuesday 06:00pm - 02:00am| saturday: 06:00pm - 05:30am| friday: 06:00pm - 05:30am| wednesday: 06:00pm - 02:00am| monday: 06:00pm - 02:00am",
     "latLong": {
       "coordinates": [
         103.842125,
@@ -1578,6 +1720,7 @@ module.exports = function(app) {
     "name": "Thai Gold Food",
     "category": "supper",
     "postal": "189652",
+    "description": "thursday: 05:00pm - 10:30pm,11:30am - 03:30pm| sunday: 05:00pm - 10:30pm,11:30am - 03:30pm| tuesday 05:00pm - 10:30pm,11:30am - 03:30pm| saturday: 05:00pm - 10:30pm,11:30am - 03:30pm| friday: 05:00pm - 10:30pm,11:30am - 03:30pm| wednesday: 05:00pm - 10:30pm,11:30am - 03:30pm| monday: 05:00pm - 10:30pm,11:30am - 03:30pm",
     "latLong": {
       "coordinates": [
         103.851193,
@@ -1589,6 +1732,7 @@ module.exports = function(app) {
     "name": "Penang Seafood Restaurant",
     "category": "zi-char",
     "postal": "388258",
+    "description": "thursday: 11:00am - 12:00am| sunday: 11:00am - 12:00am| tuesday 11:00am - 12:00am| saturday: 11:00am - 12:00am| friday: 11:00am - 12:00am| wednesday: 11:00am - 12:00am| monday: 11:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.883363,
@@ -1600,6 +1744,7 @@ module.exports = function(app) {
     "name": "Swee Choon Dim Sum",
     "category": "supper",
     "postal": "208882",
+    "description": "thursday: 06:00pm - 06:00am| sunday: 06:00pm - 06:00am| tuesday | saturday: 06:00pm - 06:00am| friday: 06:00pm - 06:00am| wednesday: 06:00pm - 06:00am| monday: 06:00pm - 06:00am",
     "latLong": {
       "coordinates": [
         103.857002,
@@ -1611,6 +1756,7 @@ module.exports = function(app) {
     "name": "Keng Eng Kee Seafood (Alexandra)",
     "category": "zi-char",
     "postal": "150124",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 12:00pm - 10:00pm| friday: 12:00pm - 10:00pm| wednesday: 12:00pm - 10:00pm| monday: 12:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.803405,
@@ -1622,6 +1768,7 @@ module.exports = function(app) {
     "name": "Diamond Kitchen (Science Park)",
     "category": "zi-char",
     "postal": "118260",
+    "description": "thursday: 05:30pm - 11:00pm,11:00am - 02:30pm| sunday: 05:30pm - 11:00pm,11:00am - 02:30pm| tuesday 05:30pm - 11:00pm,11:00am - 02:30pm| saturday: 05:30pm - 11:00pm,11:00am - 02:30pm| friday: 05:30pm - 11:00pm,11:00am - 02:30pm| wednesday: 05:30pm - 11:00pm,11:00am - 02:30pm| monday: 05:30pm - 11:00pm,11:00am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.7904159,
@@ -1633,6 +1780,7 @@ module.exports = function(app) {
     "name": "JB Ah Meng",
     "category": "zi-char",
     "postal": "388353",
+    "description": "thursday: 05:00pm - 03:00am| sunday: 05:00pm - 03:00am| tuesday 05:00pm - 03:00am| saturday: 05:00pm - 03:00am| friday: 05:00pm - 03:00am| wednesday: 05:00pm - 03:00am| monday: 05:00pm - 03:00am",
     "latLong": {
       "coordinates": [
         103.881463,
@@ -1642,8 +1790,9 @@ module.exports = function(app) {
   },
   {
     "name": "Char",
-    "category": "jalan-besar",
+    "category": "",
     "postal": "208994",
+    "description": "thursday: 06:00pm - 10:00pm,11:30am - 02:30pm| sunday: 06:00pm - 10:00pm,11:30am - 02:30pm| tuesday 06:00pm - 10:00pm,11:30am - 02:30pm| saturday: 06:00pm - 10:00pm,11:30am - 02:30pm| friday: 06:00pm - 10:00pm,11:30am - 02:30pm| wednesday: 06:00pm - 10:00pm,11:30am - 02:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.85966,
@@ -1655,6 +1804,7 @@ module.exports = function(app) {
     "name": "Tong Ah Eating House",
     "category": "zi-char",
     "postal": "089143",
+    "description": "thursday: 06:30am - 10:00pm| sunday: 06:30am - 10:00pm| tuesday 06:30am - 10:00pm| saturday: 06:30am - 10:00pm| friday: 06:30am - 10:00pm| wednesday: closed| monday: 06:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.8417,
@@ -1666,6 +1816,7 @@ module.exports = function(app) {
     "name": "New Ubin Seafood",
     "category": "zi-char",
     "postal": "575680",
+    "description": "thursday: 05:30pm - 10:30pm,11:30am - 02:30pm| sunday: 05:30pm - 10:30pm,11:30am - 02:30pm| tuesday 05:30pm - 10:30pm,11:30am - 02:30pm| saturday: 05:30pm - 10:30pm,11:30am - 02:30pm| friday: 05:30pm - 10:30pm,11:30am - 02:30pm| wednesday: 05:30pm - 10:30pm,11:30am - 02:30pm| monday: 05:30pm - 10:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.839838,
@@ -1677,6 +1828,7 @@ module.exports = function(app) {
     "name": "Kok Sen Restaurant",
     "category": "zi-char",
     "postal": "089137",
+    "description": "thursday: 11:30am - 10:30pm| sunday: 11:30am - 10:30pm| tuesday 11:30am - 10:30pm| saturday: 11:30am - 10:30pm| friday: 11:30am - 10:30pm| wednesday: 11:30am - 10:30pm| monday: 11:30am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.84171,
@@ -1688,6 +1840,7 @@ module.exports = function(app) {
     "name": "Hong Ji Claypot Bak Kut Teh (Marsiling)",
     "category": "bak-kut-teh",
     "postal": "730019",
+    "description": "thursday: 08:00am - 09:45pm| sunday: 08:00am - 09:45pm| tuesday 08:00am - 09:45pm| saturday: 08:00am - 09:45pm| friday: 08:00am - 09:45pm| wednesday: 08:00am - 09:45pm| monday: 08:00am - 09:45pm",
     "latLong": {
       "coordinates": [
         103.777277,
@@ -1699,6 +1852,7 @@ module.exports = function(app) {
     "name": "Legendary Bak Kut Teh",
     "category": "bak-kut-teh",
     "postal": "218431",
+    "description": "thursday: 08:00am - 11:00pm| sunday: 08:00am - 11:00pm| tuesday 08:00am - 11:00pm| saturday: 08:00am - 11:00pm| friday: 08:00am - 11:00pm| wednesday: closed| monday: 08:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.853267,
@@ -1710,6 +1864,7 @@ module.exports = function(app) {
     "name": "Ng Ah Sio Bak Kut Teh (Rangoon)",
     "category": "bak-kut-teh",
     "postal": "218453",
+    "description": "thursday: 07:00am - 10:00pm| sunday: 07:00am - 10:00pm| tuesday 07:00am - 10:00pm| saturday: 07:00am - 10:00pm| friday: 07:00am - 10:00pm| wednesday: 07:00am - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.852924,
@@ -1721,6 +1876,7 @@ module.exports = function(app) {
     "name": "Old Tiong Bahru Bak Kut Teh",
     "category": "bak-kut-teh",
     "postal": "160058",
+    "description": "thursday: 06:30am - 09:00pm| sunday: 06:30am - 09:00pm| tuesday 06:30am - 09:00pm| saturday: 06:30am - 09:00pm| friday: 06:30am - 09:00pm| wednesday: 06:30am - 09:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.832846,
@@ -1732,6 +1888,7 @@ module.exports = function(app) {
     "name": "Outram Park Ya Hua Rou Gu Cha",
     "category": "bak-kut-teh",
     "postal": "089053",
+    "description": "thursday: 07:00am - 04:00am| sunday: 07:00am - 12:00am| tuesday 07:00am - 04:00am| saturday: 07:00am - 04:00am| friday: 07:00am - 04:00am| wednesday: 07:00am - 04:00am| monday: closed",
     "latLong": {
       "coordinates": [
         103.842329,
@@ -1743,6 +1900,7 @@ module.exports = function(app) {
     "name": "Rong Cheng Bak Kut Teh",
     "category": "bak-kut-teh",
     "postal": "570022",
+    "description": "thursday: 07:00am - 04:00pm| sunday: 07:00am - 04:00pm| tuesday 07:00am - 04:00pm| saturday: 07:00am - 04:00pm| friday: 07:00am - 04:00pm| wednesday: 07:00am - 04:00pm| monday: 07:00am - 04:00pm",
     "latLong": {
       "coordinates": [
         103.8385524,
@@ -1754,6 +1912,7 @@ module.exports = function(app) {
     "name": "Founder Bak Kut Teh (Balestier)",
     "category": "bak-kut-teh",
     "postal": "329777",
+    "description": "thursday: 12:00pm - 02:00pm,06:00pm - 02:30am| sunday: 12:00pm - 02:00pm,06:00pm - 02:30am| tuesday | saturday: 12:00pm - 02:00pm,06:00pm - 02:30am| friday: 12:00pm - 02:00pm,06:00pm - 02:30am| wednesday: 12:00pm - 02:00pm,06:00pm - 02:30am| monday: 12:00pm - 02:00pm,06:00pm - 02:30am",
     "latLong": {
       "coordinates": [
         103.851198,
@@ -1765,6 +1924,7 @@ module.exports = function(app) {
     "name": "Song Fa Bak Kut Teh (Clarke Quay)",
     "category": "bak-kut-teh",
     "postal": "059383",
+    "description": "thursday: 09:00am - 09:15pm| sunday: 08:30am - 09:15pm| tuesday 09:00am - 09:15pm| saturday: 09:00am - 09:15pm| friday: 09:00am - 09:15pm| wednesday: 09:00am - 09:15pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.847701,
@@ -1776,6 +1936,7 @@ module.exports = function(app) {
     "name": "Hong Ji Claypot Bak Kut Teh (Ang Mo Kio)",
     "category": "bak-kut-teh",
     "postal": "560107",
+    "description": "thursday: 08:00am - 09:45pm| sunday: 08:00am - 09:45pm| tuesday 08:00am - 09:45pm| saturday: 08:00am - 09:45pm| friday: 08:00am - 09:45pm| wednesday: 08:00am - 09:45pm| monday: 08:00am - 09:45pm",
     "latLong": {
       "coordinates": [
         103.837222,
@@ -1787,6 +1948,7 @@ module.exports = function(app) {
     "name": "Full of Luck Club",
     "category": "newly-opened",
     "postal": "278977",
+    "description": "thursday: 11:00am - 11:00pm| sunday: 11:00am - 11:00pm| tuesday 11:00am - 11:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 11:00pm| monday: 11:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.795575,
@@ -1798,6 +1960,7 @@ module.exports = function(app) {
     "name": "Les Amis",
     "category": "Michelin%2520Guide%2520Singapore",
     "postal": "228208",
+    "description": "thursday: 12:00pm - 02:00pm,06:30pm - 09:30pm| sunday: closed| tuesday 12:00pm - 02:00pm,06:30pm - 09:30pm| saturday: 12:00pm - 02:00pm,06:30pm - 09:30pm| friday: 12:00pm - 02:00pm,06:30pm - 09:30pm| wednesday: 12:00pm - 02:00pm,06:30pm - 09:30pm| monday: 12:00pm - 02:00pm,06:30pm - 09:30pm",
     "latLong": {
       "coordinates": [
         103.8317859,
@@ -1809,6 +1972,7 @@ module.exports = function(app) {
     "name": "Moosehead",
     "category": "mediterranean",
     "postal": "068579",
+    "description": "thursday: 11:00am - 11:00pm| sunday: closed| tuesday 11:00am - 11:00pm| saturday: 05:00pm - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 11:00pm| monday: 11:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.848421,
@@ -1820,6 +1984,7 @@ module.exports = function(app) {
     "name": "Barrio by Mex Out",
     "category": "newly-opened",
     "postal": "238895",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.8383939,
@@ -1831,6 +1996,7 @@ module.exports = function(app) {
     "name": "Joo Bar",
     "category": "late-night",
     "postal": "188094",
+    "description": "thursday: 11:30am - 02:30pm,05:30pm - 12:00am| sunday: 11:30am - 02:30pm,05:30pm - 12:00am| tuesday 11:30am - 02:30pm,05:30pm - 12:00am| saturday: 11:30am - 02:30pm,05:30pm - 12:00am| friday: 11:30am - 02:30pm,05:30pm - 12:00am| wednesday: 11:30am - 02:30pm,05:30pm - 12:00am| monday: 11:30am - 02:30pm,05:30pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.856925,
@@ -1842,6 +2008,7 @@ module.exports = function(app) {
     "name": "Xiao Ya Tou",
     "category": "newly-opened",
     "postal": "089592",
+    "description": "thursday: 11:00am - 12:00am| sunday: closed| tuesday 11:00am - 12:00am| saturday: 11:00am - 12:00am| friday: 11:00am - 12:00am| wednesday: 11:00am - 12:00am| monday: 11:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.84293,
@@ -1853,6 +2020,7 @@ module.exports = function(app) {
     "name": "Wang Dae Bak Korean BBQ Restaurant (Amoy Street)",
     "category": "korean-bbq",
     "postal": "048421",
+    "description": "thursday: 05:30pm - 10:30pm,11:30am - 02:30pm| sunday: closed| tuesday 05:30pm - 10:30pm,11:30am - 02:30pm| saturday: 05:30pm - 10:30pm,11:30am - 02:30pm| friday: 05:30pm - 10:30pm,11:30am - 02:30pm| wednesday: 05:30pm - 10:30pm,11:30am - 02:30pm| monday: 05:30pm - 10:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.84675,
@@ -1864,6 +2032,7 @@ module.exports = function(app) {
     "name": "Mookata Traditional Thai BBQ (Katong)",
     "category": "mookata",
     "postal": "428797",
+    "description": "thursday: 05:00pm - 12:00am| sunday: 12:00pm - 12:00am| tuesday 05:00pm - 12:00am| saturday: 12:00pm - 01:00am| friday: 05:00pm - 01:00am| wednesday: 05:00pm - 12:00am| monday: 05:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.904304,
@@ -1875,6 +2044,7 @@ module.exports = function(app) {
     "name": "Icebox Cafe",
     "category": "korean-desserts",
     "postal": "218375",
+    "description": "thursday: 02:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 02:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 02:00pm - 11:00pm| wednesday: 02:00pm - 11:00pm| monday: 02:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.85401,
@@ -1886,6 +2056,7 @@ module.exports = function(app) {
     "name": "Kko Kko Na Ra",
     "category": "korean",
     "postal": "088489",
+    "description": "thursday: 11:00am - 03:00am| sunday: 11:00am - 03:00am| tuesday 11:00am - 03:00am| saturday: 11:00am - 03:00am| friday: 11:00am - 03:00am| wednesday: 11:00am - 03:00am| monday: 11:00am - 03:00am",
     "latLong": {
       "coordinates": [
         103.843881,
@@ -1897,6 +2068,7 @@ module.exports = function(app) {
     "name": "Bing Go Jung (Guillemard)",
     "category": "korean-desserts",
     "postal": "399719",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.882267,
@@ -1908,6 +2080,7 @@ module.exports = function(app) {
     "name": "Ssikkek Korean BBQ Buffet (United Square)",
     "category": "korean-bbq",
     "postal": "307591",
+    "description": "thursday: 05:00pm - 10:30pm,11:30am - 02:30pm| sunday: 05:00pm - 10:30pm,11:30am - 02:30pm| tuesday 05:00pm - 10:30pm,11:30am - 02:30pm| saturday: 05:00pm - 10:30pm,11:30am - 02:30pm| friday: 05:00pm - 10:30pm,11:30am - 02:30pm| wednesday: 05:00pm - 10:30pm,11:30am - 02:30pm| monday: 05:00pm - 10:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.843491,
@@ -1917,8 +2090,9 @@ module.exports = function(app) {
   },
   {
     "name": "Springleaf Prata Place (Jalan Tua Kong)",
-    "category": "siglap",
+    "category": "",
     "postal": "457251",
+    "description": "thursday: 07:00am - 12:00am| sunday: 07:00am - 12:00am| tuesday 07:00am - 12:00am| saturday: 07:00am - 12:00am| friday: 07:00am - 12:00am| wednesday: 07:00am - 12:00am| monday: 07:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.925636,
@@ -1930,6 +2104,7 @@ module.exports = function(app) {
     "name": "Open Farm Community",
     "category": "healthy",
     "postal": "248819",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 11:00am - 10:00pm| friday: 12:00pm - 10:00pm| wednesday: 12:00pm - 10:00pm| monday: 12:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.815495,
@@ -1941,6 +2116,7 @@ module.exports = function(app) {
     "name": "Nunsongyee (Burghley Drive)",
     "category": "korean-desserts",
     "postal": "559022",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.859632,
@@ -1952,6 +2128,7 @@ module.exports = function(app) {
     "name": "My Awesome Cafe",
     "category": "healthy",
     "postal": "068639",
+    "description": "thursday: 07:00am - 11:00pm| sunday: 10:00am - 03:00pm| tuesday 07:00am - 09:00pm| saturday: 10:00am - 03:00pm| friday: 07:00am - 11:00pm| wednesday: 07:00am - 11:00pm| monday: 07:00am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.84725,
@@ -1963,6 +2140,7 @@ module.exports = function(app) {
     "name": "Real Food (The Central)",
     "category": "healthy",
     "postal": "059817",
+    "description": "thursday: 09:00am - 09:00pm| sunday: 09:00am - 09:00pm| tuesday 09:00am - 09:00pm| saturday: 09:00am - 09:00pm| friday: 09:00am - 09:00pm| wednesday: 09:00am - 09:00pm| monday: 09:00am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.846694,
@@ -1974,6 +2152,7 @@ module.exports = function(app) {
     "name": "COMNAM",
     "category": "healthy",
     "postal": "179103",
+    "description": "thursday: 08:00am - 10:00pm,08:00am - 10:00pm| sunday: 08:00am - 10:00pm,08:00am - 10:00pm| tuesday 08:00am - 10:00pm,08:00am - 10:00pm| saturday: 08:00am - 10:00pm,08:00am - 10:00pm| friday: 08:00am - 10:00pm,08:00am - 10:00pm| wednesday: 08:00am - 10:00pm,08:00am - 10:00pm| monday: 08:00am - 10:00pm,08:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.852807,
@@ -1985,6 +2164,7 @@ module.exports = function(app) {
     "name": "The Living Cafe",
     "category": "healthy",
     "postal": "269758",
+    "description": "thursday: 11:00am - 07:00pm| sunday: 09:00am - 08:00pm| tuesday 11:00am - 07:00pm| saturday: 09:00am - 10:00pm| friday: 11:00am - 10:00pm| wednesday: 11:00am - 07:00pm| monday: 11:00am - 07:00pm",
     "latLong": {
       "coordinates": [
         103.797535,
@@ -1996,6 +2176,7 @@ module.exports = function(app) {
     "name": "The Lawn Grill & Salad Cafe (Biopolis)",
     "category": "healthy",
     "postal": "138669",
+    "description": "thursday: 11:15am - 09:00pm| sunday: 10:00am - 04:00pm| tuesday 11:15am - 09:00pm| saturday: closed| friday: 11:15am - 09:00pm| wednesday: 11:15am - 09:00pm| monday: 11:15am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.79233,
@@ -2007,6 +2188,7 @@ module.exports = function(app) {
     "name": "ButterScotch",
     "category": "halal",
     "postal": "150164",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.816199,
@@ -2018,6 +2200,7 @@ module.exports = function(app) {
     "name": "My Secret Hideout Peachy's",
     "category": "halal",
     "postal": "198771",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.860415,
@@ -2029,6 +2212,7 @@ module.exports = function(app) {
     "name": "Working Title - Burger Bar",
     "category": "burgers",
     "postal": "199745",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 10:00am - 11:00pm| tuesday 11:00am - 10:00pm| saturday: 10:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.8597209,
@@ -2040,6 +2224,7 @@ module.exports = function(app) {
     "name": "Hyde & Co.",
     "category": "halal",
     "postal": "198753",
+    "description": "thursday: 11:00am - 09:00pm| sunday: 11:00am - 06:00pm| tuesday | saturday: 11:00am - 09:00pm| friday: 11:00am - 09:00pm| wednesday: 11:00am - 09:00pm| monday: 11:00am - 06:00pm",
     "latLong": {
       "coordinates": [
         103.859887,
@@ -2051,6 +2236,7 @@ module.exports = function(app) {
     "name": "FIX",
     "category": "halal",
     "postal": "329979",
+    "description": "thursday: 09:30am - 10:30pm| sunday: 09:30am - 10:30pm| tuesday 09:30am - 10:30pm| saturday: 09:30am - 10:30pm| friday: 09:30am - 10:30pm| wednesday: 09:30am - 10:30pm| monday: 09:30am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.8485,
@@ -2062,6 +2248,7 @@ module.exports = function(app) {
     "name": "Le Steak by Chef Amri  (Jalan Kayu)",
     "category": "halal",
     "postal": "799472",
+    "description": "thursday: 03:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 03:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 03:00pm - 11:00pm| wednesday: 03:00pm - 11:00pm| monday: 05:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.873212,
@@ -2073,6 +2260,7 @@ module.exports = function(app) {
     "name": "La Marelle Caf & Boutique",
     "category": "halal",
     "postal": "199664",
+    "description": "thursday: 11:00am - 11:00pm| sunday: 11:00am - 11:00pm| tuesday 11:00am - 11:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 11:00pm| monday: 11:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.859788,
@@ -2084,6 +2272,7 @@ module.exports = function(app) {
     "name": "Penny University",
     "category": "halal",
     "postal": "428997",
+    "description": "thursday: 08:30am - 06:00pm| sunday: 08:30am - 10:30pm| tuesday 08:30am - 06:00pm| saturday: 08:30am - 12:00am| friday: 08:30am - 12:00am| wednesday: 08:30am - 06:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.912036,
@@ -2095,6 +2284,7 @@ module.exports = function(app) {
     "name": "I Am",
     "category": "halal",
     "postal": "188804",
+    "description": "thursday: 11:30am - 11:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 11:00pm| saturday: 11:30am - 01:00am| friday: 11:30am - 01:00am| wednesday: 11:30am - 11:00pm| monday: 11:30am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.858468,
@@ -2106,6 +2296,7 @@ module.exports = function(app) {
     "name": "The Lab",
     "category": "halal",
     "postal": "199069",
+    "description": "thursday: 12:30pm - 10:00pm| sunday: 01:00pm - 09:30pm| tuesday 12:30pm - 10:00pm| saturday: 12:30pm - 10:00pm| friday: 12:30pm - 10:00pm| wednesday: 12:30pm - 10:00pm| monday: 12:30pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.858834,
@@ -2117,6 +2308,7 @@ module.exports = function(app) {
     "name": "Keng Eng Kee Seafood (Alexandra)",
     "category": "hawker-fare",
     "postal": "150124",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 12:00pm - 10:00pm| friday: 12:00pm - 10:00pm| wednesday: 12:00pm - 10:00pm| monday: 12:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.803405,
@@ -2128,6 +2320,7 @@ module.exports = function(app) {
     "name": "Timbre+",
     "category": "hawker-fare",
     "postal": "139957",
+    "description": "thursday: 06:00am - 12:00am| sunday: closed| tuesday 06:00am - 12:00am| saturday: 06:00am - 01:00am| friday: 06:00am - 01:00am| wednesday: 06:00am - 12:00am| monday: 06:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.787413,
@@ -2139,6 +2332,7 @@ module.exports = function(app) {
     "name": "Tong Ah Eating House",
     "category": "hawker-fare",
     "postal": "089143",
+    "description": "thursday: 06:30am - 10:00pm| sunday: 06:30am - 10:00pm| tuesday 06:30am - 10:00pm| saturday: 06:30am - 10:00pm| friday: 06:30am - 10:00pm| wednesday: closed| monday: 06:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.8417,
@@ -2150,6 +2344,7 @@ module.exports = function(app) {
     "name": "136 Hong Kong Street Fish Head Steamboat (Clementi)",
     "category": "hawker-fare",
     "postal": "120713",
+    "description": "thursday: 05:00pm - 10:45pm,11:00am - 02:00pm| sunday: 05:00pm - 10:45pm,11:00am - 02:00pm| tuesday 05:00pm - 10:45pm,11:00am - 02:00pm| saturday: 05:00pm - 10:45pm,11:00am - 02:00pm| friday: 05:00pm - 10:45pm,11:00am - 02:00pm| wednesday: 05:00pm - 10:45pm,11:00am - 02:00pm| monday: 05:00pm - 10:45pm,11:00am - 02:00pm",
     "latLong": {
       "coordinates": [
         103.762082,
@@ -2161,6 +2356,7 @@ module.exports = function(app) {
     "name": "Truly Test Kitchen",
     "category": "hawker-fare",
     "postal": "368326",
+    "description": "thursday: 07:00am - 03:00pm| sunday: closed| tuesday 07:00am - 03:00pm| saturday: 07:00am - 03:00pm| friday: 07:00am - 03:00pm| wednesday: 07:00am - 03:00pm| monday: 07:00am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.882758,
@@ -2172,6 +2368,7 @@ module.exports = function(app) {
     "name": "Grain Traders (Telok Ayer)",
     "category": "healthy",
     "postal": "048946",
+    "description": "thursday: 08:00am - 08:00pm| sunday: closed| tuesday 08:00am - 08:00pm| saturday: closed| friday: 08:00am - 08:00pm| wednesday: 08:00am - 08:00pm| monday: 08:00am - 08:00pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -2183,6 +2380,7 @@ module.exports = function(app) {
     "name": "Dessert Project",
     "category": "ice-cream-yoghurt",
     "postal": "160022",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.828705,
@@ -2194,6 +2392,7 @@ module.exports = function(app) {
     "name": "Maki-San (The Cathay)",
     "category": "healthy",
     "postal": "229233",
+    "description": "thursday: 11:30am - 09:30pm| sunday: 11:30am - 09:30pm| tuesday 11:30am - 09:30pm| saturday: 12:00pm - 10:00pm| friday: 12:00pm - 10:00pm| wednesday: 11:30am - 09:30pm| monday: 11:30am - 09:30pm",
     "latLong": {
       "coordinates": [
         103.847398,
@@ -2203,8 +2402,9 @@ module.exports = function(app) {
   },
   {
     "name": "Kok Sen Restaurant",
-    "category": "outram-park",
+    "category": "",
     "postal": "089137",
+    "description": "thursday: 11:30am - 10:30pm| sunday: 11:30am - 10:30pm| tuesday 11:30am - 10:30pm| saturday: 11:30am - 10:30pm| friday: 11:30am - 10:30pm| wednesday: 11:30am - 10:30pm| monday: 11:30am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.84171,
@@ -2216,6 +2416,7 @@ module.exports = function(app) {
     "name": "Icebox Cafe",
     "category": "ice-cream-yoghurt",
     "postal": "218375",
+    "description": "thursday: 02:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 02:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 02:00pm - 11:00pm| wednesday: 02:00pm - 11:00pm| monday: 02:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.85401,
@@ -2227,6 +2428,7 @@ module.exports = function(app) {
     "name": "Salted Caramel",
     "category": "ice-cream-yoghurt",
     "postal": "574370",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 02:00am| friday: 12:00pm - 02:00am| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.834316,
@@ -2238,6 +2440,7 @@ module.exports = function(app) {
     "name": "Wimbly Lu Chocolates",
     "category": "ice-cream-yoghurt",
     "postal": "358987",
+    "description": "thursday: 01:00pm - 10:30pm| sunday: 09:00am - 10:30pm| tuesday 01:00pm - 10:30pm| saturday: 09:00am - 11:00pm| friday: 01:00pm - 10:30pm| wednesday: 01:00pm - 10:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.867568,
@@ -2249,6 +2452,7 @@ module.exports = function(app) {
     "name": "Ah Bong's Italian (Tiong Bahru)",
     "category": "hawker-fare",
     "postal": "160056",
+    "description": "thursday: 10:00am - 02:00pm| sunday: closed| tuesday 10:00am - 02:00pm| saturday: 10:00am - 02:00pm| friday: 10:00am - 02:00pm| wednesday: 10:00am - 02:00pm| monday: 10:00am - 02:00pm",
     "latLong": {
       "coordinates": [
         103.8337559,
@@ -2260,6 +2464,7 @@ module.exports = function(app) {
     "name": "The Bakery Chef",
     "category": "ice-cream-yoghurt",
     "postal": "150161",
+    "description": "thursday: 10:00am - 07:00pm| sunday: 10:00am - 09:00pm| tuesday 10:00am - 07:00pm| saturday: 10:00am - 09:00pm| friday: 10:00am - 09:00pm| wednesday: 10:00am - 07:00pm| monday: 10:00am - 07:00pm",
     "latLong": {
       "coordinates": [
         103.816147,
@@ -2271,6 +2476,7 @@ module.exports = function(app) {
     "name": "Non Entre Dessert Cafe",
     "category": "ice-cream-yoghurt",
     "postal": "218451",
+    "description": "thursday: 02:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 02:00pm - 10:00pm| saturday: 12:00pm - 11:00pm| friday: 02:00pm - 11:00pm| wednesday: 02:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.852987,
@@ -2282,6 +2488,7 @@ module.exports = function(app) {
     "name": "VeganBurg (Eunos)",
     "category": "healthy",
     "postal": "419502",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 10:30am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 10:00pm| friday: 11:00am - 10:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.90528,
@@ -2293,6 +2500,7 @@ module.exports = function(app) {
     "name": "Brother Bird",
     "category": "ice-cream-yoghurt",
     "postal": "189866",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday | saturday: 12:00pm - 10:00pm| friday: 12:00pm - 10:00pm| wednesday: 12:00pm - 10:00pm| monday: 12:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.858409,
@@ -2304,6 +2512,7 @@ module.exports = function(app) {
     "name": "FATCAT Ice Cream Bar",
     "category": "ice-cream-yoghurt",
     "postal": "460416",
+    "description": "thursday: 01:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday | saturday: 12:00pm - 11:00pm| friday: 01:00pm - 11:00pm| wednesday: 01:00pm - 10:00pm| monday: 01:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.930534,
@@ -2315,6 +2524,7 @@ module.exports = function(app) {
     "name": "Miam Miam (Bugis Junction)",
     "category": "japanese",
     "postal": "188021",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:30am - 10:00pm| friday: 11:30am - 10:00pm| wednesday: 11:30am - 10:00pm| monday: 11:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.854921,
@@ -2326,6 +2536,7 @@ module.exports = function(app) {
     "name": "Creamier (Toa Payoh)",
     "category": "ice-cream-yoghurt",
     "postal": "310128",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8443379,
@@ -2335,8 +2546,9 @@ module.exports = function(app) {
   },
   {
     "name": "Ginza Tendon Itsuki",
-    "category": "tanjong-pagar",
+    "category": "",
     "postal": "088522",
+    "description": "thursday: 05:30pm - 10:00pm,11:30am - 02:30pm| sunday: 05:30pm - 10:00pm,11:30am - 02:30pm| tuesday 05:30pm - 10:00pm,11:30am - 02:30pm| saturday: 05:30pm - 10:00pm,11:30am - 02:30pm| friday: 05:30pm - 10:00pm,11:30am - 02:30pm| wednesday: 05:30pm - 10:00pm,11:30am - 02:30pm| monday: 05:30pm - 10:00pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.843754,
@@ -2348,6 +2560,7 @@ module.exports = function(app) {
     "name": "Fat Cow",
     "category": "japanese",
     "postal": "248649",
+    "description": "thursday: 06:00pm - 11:00pm,12:00pm - 03:00pm| sunday: 06:00pm - 11:00pm,12:00pm - 03:00pm| tuesday 06:00pm - 11:00pm,12:00pm - 03:00pm| saturday: 06:00pm - 11:00pm,12:00pm - 03:00pm| friday: 06:00pm - 11:00pm,12:00pm - 03:00pm| wednesday: 06:00pm - 11:00pm,12:00pm - 03:00pm| monday: 06:00pm - 11:00pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.823715,
@@ -2359,6 +2572,7 @@ module.exports = function(app) {
     "name": "Teppei Japanese Restaurant",
     "category": "japanese",
     "postal": "078867",
+    "description": "thursday: 06:30pm - 10:30pm,11:45am - 02:30pm| sunday: closed| tuesday 06:30pm - 10:30pm,11:45am - 02:30pm| saturday: 06:30pm - 10:30pm,12:00pm - 02:30pm| friday: 06:30pm - 10:30pm,11:45am - 02:30pm| wednesday: 06:30pm - 10:30pm,11:45am - 02:30pm| monday: 06:30pm - 10:30pm,11:45am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.843891,
@@ -2370,6 +2584,7 @@ module.exports = function(app) {
     "name": "The Refinery",
     "category": "japanese",
     "postal": "208561",
+    "description": "thursday: 06:00pm - 12:00am,12:00pm - 03:00pm| sunday: 11:00am - 04:00pm| tuesday 06:00pm - 12:00am,12:00pm - 03:00pm| saturday: 11:00am - 04:00pm,06:00pm - 01:00am| friday: 06:00pm - 01:00am,12:00pm - 03:00pm| wednesday: 06:00pm - 12:00am,12:00pm - 03:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.862283,
@@ -2381,6 +2596,7 @@ module.exports = function(app) {
     "name": "Kilo At Pact",
     "category": "japanese",
     "postal": "238896",
+    "description": "thursday: 05:30pm - 10:00pm,11:30am - 02:15pm| sunday: 11:00am - 06:00pm| tuesday 05:30pm - 10:00pm,11:30am - 02:15pm| saturday: 05:30pm - 10:00pm,11:30am - 02:15pm| friday: 05:30pm - 10:00pm,11:30am - 02:15pm| wednesday: 05:30pm - 10:00pm,11:30am - 02:15pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -2392,6 +2608,7 @@ module.exports = function(app) {
     "name": "Zaffron Kitchen (East Coast)",
     "category": "indian",
     "postal": "428820",
+    "description": "thursday: 11:30am - 03:00pm,05:00pm - 10:00pm| sunday: 11:30am - 10:30pm| tuesday 11:30am - 03:00pm,05:00pm - 10:00pm| saturday: 11:30am - 11:00pm| friday: 11:30am - 11:00pm| wednesday: 11:30am - 03:00pm,05:00pm - 10:00pm| monday: 11:30am - 03:00pm,05:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.905019,
@@ -2403,6 +2620,7 @@ module.exports = function(app) {
     "name": "Sumiya Charcoal Grill Izakaya (Orchard Central)",
     "category": "japanese",
     "postal": "238896",
+    "description": "thursday: 06:00pm - 10:30pm,12:00pm - 03:00pm| sunday: 06:00pm - 10:30pm,12:00pm - 03:00pm| tuesday 06:00pm - 10:30pm,12:00pm - 03:00pm| saturday: 06:00pm - 10:30pm,12:00pm - 03:00pm| friday: 06:00pm - 10:30pm,12:00pm - 03:00pm| wednesday: 06:00pm - 10:30pm,12:00pm - 03:00pm| monday: 06:00pm - 10:30pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -2414,6 +2632,7 @@ module.exports = function(app) {
     "name": "Tanuki Raw (Orchard Central)",
     "category": "japanese",
     "postal": "238896",
+    "description": "thursday: 11:00am - 10:30pm| sunday: 11:00am - 10:30pm| tuesday 11:00am - 10:30pm| saturday: 11:00am - 10:30pm| friday: 11:00am - 10:30pm| wednesday: 11:00am - 10:30pm| monday: 11:00am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -2423,8 +2642,9 @@ module.exports = function(app) {
   },
   {
     "name": "Sunday Folks",
-    "category": "holland-village",
+    "category": "",
     "postal": "278116",
+    "description": "thursday: 01:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 01:00pm - 10:00pm| saturday: 12:00pm - 11:00pm| friday: 01:00pm - 11:00pm| wednesday: 01:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.797152,
@@ -2436,6 +2656,7 @@ module.exports = function(app) {
     "name": "The Roti Prata House",
     "category": "indian",
     "postal": "574370",
+    "description": "thursday: 07:00am - 02:00am| sunday: 12:00am - 12:00am| tuesday 07:00am - 02:00am| saturday: 12:00am - 12:00am| friday: 12:00am - 12:00am| wednesday: 07:00am - 02:00am| monday: 07:00am - 02:00am",
     "latLong": {
       "coordinates": [
         103.834316,
@@ -2447,6 +2668,7 @@ module.exports = function(app) {
     "name": "Table by Rang Mahal",
     "category": "indian",
     "postal": "188396",
+    "description": "thursday: 07:00am - 10:30am,11:00am - 10:30pm| sunday: 07:00am - 11:00am,11:00am - 10:30pm| tuesday 07:00am - 10:30am,11:00am - 10:30pm| saturday: 07:00am - 11:00am,11:00am - 10:30pm| friday: 07:00am - 10:30am,11:00am - 10:30pm| wednesday: 07:00am - 10:30am,11:00am - 10:30pm| monday: 07:00am - 10:30am,11:00am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.855091,
@@ -2458,6 +2680,7 @@ module.exports = function(app) {
     "name": "Roll Up",
     "category": "indian",
     "postal": "049430",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: closed| tuesday 12:00pm - 11:00pm| saturday: 05:30pm - 01:00am| friday: 12:00pm - 01:00am| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.8490039,
@@ -2469,6 +2692,7 @@ module.exports = function(app) {
     "name": "Sin Ming Roti Prata (Faisal & Aziz Curry Muslim Food)",
     "category": "indian",
     "postal": "570024",
+    "description": "thursday: 06:00am - 07:00pm| sunday: 06:00am - 07:00pm| tuesday 06:00am - 07:00pm| saturday: 06:00am - 07:00pm| friday: 06:00am - 07:00pm| wednesday: 06:00am - 07:00pm| monday: 06:00am - 07:00pm",
     "latLong": {
       "coordinates": [
         103.836184,
@@ -2480,6 +2704,7 @@ module.exports = function(app) {
     "name": "Singapore Zam Zam Restaurant",
     "category": "indian",
     "postal": "198675",
+    "description": "thursday: 08:00am - 11:00pm| sunday: 08:00am - 11:00pm| tuesday 08:00am - 11:00pm| saturday: 08:00am - 11:00pm| friday: 08:00am - 11:00pm| wednesday: 08:00am - 11:00pm| monday: 08:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.858557,
@@ -2491,6 +2716,7 @@ module.exports = function(app) {
     "name": "Islamic Restaurant",
     "category": "indian",
     "postal": "198713",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.859132,
@@ -2502,6 +2728,7 @@ module.exports = function(app) {
     "name": "Al-Azhar Eating Restaurant (Bukit Timah)",
     "category": "indian",
     "postal": "599736",
+    "description": "thursday: 12:00am - 12:00am| sunday: 12:00am - 12:00am| tuesday 12:00am - 12:00am| saturday: 12:00am - 12:00am| friday: 12:00am - 12:00am| wednesday: 12:00am - 12:00am| monday: 12:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.775338,
@@ -2513,6 +2740,7 @@ module.exports = function(app) {
     "name": "Jinjja Chicken",
     "category": "korean-desserts",
     "postal": "188034",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 11:30pm| friday: 11:00am - 11:30pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.855278,
@@ -2524,6 +2752,7 @@ module.exports = function(app) {
     "name": "Paris Baguette (Wisma Atria)",
     "category": "korean-desserts",
     "postal": "238877",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.833056,
@@ -2535,6 +2764,7 @@ module.exports = function(app) {
     "name": "Honey Creme (313@Somerset)",
     "category": "korean-desserts",
     "postal": "238895",
+    "description": "thursday: 11:00am - 09:30pm| sunday: 11:00am - 09:30pm| tuesday 11:00am - 09:30pm| saturday: 11:00am - 09:30pm| friday: 11:00am - 09:30pm| wednesday: 11:00am - 09:30pm| monday: 11:00am - 09:30pm",
     "latLong": {
       "coordinates": [
         103.8383939,
@@ -2546,6 +2776,7 @@ module.exports = function(app) {
     "name": "Mr and Mrs Mohgan's Super Crispy Roti Prata",
     "category": "indian",
     "postal": "429356",
+    "description": "thursday: 06:30am - 01:30pm| sunday: 06:30am - 01:30pm| tuesday | saturday: 06:30am - 01:30pm| friday: 06:30am - 01:30pm| wednesday: closed| monday: 06:30am - 01:30pm",
     "latLong": {
       "coordinates": [
         103.899319,
@@ -2557,6 +2788,7 @@ module.exports = function(app) {
     "name": "Twins",
     "category": "korean-desserts",
     "postal": "089667",
+    "description": "thursday: 05:30pm - 12:00am,11:30am - 03:00pm| sunday: 05:30pm - 11:00pm| tuesday 05:30pm - 12:00am,11:30am - 03:00pm| saturday: 05:30pm - 12:00am,11:30am - 03:00pm| friday: 05:30pm - 12:00am,11:30am - 03:00pm| wednesday: 05:30pm - 12:00am,11:30am - 03:00pm| monday: 05:30pm - 12:00am,11:30am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.843036,
@@ -2568,6 +2800,7 @@ module.exports = function(app) {
     "name": "Nunsaram Korean Dessert Cafe (Orchard Central)",
     "category": "korean-desserts",
     "postal": "238896",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 10:00pm| friday: 11:00am - 10:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -2579,6 +2812,7 @@ module.exports = function(app) {
     "name": "Banana Tree",
     "category": "korean-desserts",
     "postal": "089133",
+    "description": "thursday: 09:00am - 07:00pm| sunday: 11:00am - 05:00pm| tuesday 09:00am - 07:00pm| saturday: 10:00am - 08:00pm| friday: 10:00am - 08:00pm| wednesday: 09:00am - 07:00pm| monday: 09:00am - 07:00pm",
     "latLong": {
       "coordinates": [
         103.841684,
@@ -2590,6 +2824,7 @@ module.exports = function(app) {
     "name": "O'ma Spoon (313@Somerset)",
     "category": "korean-desserts",
     "postal": "238895",
+    "description": "thursday: 11:15am - 10:15pm| sunday: 11:00am - 10:00pm| tuesday 11:15am - 10:15pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:15am - 10:15pm| monday: 11:15am - 10:15pm",
     "latLong": {
       "coordinates": [
         103.8383939,
@@ -2601,6 +2836,7 @@ module.exports = function(app) {
     "name": "Brunetti",
     "category": "italian",
     "postal": "247933",
+    "description": "thursday: 08:00am - 09:00pm| sunday: 08:00am - 09:00pm| tuesday 08:00am - 09:00pm| saturday: 08:00am - 10:00pm| friday: 08:00am - 10:00pm| wednesday: 08:00am - 09:00pm| monday: 08:00am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.823345,
@@ -2612,6 +2848,7 @@ module.exports = function(app) {
     "name": "La Pizzaiola (Braddell Heights Estate)",
     "category": "italian",
     "postal": "358987",
+    "description": "thursday: 11:30am - 03:00pm,05:30pm - 10:30pm| sunday: 11:30am - 10:30pm| tuesday | saturday: 11:30am - 03:00pm,05:30pm - 10:30pm| friday: 11:30am - 03:00pm,05:30pm - 10:30pm| wednesday: 11:30am - 03:00pm,05:30pm - 10:30pm| monday: 11:30am - 03:00pm,05:30pm - 10:30pm",
     "latLong": {
       "coordinates": [
         103.867568,
@@ -2623,6 +2860,7 @@ module.exports = function(app) {
     "name": "Ah Bong's Italian (Tan Quee Lan)",
     "category": "italian",
     "postal": "189704",
+    "description": "thursday: 06:00pm - 09:00pm,12:00pm - 02:00pm| sunday: 06:00pm - 09:00pm,12:00pm - 02:30pm| tuesday 06:00pm - 09:00pm,12:00pm - 02:00pm| saturday: 06:00pm - 09:00pm,12:00pm - 02:30pm| friday: 06:00pm - 09:00pm,12:00pm - 02:00pm| wednesday: 06:00pm - 09:00pm,12:00pm - 02:00pm| monday: 06:00pm - 09:00pm,12:00pm - 02:00pm",
     "latLong": {
       "coordinates": [
         103.857215,
@@ -2634,6 +2872,7 @@ module.exports = function(app) {
     "name": "Portico (Alexandra)",
     "category": "italian",
     "postal": "119970",
+    "description": "thursday: 05:30pm - 11:30pm,11:30am - 03:00pm| sunday: closed| tuesday 05:30pm - 11:30pm,11:30am - 03:00pm| saturday: 05:30pm - 11:30pm,11:30am - 03:00pm| friday: 05:30pm - 11:30pm,11:30am - 03:00pm| wednesday: 05:30pm - 11:30pm,11:30am - 03:00pm| monday: 05:30pm - 11:30pm,11:30am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.803415,
@@ -2645,6 +2884,7 @@ module.exports = function(app) {
     "name": "Jamie's Italian (VivoCity)",
     "category": "italian",
     "postal": "098585",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 10:00pm| monday: 12:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.823012,
@@ -2656,6 +2896,7 @@ module.exports = function(app) {
     "name": "Alkaff Mansion Ristorante",
     "category": "italian",
     "postal": "109178",
+    "description": "thursday: 06:00pm - 11:00pm,11:30am - 03:00pm| sunday: 06:00pm - 11:00pm,11:30am - 03:00pm| tuesday 06:00pm - 11:00pm,11:30am - 03:00pm| saturday: 06:00pm - 11:00pm,11:30am - 03:00pm| friday: 06:00pm - 11:00pm,11:30am - 03:00pm| wednesday: 06:00pm - 11:00pm,11:30am - 03:00pm| monday: 06:00pm - 11:00pm,11:30am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.813289,
@@ -2665,8 +2906,9 @@ module.exports = function(app) {
   },
   {
     "name": "&SONS",
-    "category": "telok-ayer",
+    "category": "",
     "postal": "048422",
+    "description": "thursday: 05:00pm - 01:00am,12:00pm - 02:30pm| sunday: closed| tuesday 05:00pm - 01:00am,12:00pm - 02:30pm| saturday: 06:00pm - 02:00am| friday: 05:00pm - 01:00am,12:00pm - 02:30pm| wednesday: 05:00pm - 01:00am,12:00pm - 02:30pm| monday: 05:00pm - 01:00am,12:00pm - 02:30pm",
     "latLong": {
       "coordinates": [
         103.847478,
@@ -2678,6 +2920,7 @@ module.exports = function(app) {
     "name": "The Wicked Garlic (International Plaza)",
     "category": "italian",
     "postal": "079903",
+    "description": "thursday: 11:30am - 09:00pm| sunday: closed| tuesday 11:30am - 09:00pm| saturday: 10:30am - 08:00pm| friday: 11:30am - 09:00pm| wednesday: 11:30am - 09:00pm| monday: 11:30am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.845924,
@@ -2689,6 +2932,7 @@ module.exports = function(app) {
     "name": "Ah Bong's Italian (Tiong Bahru)",
     "category": "italian",
     "postal": "160056",
+    "description": "thursday: 10:00am - 02:00pm| sunday: closed| tuesday 10:00am - 02:00pm| saturday: 10:00am - 02:00pm| friday: 10:00am - 02:00pm| wednesday: 10:00am - 02:00pm| monday: 10:00am - 02:00pm",
     "latLong": {
       "coordinates": [
         103.8337559,
@@ -2700,6 +2944,7 @@ module.exports = function(app) {
     "name": "Cicheti",
     "category": "italian",
     "postal": "198901",
+    "description": "thursday: 12:00pm - 03:00pm,06:30pm - 11:00pm| sunday: closed| tuesday 12:00pm - 03:00pm,06:30pm - 11:00pm| saturday: 06:30pm - 11:00pm| friday: 12:00pm - 03:00pm,06:30pm - 11:00pm| wednesday: 12:00pm - 03:00pm,06:30pm - 11:00pm| monday: 12:00pm - 03:00pm,06:30pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.860124,
@@ -2711,6 +2956,7 @@ module.exports = function(app) {
     "name": "O'ma Spoon (313@Somerset)",
     "category": "korean",
     "postal": "238895",
+    "description": "thursday: 11:15am - 10:15pm| sunday: 11:00am - 10:00pm| tuesday 11:15am - 10:15pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:15am - 10:15pm| monday: 11:15am - 10:15pm",
     "latLong": {
       "coordinates": [
         103.8383939,
@@ -2722,6 +2968,7 @@ module.exports = function(app) {
     "name": "SYNC Korean Fusion Bistro (Westgate)",
     "category": "korean",
     "postal": "608532",
+    "description": "thursday: 11:00am - 11:00pm| sunday: 11:00am - 11:00pm| tuesday 11:00am - 11:00pm| saturday: 11:00am - 12:00am| friday: 11:00am - 12:00am| wednesday: 11:00am - 11:00pm| monday: 11:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -2733,6 +2980,7 @@ module.exports = function(app) {
     "name": "Vatos Urban Tacos",
     "category": "korean",
     "postal": "189766",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 12:00pm| friday: 12:00pm - 12:00pm| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -2742,8 +2990,9 @@ module.exports = function(app) {
   },
   {
     "name": "Banana Tree",
-    "category": "chinatown",
+    "category": "",
     "postal": "089133",
+    "description": "thursday: 09:00am - 07:00pm| sunday: 11:00am - 05:00pm| tuesday 09:00am - 07:00pm| saturday: 10:00am - 08:00pm| friday: 10:00am - 08:00pm| wednesday: 09:00am - 07:00pm| monday: 09:00am - 07:00pm",
     "latLong": {
       "coordinates": [
         103.841684,
@@ -2755,6 +3004,7 @@ module.exports = function(app) {
     "name": "Kim Dae Mun (Concorde Hotel)",
     "category": "korean",
     "postal": "238840",
+    "description": "thursday: 11:00am - 08:30pm| sunday: 11:00am - 08:30pm| tuesday 11:00am - 08:30pm| saturday: 11:00am - 08:30pm| friday: 11:00am - 08:30pm| wednesday: 11:00am - 08:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.842224,
@@ -2766,6 +3016,7 @@ module.exports = function(app) {
     "name": "Masizzim Singapore",
     "category": "korean",
     "postal": "238895",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.8383939,
@@ -2777,6 +3028,7 @@ module.exports = function(app) {
     "name": "K. COOK Korean BBQ Buffet (Orchard Central)",
     "category": "korean",
     "postal": "238896",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:30am - 10:00pm| friday: 11:30am - 10:00pm| wednesday: 11:30am - 10:00pm| monday: 11:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -2788,6 +3040,7 @@ module.exports = function(app) {
     "name": "Chir Chir Fusion Chicken Factory (313@Somerset)",
     "category": "korean",
     "postal": "238895",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.8383939,
@@ -2799,6 +3052,7 @@ module.exports = function(app) {
     "name": "Super Star K Korean BBQ Restaurant (Tanjong Pagar)",
     "category": "bbq",
     "postal": "088496",
+    "description": "thursday: 05:30pm - 12:00am,11:30am - 02:30pm| sunday: 05:30pm - 12:00am,11:30am - 02:30pm| tuesday 05:30pm - 12:00am,11:30am - 02:30pm| saturday: 05:30pm - 12:00am,11:30am - 02:30pm| friday: 05:30pm - 12:00am,11:30am - 02:30pm| wednesday: 05:30pm - 12:00am,11:30am - 02:30pm| monday: 05:30pm - 12:00am,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.843825,
@@ -2810,6 +3064,7 @@ module.exports = function(app) {
     "name": "Seorae Singapore - Korean Charcoal BBQ",
     "category": "korean-bbq",
     "postal": "238839",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:30am - 11:00pm| friday: 11:30am - 11:00pm| wednesday: 11:30am - 10:00pm| monday: 11:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.845411,
@@ -2821,6 +3076,7 @@ module.exports = function(app) {
     "name": "Nanta BBQ",
     "category": "korean-bbq",
     "postal": "307624",
+    "description": "thursday: 06:00pm - 11:00pm,11:30am - 03:00pm| sunday: 06:00pm - 11:00pm,11:30am - 03:00pm| tuesday 06:00pm - 11:00pm,11:30am - 03:00pm| saturday: 06:00pm - 11:00pm,11:30am - 03:00pm| friday: 06:00pm - 11:00pm,11:30am - 03:00pm| wednesday: 06:00pm - 11:00pm,11:30am - 03:00pm| monday: 06:00pm - 11:00pm,11:30am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.843975,
@@ -2832,6 +3088,7 @@ module.exports = function(app) {
     "name": "Wang Dae Bak Korean BBQ Restaurant (China Square Central)",
     "category": "korean-bbq",
     "postal": "048421",
+    "description": "thursday: 05:30pm - 10:30pm,11:30am - 02:30pm| sunday: closed| tuesday 05:30pm - 10:30pm,11:30am - 02:30pm| saturday: 05:30pm - 10:30pm,11:30am - 02:30pm| friday: 05:30pm - 10:30pm,11:30am - 02:30pm| wednesday: 05:30pm - 10:30pm,11:30am - 02:30pm| monday: 05:30pm - 10:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.84675,
@@ -2843,6 +3100,7 @@ module.exports = function(app) {
     "name": "8 Korean BBQ",
     "category": "korean-bbq",
     "postal": "059817",
+    "description": "thursday: 05:30pm - 10:30pm,11:30am - 02:30pm| sunday: 11:30am - 10:30pm| tuesday 05:30pm - 10:30pm,11:30am - 02:30pm| saturday: 11:30am - 10:30pm| friday: 05:30pm - 10:30pm,11:30am - 02:30pm| wednesday: 05:30pm - 10:30pm,11:30am - 02:30pm| monday: 05:30pm - 10:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.846694,
@@ -2852,8 +3110,9 @@ module.exports = function(app) {
   },
   {
     "name": "Yoogane (Bugis Junction)",
-    "category": "bugis",
+    "category": "",
     "postal": "188021",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 10:00pm| friday: 11:00am - 10:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.854921,
@@ -2863,8 +3122,9 @@ module.exports = function(app) {
   },
   {
     "name": "Kim's Family Food (Lorong Kilat)",
-    "category": "upper-bukit-timah",
+    "category": "",
     "postal": "598139",
+    "description": "thursday: 12:00pm - 03:00pm,05:30pm - 10:00pm| sunday: 05:30pm - 10:00pm| tuesday 12:00pm - 03:00pm,05:30pm - 10:00pm| saturday: 12:00pm - 03:00pm,05:30pm - 10:00pm| friday: 12:00pm - 03:00pm,05:30pm - 10:00pm| wednesday: 12:00pm - 03:00pm,05:30pm - 10:00pm| monday: 12:00pm - 03:00pm,05:30pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.774176,
@@ -2876,6 +3136,7 @@ module.exports = function(app) {
     "name": "Oven & Fried Chicken (Telok Ayer)",
     "category": "korean-fried-chicken",
     "postal": "068630",
+    "description": "thursday: 05:30pm - 12:00am,11:30am - 02:30pm| sunday: 04:00pm - 12:00am| tuesday 05:30pm - 12:00am,11:30am - 02:30pm| saturday: 04:00pm - 12:00am| friday: 05:30pm - 12:00am,11:30am - 02:30pm| wednesday: 05:30pm - 12:00am,11:30am - 02:30pm| monday: 05:30pm - 12:00am,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.847454,
@@ -2887,6 +3148,7 @@ module.exports = function(app) {
     "name": "K. COOK Korean BBQ Buffet (Orchard Central)",
     "category": "buffets",
     "postal": "238896",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:30am - 10:00pm| friday: 11:30am - 10:00pm| wednesday: 11:30am - 10:00pm| monday: 11:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -2898,6 +3160,7 @@ module.exports = function(app) {
     "name": "Choo Choo Chicken (Bugis)",
     "category": "korean-fried-chicken",
     "postal": "189869",
+    "description": "thursday: 11:30am - 11:00pm| sunday: 11:30am - 11:00pm| tuesday 11:30am - 11:00pm| saturday: 11:30am - 11:00pm| friday: 11:30am - 11:00pm| wednesday: 11:30am - 11:00pm| monday: 11:30am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.858373,
@@ -2909,6 +3172,7 @@ module.exports = function(app) {
     "name": "Chicken Up (Tampines)",
     "category": "korean-fried-chicken",
     "postal": "529509",
+    "description": "thursday: 11:30am - 11:00pm| sunday: 11:30am - 11:00pm| tuesday 11:30am - 11:00pm| saturday: 11:30am - 11:00pm| friday: 11:30am - 11:00pm| wednesday: 11:30am - 11:00pm| monday: 11:30am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.943831,
@@ -2918,8 +3182,9 @@ module.exports = function(app) {
   },
   {
     "name": "Jinjja Chicken",
-    "category": "bugis",
+    "category": "",
     "postal": "188034",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 11:30pm| friday: 11:00am - 11:30pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.855278,
@@ -2931,6 +3196,7 @@ module.exports = function(app) {
     "name": "Chick And Ken",
     "category": "korean-fried-chicken",
     "postal": "049033",
+    "description": "thursday: 06:00pm - 10:00pm,12:00pm - 03:00pm| sunday: closed| tuesday 06:00pm - 10:00pm,12:00pm - 03:00pm| saturday: 12:00pm - 10:00pm| friday: 06:00pm - 10:00pm,12:00pm - 03:00pm| wednesday: 06:00pm - 10:00pm,12:00pm - 03:00pm| monday: 06:00pm - 10:00pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.848622,
@@ -2942,6 +3208,7 @@ module.exports = function(app) {
     "name": "Chir Chir Fusion Chicken Factory (Chinatown Point)",
     "category": "korean-fried-chicken",
     "postal": "059413",
+    "description": "thursday: 11:00am - 03:00am| sunday: 11:00am - 03:00am| tuesday 11:00am - 03:00am| saturday: 11:00am - 03:00am| friday: 11:00am - 03:00am| wednesday: 11:00am - 03:00am| monday: 11:00am - 03:00am",
     "latLong": {
       "coordinates": [
         103.8449399,
@@ -2953,6 +3220,7 @@ module.exports = function(app) {
     "name": "Chicken Up (Tanjong Pagar)",
     "category": "korean-fried-chicken",
     "postal": "088469",
+    "description": "thursday: 05:30pm - 02:00am| sunday: 05:30pm - 12:00am| tuesday 05:30pm - 02:00am| saturday: 05:30pm - 03:00am| friday: 05:30pm - 03:00am| wednesday: 05:30pm - 02:00am| monday: 05:30pm - 02:00am",
     "latLong": {
       "coordinates": [
         103.843822,
@@ -2964,6 +3232,7 @@ module.exports = function(app) {
     "name": "Kko Kko Na Ra",
     "category": "korean-fried-chicken",
     "postal": "088489",
+    "description": "thursday: 11:00am - 03:00am| sunday: 11:00am - 03:00am| tuesday 11:00am - 03:00am| saturday: 11:00am - 03:00am| friday: 11:00am - 03:00am| wednesday: 11:00am - 03:00am| monday: 11:00am - 03:00am",
     "latLong": {
       "coordinates": [
         103.843881,
@@ -2975,6 +3244,7 @@ module.exports = function(app) {
     "name": "Twins",
     "category": "korean-fried-chicken",
     "postal": "089667",
+    "description": "thursday: 05:30pm - 12:00am,11:30am - 03:00pm| sunday: 05:30pm - 11:00pm| tuesday 05:30pm - 12:00am,11:30am - 03:00pm| saturday: 05:30pm - 12:00am,11:30am - 03:00pm| friday: 05:30pm - 12:00am,11:30am - 03:00pm| wednesday: 05:30pm - 12:00am,11:30am - 03:00pm| monday: 05:30pm - 12:00am,11:30am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.843036,
@@ -2986,6 +3256,7 @@ module.exports = function(app) {
     "name": "Huay Kwang Thai Kitchen (Thomson)",
     "category": "mookata",
     "postal": "574369",
+    "description": "thursday: 05:00pm - 11:00pm| sunday: 05:00pm - 11:00pm| tuesday 05:00pm - 11:00pm| saturday: 05:00pm - 02:00am| friday: 05:00pm - 02:00am| wednesday: 05:00pm - 11:00pm| monday: 05:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.834655,
@@ -2997,6 +3268,7 @@ module.exports = function(app) {
     "name": "Chir Chir Fusion Chicken Factory (313@Somerset)",
     "category": "korean-fried-chicken",
     "postal": "238895",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.8383939,
@@ -3008,6 +3280,7 @@ module.exports = function(app) {
     "name": "Tom Yum Kungfu (Serangoon)",
     "category": "mookata",
     "postal": "556680",
+    "description": "thursday: 06:00pm - 10:30pm,11:30am - 03:00pm| sunday: 11:30am - 10:30pm| tuesday 06:00pm - 10:30pm,11:30am - 03:00pm| saturday: 11:30am - 10:30pm| friday: 06:00pm - 10:30pm,11:30am - 03:00pm| wednesday: 06:00pm - 10:30pm,11:30am - 03:00pm| monday: 06:00pm - 10:30pm,11:30am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.865499,
@@ -3019,6 +3292,7 @@ module.exports = function(app) {
     "name": "Ladyboy - Mookata/Steamboat Cheese",
     "category": "mookata",
     "postal": "389574",
+    "description": "thursday: 06:00pm - 02:00am| sunday: 06:00pm - 02:00am| tuesday 06:00pm - 02:00am| saturday: 06:00pm - 02:00am| friday: 06:00pm - 02:00am| wednesday: 06:00pm - 02:00am| monday: 06:00pm - 02:00am",
     "latLong": {
       "coordinates": [
         103.889174,
@@ -3030,6 +3304,7 @@ module.exports = function(app) {
     "name": "New Udon Thai Food",
     "category": "mookata",
     "postal": "199588",
+    "description": "thursday: 11:00am - 09:00pm| sunday: 11:00am - 09:00pm| tuesday 11:00am - 09:00pm| saturday: 11:00am - 09:00pm| friday: 11:00am - 09:00pm| wednesday: 11:00am - 09:00pm| monday: 11:00am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.864945,
@@ -3041,6 +3316,7 @@ module.exports = function(app) {
     "name": "MooJaa (Keong Saik Road)",
     "category": "mookata",
     "postal": "089132",
+    "description": "thursday: 05:00pm - 06:00am| sunday: 12:00pm - 11:00pm| tuesday 05:00pm - 06:00am| saturday: 12:00pm - 06:00am| friday: 05:00pm - 06:00am| wednesday: 05:00pm - 06:00am| monday: 05:00pm - 06:00am",
     "latLong": {
       "coordinates": [
         103.841498,
@@ -3052,6 +3328,7 @@ module.exports = function(app) {
     "name": "Sedap Thai (Berseh Food Centre)",
     "category": "mookata",
     "postal": "208877",
+    "description": "thursday: 04:30pm - 10:30pm| sunday: closed| tuesday 04:30pm - 10:30pm| saturday: 04:30pm - 10:30pm| friday: 04:30pm - 10:30pm| wednesday: 04:30pm - 10:30pm| monday: 04:30pm - 10:30pm",
     "latLong": {
       "coordinates": [
         103.856771,
@@ -3063,6 +3340,7 @@ module.exports = function(app) {
     "name": "Tom Yum Kungfu (Boat Quay)",
     "category": "mookata",
     "postal": "049372",
+    "description": "thursday: 06:00pm - 10:30pm,11:30am - 02:30pm| sunday: 06:00pm - 10:30pm| tuesday 06:00pm - 10:30pm,11:30am - 02:30pm| saturday: 06:00pm - 10:30pm| friday: 06:00pm - 10:30pm,11:30am - 02:30pm| wednesday: 06:00pm - 10:30pm,11:30am - 02:30pm| monday: 06:00pm - 10:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.848912,
@@ -3074,6 +3352,7 @@ module.exports = function(app) {
     "name": "Super Loco",
     "category": "late-night",
     "postal": "238252",
+    "description": "thursday: 05:00pm - 12:00am| sunday: 10:00am - 03:30pm,05:00pm - 12:00am| tuesday 05:00pm - 12:00am| saturday: 10:00am - 03:30pm,05:00pm - 12:00am| friday: 05:00pm - 12:00am| wednesday: 05:00pm - 12:00am| monday: 05:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.839168,
@@ -3085,6 +3364,7 @@ module.exports = function(app) {
     "name": "Mu Parlour",
     "category": "late-night",
     "postal": "277677",
+    "description": "thursday: 11:00am - 11:00pm| sunday: 11:00am - 11:00pm| tuesday 11:00am - 11:00pm| saturday: 11:00am - 01:00am| friday: 11:00am - 01:00am| wednesday: 11:00am - 11:00pm| monday: 11:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.795059,
@@ -3096,6 +3376,7 @@ module.exports = function(app) {
     "name": "Kko Kko Na Ra",
     "category": "late-night",
     "postal": "088489",
+    "description": "thursday: 11:00am - 03:00am| sunday: 11:00am - 03:00am| tuesday 11:00am - 03:00am| saturday: 11:00am - 03:00am| friday: 11:00am - 03:00am| wednesday: 11:00am - 03:00am| monday: 11:00am - 03:00am",
     "latLong": {
       "coordinates": [
         103.843881,
@@ -3107,6 +3388,7 @@ module.exports = function(app) {
     "name": "Manhattan Bar",
     "category": "late-night",
     "postal": "249715",
+    "description": "thursday: 05:00pm - 01:00am| sunday: 05:00pm - 01:00am| tuesday 05:00pm - 01:00am| saturday: 05:00pm - 01:00am| friday: 05:00pm - 01:00am| wednesday: 05:00pm - 01:00am| monday: 05:00pm - 01:00am",
     "latLong": {
       "coordinates": [
         103.824973,
@@ -3118,6 +3400,7 @@ module.exports = function(app) {
     "name": "Timbre+",
     "category": "late-night",
     "postal": "139957",
+    "description": "thursday: 06:00am - 12:00am| sunday: closed| tuesday 06:00am - 12:00am| saturday: 06:00am - 01:00am| friday: 06:00am - 01:00am| wednesday: 06:00am - 12:00am| monday: 06:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.787413,
@@ -3129,6 +3412,7 @@ module.exports = function(app) {
     "name": "Necessary Provisions",
     "category": "late-night",
     "postal": "598993",
+    "description": "thursday: 03:00pm - 12:00am| sunday: 11:00am - 06:00pm| tuesday | saturday: 11:00am - 12:00am| friday: 03:00pm - 12:00am| wednesday: 03:00pm - 12:00am| monday: closed",
     "latLong": {
       "coordinates": [
         103.768009,
@@ -3140,6 +3424,7 @@ module.exports = function(app) {
     "name": "Restaurant Andr",
     "category": "Michelin%2520Guide%2520Singapore",
     "postal": "089855",
+    "description": "thursday: 07:00pm - 11:00pm,12:00pm - 02:00pm| sunday: 07:00pm - 11:00pm,12:00pm - 02:00pm| tuesday 07:00pm - 11:00pm,12:00pm - 02:00pm| saturday: 07:00pm - 11:00pm,12:00pm - 02:00pm| friday: 07:00pm - 11:00pm,12:00pm - 02:00pm| wednesday: 07:00pm - 11:00pm,12:00pm - 02:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.840318,
@@ -3151,6 +3436,7 @@ module.exports = function(app) {
     "name": "Salted Caramel",
     "category": "late-night",
     "postal": "574370",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 02:00am| friday: 12:00pm - 02:00am| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.834316,
@@ -3162,6 +3448,7 @@ module.exports = function(app) {
     "name": "Hill Street Tai Hwa Pork Noodle",
     "category": "Michelin%2520Guide%2520Singapore",
     "postal": "190466",
+    "description": "thursday: 09:30am - 09:00pm| sunday: 09:30am - 09:00pm| tuesday 09:30am - 09:00pm| saturday: 09:30am - 09:00pm| friday: 09:30am - 09:00pm| wednesday: 09:30am - 09:00pm| monday: 09:30am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.862478,
@@ -3173,6 +3460,7 @@ module.exports = function(app) {
     "name": "LAtelier de Jol Robuchon",
     "category": "Michelin%2520Guide%2520Singapore",
     "postal": "098269",
+    "description": "thursday: 11:30am - 02:30pm,06:00pm - 10:00pm| sunday: 12:00pm - 02:00pm,06:00pm - 10:30pm| tuesday 11:30am - 02:30pm,06:00pm - 10:00pm| saturday: 11:30am - 02:30pm,06:00pm - 10:00pm| friday: 11:30am - 02:30pm,06:00pm - 10:00pm| wednesday: 11:30am - 02:30pm,06:00pm - 10:00pm| monday: 11:30am - 02:30pm,06:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.820331,
@@ -3184,6 +3472,7 @@ module.exports = function(app) {
     "name": "Hong Kong Soya Sauce Chicken Rice & Noodle (Chinatown Complex Market & Food Centre)",
     "category": "Michelin%2520Guide%2520Singapore",
     "postal": "050335",
+    "description": "thursday: 10:30am - 07:00pm| sunday: 08:30am - 07:00pm| tuesday 10:30am - 07:00pm| saturday: 08:30am - 07:00pm| friday: 10:30am - 07:00pm| wednesday: closed| monday: 10:30am - 07:00pm",
     "latLong": {
       "coordinates": [
         103.843098,
@@ -3195,6 +3484,7 @@ module.exports = function(app) {
     "name": "Osia",
     "category": "Michelin%2520Guide%2520Singapore",
     "postal": "098139",
+    "description": "thursday: 06:00pm - 10:30pm,12:00pm - 03:00pm| sunday: 06:00pm - 10:30pm,12:00pm - 03:00pm| tuesday 06:00pm - 10:30pm,12:00pm - 03:00pm| saturday: 06:00pm - 10:30pm,12:00pm - 03:00pm| friday: 06:00pm - 10:30pm,12:00pm - 03:00pm| wednesday: closed| monday: 06:00pm - 10:30pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.819265,
@@ -3204,8 +3494,9 @@ module.exports = function(app) {
   },
   {
     "name": "Candlenut",
-    "category": "outram-park",
+    "category": "",
     "postal": "088764",
+    "description": "thursday: 12:00pm - 02:30pm,06:00pm - 10:00pm| sunday: closed| tuesday 12:00pm - 02:30pm,06:00pm - 10:00pm| saturday: 06:00pm - 10:00pm| friday: 12:00pm - 02:30pm,06:00pm - 10:00pm| wednesday: 12:00pm - 02:30pm,06:00pm - 10:00pm| monday: 12:00pm - 02:30pm,06:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -3217,6 +3508,7 @@ module.exports = function(app) {
     "name": "Stuff'd (City Square Mall)",
     "category": "mexican",
     "postal": "208539",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.85662,
@@ -3228,6 +3520,7 @@ module.exports = function(app) {
     "name": "Odette",
     "category": "Michelin%2520Guide%2520Singapore",
     "postal": "178957",
+    "description": "thursday: 06:00pm - 09:45pm,12:00pm - 01:45pm| sunday: closed| tuesday 06:00pm - 09:45pm,12:00pm - 01:45pm| saturday: 06:00pm - 09:45pm,12:00pm - 01:45pm| friday: 06:00pm - 09:45pm,12:00pm - 01:45pm| wednesday: 06:00pm - 09:45pm,12:00pm - 01:45pm| monday: 06:00pm - 09:45pm,12:00pm - 01:45pm",
     "latLong": {
       "coordinates": [
         103.851285,
@@ -3239,6 +3532,7 @@ module.exports = function(app) {
     "name": "Baja Fresh Mexican Grill (Rendezvous Gallery)",
     "category": "mexican",
     "postal": "189559",
+    "description": "thursday: 08:30am - 10:00pm| sunday: 08:30am - 11:00pm| tuesday 08:30am - 10:00pm| saturday: 08:30am - 11:00pm| friday: 08:30am - 11:00pm| wednesday: 08:30am - 10:00pm| monday: 08:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.848947,
@@ -3250,6 +3544,7 @@ module.exports = function(app) {
     "name": "Barrio by Mex Out",
     "category": "mexican",
     "postal": "238895",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.8383939,
@@ -3261,6 +3556,7 @@ module.exports = function(app) {
     "name": "JAAN",
     "category": "Michelin%2520Guide%2520Singapore",
     "postal": "178882",
+    "description": "thursday: 07:00pm - 11:00pm,12:00pm - 02:30pm| sunday: 07:00pm - 11:00pm| tuesday 07:00pm - 11:00pm,12:00pm - 02:30pm| saturday: 07:00pm - 11:00pm,12:00pm - 02:30pm| friday: 07:00pm - 11:00pm,12:00pm - 02:30pm| wednesday: 07:00pm - 11:00pm,12:00pm - 02:30pm| monday: 07:00pm - 11:00pm,12:00pm - 02:30pm",
     "latLong": {
       "coordinates": [
         103.852879,
@@ -3272,6 +3568,7 @@ module.exports = function(app) {
     "name": "Belmonte Latin Foods",
     "category": "mexican",
     "postal": "276696",
+    "description": "thursday: 01:00pm - 09:00pm| sunday: 11:00am - 09:00pm| tuesday 01:00pm - 09:00pm| saturday: 11:00am - 09:00pm| friday: 01:00pm - 09:00pm| wednesday: 01:00pm - 09:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.7789729,
@@ -3283,6 +3580,7 @@ module.exports = function(app) {
     "name": "Santa Fe Tex-Mex Grill",
     "category": "mexican",
     "postal": "018988",
+    "description": "thursday: 12:00pm - 03:00pm,06:00pm - 10:00pm| sunday: 12:00pm - 03:00pm,06:00pm - 10:00pm| tuesday 12:00pm - 03:00pm,06:00pm - 10:00pm| saturday: 12:00pm - 03:00pm,06:00pm - 10:00pm| friday: 12:00pm - 03:00pm,06:00pm - 10:00pm| wednesday: 12:00pm - 03:00pm,06:00pm - 10:00pm| monday: 06:00pm - 10:00pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.863253,
@@ -3294,6 +3592,7 @@ module.exports = function(app) {
     "name": "Burp Kitchen & Bar",
     "category": "mexican",
     "postal": "470740",
+    "description": "thursday: 12:00pm - 12:00am| sunday: 11:00am - 12:00am| tuesday 12:00pm - 12:00am| saturday: 11:00am - 12:00am| friday: 12:00pm - 12:00am| wednesday: 12:00pm - 12:00am| monday: closed",
     "latLong": {
       "coordinates": [
         103.922697,
@@ -3305,6 +3604,7 @@ module.exports = function(app) {
     "name": "Lucha Loco",
     "category": "mexican",
     "postal": "089598",
+    "description": "thursday: 05:00pm - 12:00am| sunday: closed| tuesday 05:00pm - 12:00am| saturday: 06:00pm - 01:00am| friday: 05:00pm - 01:00am| wednesday: 05:00pm - 12:00am| monday: closed",
     "latLong": {
       "coordinates": [
         103.842798,
@@ -3316,6 +3616,7 @@ module.exports = function(app) {
     "name": "Muchachos",
     "category": "mexican",
     "postal": "089129",
+    "description": "thursday: 12:00pm - 12:00am| sunday: closed| tuesday 12:00pm - 12:00am| saturday: 12:00pm - 12:00am| friday: 12:00pm - 12:00am| wednesday: 12:00pm - 12:00am| monday: 12:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.841658,
@@ -3327,6 +3628,7 @@ module.exports = function(app) {
     "name": "Super Loco",
     "category": "mexican",
     "postal": "238252",
+    "description": "thursday: 05:00pm - 12:00am| sunday: 10:00am - 03:30pm,05:00pm - 12:00am| tuesday 05:00pm - 12:00am| saturday: 10:00am - 03:30pm,05:00pm - 12:00am| friday: 05:00pm - 12:00am| wednesday: 05:00pm - 12:00am| monday: 05:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.839168,
@@ -3338,6 +3640,7 @@ module.exports = function(app) {
     "name": "Alaturka",
     "category": "mediterranean",
     "postal": "199437",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.859851,
@@ -3349,6 +3652,7 @@ module.exports = function(app) {
     "name": "Vatos Urban Tacos",
     "category": "mexican",
     "postal": "189766",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 12:00pm| friday: 12:00pm - 12:00pm| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -3360,6 +3664,7 @@ module.exports = function(app) {
     "name": "Corner House",
     "category": "Michelin%2520Guide%2520Singapore",
     "postal": "259569",
+    "description": "thursday: 06:30pm - 11:00pm,12:00pm - 03:00pm| sunday: 11:30am - 03:00pm,06:30pm - 11:00pm| tuesday 06:30pm - 11:00pm,12:00pm - 03:00pm| saturday: 06:30pm - 11:00pm,12:00pm - 03:00pm| friday: 06:30pm - 11:00pm,12:00pm - 03:00pm| wednesday: 06:30pm - 11:00pm,12:00pm - 03:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.814733,
@@ -3371,6 +3676,7 @@ module.exports = function(app) {
     "name": "Derwish Turkish Restaurant",
     "category": "mediterranean",
     "postal": "199476",
+    "description": "thursday: 11:00am - 11:00pm| sunday: 11:00am - 11:00pm| tuesday 11:00am - 11:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 11:00pm| monday: 11:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.859492,
@@ -3382,6 +3688,7 @@ module.exports = function(app) {
     "name": "The Knolls (Capella Singapore)",
     "category": "mediterranean",
     "postal": "098297",
+    "description": "thursday: 07:00am - 11:00pm| sunday: 07:00am - 11:00pm| tuesday 07:00am - 11:00pm| saturday: 07:00am - 11:00pm| friday: 07:00am - 11:00pm| wednesday: 07:00am - 11:00pm| monday: 07:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.82444,
@@ -3393,6 +3700,7 @@ module.exports = function(app) {
     "name": "ALATI",
     "category": "mediterranean",
     "postal": "069892",
+    "description": "thursday: 12:00pm - 02:30pm,06:00pm - 12:00am| sunday: closed| tuesday 12:00pm - 02:30pm,06:00pm - 12:00am| saturday: 06:00pm - 12:00am| friday: 12:00pm - 02:30pm,06:00pm - 12:00am| wednesday: 12:00pm - 02:30pm,06:00pm - 12:00am| monday: 12:00pm - 02:30pm,06:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.846796,
@@ -3404,6 +3712,7 @@ module.exports = function(app) {
     "name": "Blu Kouzina",
     "category": "mediterranean",
     "postal": "247700",
+    "description": "thursday: 06:00pm - 10:00pm| sunday: 12:00pm - 02:00pm,06:00pm - 10:00pm| tuesday 06:00pm - 10:00pm| saturday: 12:00pm - 02:00pm,06:00pm - 10:00pm| friday: 12:00pm - 02:00pm,06:00pm - 10:00pm| wednesday: 06:00pm - 10:00pm| monday: 06:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.810325,
@@ -3415,6 +3724,7 @@ module.exports = function(app) {
     "name": "Pita Pan (Marina Bay Sands)",
     "category": "mediterranean",
     "postal": "018972",
+    "description": "thursday: 11:00am - 11:00pm| sunday: 11:00am - 12:00am,11:00am - 11:00pm| tuesday 11:00am - 11:00pm| saturday: 11:00am - 12:00am| friday: 11:00am - 12:00am| wednesday: 11:00am - 11:00pm| monday: 11:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.858846,
@@ -3426,6 +3736,7 @@ module.exports = function(app) {
     "name": "Mykonos on the bay",
     "category": "mediterranean",
     "postal": "Singapore",
+    "description": "thursday: 06:00pm - 11:00pm| sunday: closed| tuesday | saturday: 11:00am - 11:00pm| friday: 12:00pm - 02:00pm| wednesday: 06:00pm - 11:00pm| monday: 06:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.8677444,
@@ -3437,6 +3748,7 @@ module.exports = function(app) {
     "name": "KOOKS Creamery",
     "category": "newly-opened",
     "postal": "550211",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.873213,
@@ -3448,6 +3760,7 @@ module.exports = function(app) {
     "name": "Maggie Joan's",
     "category": "mediterranean",
     "postal": "069930",
+    "description": "thursday: 06:00pm - 11:00pm| sunday: closed| tuesday 06:00pm - 11:00pm| saturday: 06:00pm - 11:00pm| friday: 06:00pm - 11:00pm| wednesday: 06:00pm - 11:00pm| monday: 06:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.847628,
@@ -3459,6 +3772,7 @@ module.exports = function(app) {
     "name": "Ptissez",
     "category": "newly-opened",
     "postal": "278997",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 09:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 09:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         -81.58210079999999,
@@ -3470,6 +3784,7 @@ module.exports = function(app) {
     "name": "Tempura Kohaku",
     "category": "newly-opened",
     "postal": "038983",
+    "description": "thursday: 11:00am - 11:00pm| sunday: 11:00am - 11:00pm| tuesday 11:00am - 11:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 11:00pm| monday: 11:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.858967,
@@ -3481,6 +3796,7 @@ module.exports = function(app) {
     "name": "UsQuBa - Scottish Restaurant & Bar",
     "category": "newly-opened",
     "postal": "049213",
+    "description": "thursday: 11:30am - 12:00am| sunday: 11:00am - 10:30pm| tuesday 11:30am - 12:00am| saturday: 11:30am - 01:00am| friday: 11:30am - 01:00am| wednesday: 11:30am - 12:00am| monday: 11:30am - 12:00am",
     "latLong": {
       "coordinates": [
         103.853889,
@@ -3492,6 +3808,7 @@ module.exports = function(app) {
     "name": "Noshery at Nosh",
     "category": "newly-opened",
     "postal": "139220",
+    "description": "thursday: 11:30am - 10:30pm| sunday: 10:30am - 10:30pm| tuesday 11:30am - 10:30pm| saturday: 10:30am - 10:30pm| friday: 11:30am - 10:30pm| wednesday: 11:30am - 10:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.7876689,
@@ -3503,6 +3820,7 @@ module.exports = function(app) {
     "name": "Kyushu Pancake Caf",
     "category": "newly-opened",
     "postal": "307645",
+    "description": "thursday: 11:00am - 09:00pm| sunday: 11:00am - 09:00pm| tuesday 11:00am - 09:00pm| saturday: 11:00am - 09:00pm| friday: 11:00am - 09:00pm| wednesday: 11:00am - 09:00pm| monday: 11:00am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.841622,
@@ -3514,6 +3832,7 @@ module.exports = function(app) {
     "name": "Ah Bong's Italian (Tan Quee Lan)",
     "category": "newly-opened",
     "postal": "189704",
+    "description": "thursday: 06:00pm - 09:00pm,12:00pm - 02:00pm| sunday: 06:00pm - 09:00pm,12:00pm - 02:30pm| tuesday 06:00pm - 09:00pm,12:00pm - 02:00pm| saturday: 06:00pm - 09:00pm,12:00pm - 02:30pm| friday: 06:00pm - 09:00pm,12:00pm - 02:00pm| wednesday: 06:00pm - 09:00pm,12:00pm - 02:00pm| monday: 06:00pm - 09:00pm,12:00pm - 02:00pm",
     "latLong": {
       "coordinates": [
         103.857215,
@@ -3525,6 +3844,7 @@ module.exports = function(app) {
     "name": "Open Farm Community",
     "category": "pasta",
     "postal": "248819",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 11:00am - 10:00pm| friday: 12:00pm - 10:00pm| wednesday: 12:00pm - 10:00pm| monday: 12:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.815495,
@@ -3536,6 +3856,7 @@ module.exports = function(app) {
     "name": "Boufe Boutique Cafe",
     "category": "pasta",
     "postal": "247974",
+    "description": "thursday: 08:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 08:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 08:00am - 10:00pm| wednesday: 08:00am - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.814598,
@@ -3547,6 +3868,7 @@ module.exports = function(app) {
     "name": "My Secret Hideout Peachy's",
     "category": "pasta",
     "postal": "198771",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.860415,
@@ -3558,6 +3880,7 @@ module.exports = function(app) {
     "name": "Miam Miam (Bugis Junction)",
     "category": "pasta",
     "postal": "188021",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:30am - 10:00pm| friday: 11:30am - 10:00pm| wednesday: 11:30am - 10:00pm| monday: 11:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.854921,
@@ -3569,6 +3892,7 @@ module.exports = function(app) {
     "name": "49 Seats (Kreta Ayer)",
     "category": "pasta",
     "postal": "089007",
+    "description": "thursday: 06:00pm - 02:00am| sunday: closed| tuesday 06:00pm - 02:00am| saturday: 06:00pm - 05:30am| friday: 06:00pm - 05:30am| wednesday: 06:00pm - 02:00am| monday: 06:00pm - 02:00am",
     "latLong": {
       "coordinates": [
         103.842125,
@@ -3578,8 +3902,9 @@ module.exports = function(app) {
   },
   {
     "name": "The Wicked Garlic (International Plaza)",
-    "category": "tanjong-pagar",
+    "category": "",
     "postal": "079903",
+    "description": "thursday: 11:30am - 09:00pm| sunday: closed| tuesday 11:30am - 09:00pm| saturday: 10:30am - 08:00pm| friday: 11:30am - 09:00pm| wednesday: 11:30am - 09:00pm| monday: 11:30am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.845924,
@@ -3591,6 +3916,7 @@ module.exports = function(app) {
     "name": "Ah Bong's Italian (Tiong Bahru)",
     "category": "pasta",
     "postal": "160056",
+    "description": "thursday: 10:00am - 02:00pm| sunday: closed| tuesday 10:00am - 02:00pm| saturday: 10:00am - 02:00pm| friday: 10:00am - 02:00pm| wednesday: 10:00am - 02:00pm| monday: 10:00am - 02:00pm",
     "latLong": {
       "coordinates": [
         103.8337559,
@@ -3602,6 +3928,7 @@ module.exports = function(app) {
     "name": "Cicheti",
     "category": "pasta",
     "postal": "198901",
+    "description": "thursday: 12:00pm - 03:00pm,06:30pm - 11:00pm| sunday: closed| tuesday 12:00pm - 03:00pm,06:30pm - 11:00pm| saturday: 06:30pm - 11:00pm| friday: 12:00pm - 03:00pm,06:30pm - 11:00pm| wednesday: 12:00pm - 03:00pm,06:30pm - 11:00pm| monday: 12:00pm - 03:00pm,06:30pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.860124,
@@ -3613,6 +3940,7 @@ module.exports = function(app) {
     "name": "Hyde & Co.",
     "category": "pasta",
     "postal": "198753",
+    "description": "thursday: 11:00am - 09:00pm| sunday: 11:00am - 06:00pm| tuesday | saturday: 11:00am - 09:00pm| friday: 11:00am - 09:00pm| wednesday: 11:00am - 09:00pm| monday: 11:00am - 06:00pm",
     "latLong": {
       "coordinates": [
         103.859887,
@@ -3624,6 +3952,7 @@ module.exports = function(app) {
     "name": "LAtelier de Jol Robuchon",
     "category": "fine-dining",
     "postal": "098269",
+    "description": "thursday: 11:30am - 02:30pm,06:00pm - 10:00pm| sunday: 12:00pm - 02:00pm,06:00pm - 10:30pm| tuesday 11:30am - 02:30pm,06:00pm - 10:00pm| saturday: 11:30am - 02:30pm,06:00pm - 10:00pm| friday: 11:30am - 02:30pm,06:00pm - 10:00pm| wednesday: 11:30am - 02:30pm,06:00pm - 10:00pm| monday: 11:30am - 02:30pm,06:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.820331,
@@ -3635,6 +3964,7 @@ module.exports = function(app) {
     "name": "The Disgruntled Chef (Dempsey)",
     "category": "fine-dining",
     "postal": "247693",
+    "description": "thursday: 06:00pm - 12:00am,12:00pm - 02:30pm| sunday: 06:00pm - 12:00am,12:00pm - 05:00pm| tuesday 06:00pm - 12:00am,12:00pm - 02:30pm| saturday: 06:00pm - 01:00am,12:00pm - 02:30pm| friday: 06:00pm - 01:00am,12:00pm - 02:30pm| wednesday: 06:00pm - 12:00am,12:00pm - 02:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.811494,
@@ -3644,8 +3974,9 @@ module.exports = function(app) {
   },
   {
     "name": "Skyve Wine Bistro",
-    "category": "newton",
+    "category": "",
     "postal": "227977",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 10:00am - 10:00pm| tuesday 12:00pm - 11:00pm| saturday: 10:00am - 01:00am| friday: 10:00am - 01:00am| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.841466,
@@ -3657,6 +3988,7 @@ module.exports = function(app) {
     "name": "Ding Dong",
     "category": "chinese",
     "postal": "069935",
+    "description": "thursday: 12:00pm - 03:00pm,06:00pm - 12:00am| sunday: closed| tuesday 12:00pm - 03:00pm,06:00pm - 12:00am| saturday: 06:00pm - 12:00am| friday: 12:00pm - 03:00pm,06:00pm - 12:00am| wednesday: 12:00pm - 03:00pm,06:00pm - 12:00am| monday: 12:00pm - 03:00pm,06:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.847803,
@@ -3668,6 +4000,7 @@ module.exports = function(app) {
     "name": "La Petite Cuisine (Bukit Timah)",
     "category": "french",
     "postal": "248748",
+    "description": "thursday: 11:30am - 02:30pm,05:30pm - 09:30pm| sunday: 11:30am - 02:30pm,05:30pm - 09:00pm| tuesday 11:30am - 02:30pm,05:30pm - 09:30pm| saturday: 11:30am - 02:30pm,05:30pm - 09:30pm| friday: 11:30am - 02:30pm,05:30pm - 09:30pm| wednesday: 11:30am - 02:30pm,05:30pm - 09:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -3679,6 +4012,7 @@ module.exports = function(app) {
     "name": "Sumiya Charcoal Grill Izakaya (Orchard Central)",
     "category": "dinner-with-drinks",
     "postal": "238896",
+    "description": "thursday: 06:00pm - 10:30pm,12:00pm - 03:00pm| sunday: 06:00pm - 10:30pm,12:00pm - 03:00pm| tuesday 06:00pm - 10:30pm,12:00pm - 03:00pm| saturday: 06:00pm - 10:30pm,12:00pm - 03:00pm| friday: 06:00pm - 10:30pm,12:00pm - 03:00pm| wednesday: 06:00pm - 10:30pm,12:00pm - 03:00pm| monday: 06:00pm - 10:30pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -3690,6 +4024,7 @@ module.exports = function(app) {
     "name": "Thien Kee Steamboat Restaurant (Golden Mile Tower)",
     "category": "chicken-rice",
     "postal": "199589",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 10:00pm| friday: 11:00am - 10:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.864082,
@@ -3701,6 +4036,7 @@ module.exports = function(app) {
     "name": "Hong Kong Soya Sauce Chicken Rice & Noodle (Chinatown Complex Market & Food Centre)",
     "category": "chicken-rice",
     "postal": "050335",
+    "description": "thursday: 10:30am - 07:00pm| sunday: 08:30am - 07:00pm| tuesday 10:30am - 07:00pm| saturday: 08:30am - 07:00pm| friday: 10:30am - 07:00pm| wednesday: closed| monday: 10:30am - 07:00pm",
     "latLong": {
       "coordinates": [
         103.843098,
@@ -3712,6 +4048,7 @@ module.exports = function(app) {
     "name": "RONIN",
     "category": "breakfast-and-brunch",
     "postal": "059660",
+    "description": "thursday: 08:00am - 06:00pm| sunday: 08:00am - 07:30pm| tuesday 08:00am - 06:00pm| saturday: 08:00am - 07:30pm| friday: 08:00am - 06:00pm| wednesday: 08:00am - 06:00pm| monday: 08:00am - 06:00pm",
     "latLong": {
       "coordinates": [
         103.847304,
@@ -3723,6 +4060,7 @@ module.exports = function(app) {
     "name": "Common Man Coffee Roasters",
     "category": "desserts",
     "postal": "239058",
+    "description": "thursday: 07:30am - 06:00pm| sunday: 07:30am - 06:00pm| tuesday 07:30am - 06:00pm| saturday: 07:30am - 06:00pm| friday: 07:30am - 06:00pm| wednesday: 07:30am - 06:00pm| monday: 07:30am - 06:00pm",
     "latLong": {
       "coordinates": [
         103.83831,
@@ -3734,6 +4072,7 @@ module.exports = function(app) {
     "name": "Creamier (Toa Payoh)",
     "category": "desserts",
     "postal": "310128",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8443379,
@@ -3745,6 +4084,7 @@ module.exports = function(app) {
     "name": "Kilo At Pact",
     "category": "date-night",
     "postal": "238896",
+    "description": "thursday: 05:30pm - 10:00pm,11:30am - 02:15pm| sunday: 11:00am - 06:00pm| tuesday 05:30pm - 10:00pm,11:30am - 02:15pm| saturday: 05:30pm - 10:00pm,11:30am - 02:15pm| friday: 05:30pm - 10:00pm,11:30am - 02:15pm| wednesday: 05:30pm - 10:00pm,11:30am - 02:15pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -3756,6 +4096,7 @@ module.exports = function(app) {
     "name": "Teppei Japanese Restaurant",
     "category": "date-night",
     "postal": "078867",
+    "description": "thursday: 06:30pm - 10:30pm,11:45am - 02:30pm| sunday: closed| tuesday 06:30pm - 10:30pm,11:45am - 02:30pm| saturday: 06:30pm - 10:30pm,12:00pm - 02:30pm| friday: 06:30pm - 10:30pm,11:45am - 02:30pm| wednesday: 06:30pm - 10:30pm,11:45am - 02:30pm| monday: 06:30pm - 10:30pm,11:45am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.843891,
@@ -3767,6 +4108,7 @@ module.exports = function(app) {
     "name": "boCHINche",
     "category": "date-night",
     "postal": "069935",
+    "description": "thursday: 06:00pm - 10:30pm,12:00pm - 02:30pm| sunday: 11:00am - 03:00pm| tuesday 06:00pm - 10:30pm,12:00pm - 02:30pm| saturday: 11:00am - 03:00pm,06:00pm - 11:00pm| friday: 06:00pm - 11:00pm,12:00pm - 02:30pm| wednesday: 06:00pm - 10:30pm,12:00pm - 02:30pm| monday: 06:00pm - 10:30pm,12:00pm - 02:30pm",
     "latLong": {
       "coordinates": [
         103.847803,
@@ -3778,6 +4120,7 @@ module.exports = function(app) {
     "name": "New Ubin Seafood",
     "category": "cheap-and-good",
     "postal": "575680",
+    "description": "thursday: 05:30pm - 10:30pm,11:30am - 02:30pm| sunday: 05:30pm - 10:30pm,11:30am - 02:30pm| tuesday 05:30pm - 10:30pm,11:30am - 02:30pm| saturday: 05:30pm - 10:30pm,11:30am - 02:30pm| friday: 05:30pm - 10:30pm,11:30am - 02:30pm| wednesday: 05:30pm - 10:30pm,11:30am - 02:30pm| monday: 05:30pm - 10:30pm,11:30am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.839838,
@@ -3789,6 +4132,7 @@ module.exports = function(app) {
     "name": "Ah Bong's Italian (Tiong Bahru)",
     "category": "cheap-and-good",
     "postal": "160056",
+    "description": "thursday: 10:00am - 02:00pm| sunday: closed| tuesday 10:00am - 02:00pm| saturday: 10:00am - 02:00pm| friday: 10:00am - 02:00pm| wednesday: 10:00am - 02:00pm| monday: 10:00am - 02:00pm",
     "latLong": {
       "coordinates": [
         103.8337559,
@@ -3800,6 +4144,7 @@ module.exports = function(app) {
     "name": "Swee Choon Dim Sum",
     "category": "cheap-and-good",
     "postal": "208882",
+    "description": "thursday: 06:00pm - 06:00am| sunday: 06:00pm - 06:00am| tuesday | saturday: 06:00pm - 06:00am| friday: 06:00pm - 06:00am| wednesday: 06:00pm - 06:00am| monday: 06:00pm - 06:00am",
     "latLong": {
       "coordinates": [
         103.857002,
@@ -3811,6 +4156,7 @@ module.exports = function(app) {
     "name": "Le Steak by Chef Amri  (Jalan Kayu)",
     "category": "cheap-and-good",
     "postal": "799472",
+    "description": "thursday: 03:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 03:00pm - 11:00pm| saturday: 12:00pm - 11:00pm| friday: 03:00pm - 11:00pm| wednesday: 03:00pm - 11:00pm| monday: 05:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.873212,
@@ -3822,6 +4168,7 @@ module.exports = function(app) {
     "name": "Creamier (Toa Payoh)",
     "category": "cafes-and-coffee",
     "postal": "310128",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 12:00pm - 10:00pm| saturday: 12:00pm - 11:00pm| friday: 12:00pm - 11:00pm| wednesday: 12:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8443379,
@@ -3833,6 +4180,7 @@ module.exports = function(app) {
     "name": "Common Man Coffee Roasters",
     "category": "cafes-and-coffee",
     "postal": "239058",
+    "description": "thursday: 07:30am - 06:00pm| sunday: 07:30am - 06:00pm| tuesday 07:30am - 06:00pm| saturday: 07:30am - 06:00pm| friday: 07:30am - 06:00pm| wednesday: 07:30am - 06:00pm| monday: 07:30am - 06:00pm",
     "latLong": {
       "coordinates": [
         103.83831,
@@ -3844,6 +4192,7 @@ module.exports = function(app) {
     "name": "Sin Lee Foods",
     "category": "cafes-and-coffee",
     "postal": "162004",
+    "description": "thursday: 11:00am - 09:00pm| sunday: 09:30am - 06:00pm| tuesday 11:00am - 09:00pm| saturday: 09:30am - 09:00pm| friday: 11:00am - 09:00pm| wednesday: 11:00am - 09:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8310429,
@@ -3855,6 +4204,7 @@ module.exports = function(app) {
     "name": "The Fabulous Baker Boy",
     "category": "breakfast-and-brunch",
     "postal": "179037",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 10:00am - 05:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8456701,
@@ -3866,6 +4216,7 @@ module.exports = function(app) {
     "name": "Sunday Folks",
     "category": "cafes-and-coffee",
     "postal": "278116",
+    "description": "thursday: 01:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 01:00pm - 10:00pm| saturday: 12:00pm - 11:00pm| friday: 01:00pm - 11:00pm| wednesday: 01:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.797152,
@@ -3877,6 +4228,7 @@ module.exports = function(app) {
     "name": "Chye Seng Huat Hardware",
     "category": "breakfast-and-brunch",
     "postal": "207563",
+    "description": "thursday: 09:00am - 07:00pm| sunday: 09:00am - 10:00pm| tuesday 09:00am - 07:00pm| saturday: 09:00am - 10:00pm| friday: 09:00am - 07:00pm| wednesday: 09:00am - 07:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.860015,
@@ -3888,6 +4240,7 @@ module.exports = function(app) {
     "name": "Sin Lee Foods",
     "category": "breakfast-and-brunch",
     "postal": "162004",
+    "description": "thursday: 11:00am - 09:00pm| sunday: 09:30am - 06:00pm| tuesday 11:00am - 09:00pm| saturday: 09:30am - 09:00pm| friday: 11:00am - 09:00pm| wednesday: 11:00am - 09:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8310429,
@@ -3899,6 +4252,7 @@ module.exports = function(app) {
     "name": "Lola's Cafe",
     "category": "cafes-and-coffee",
     "postal": "545893",
+    "description": "thursday: 10:00am - 11:30pm| sunday: 10:00am - 11:30pm| tuesday 10:00am - 11:30pm| saturday: 10:00am - 12:00am| friday: 10:00am - 12:00am| wednesday: 10:00am - 11:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.885948,
@@ -3910,6 +4264,7 @@ module.exports = function(app) {
     "name": "Common Man Coffee Roasters",
     "category": "breakfast-and-brunch",
     "postal": "239058",
+    "description": "thursday: 07:30am - 06:00pm| sunday: 07:30am - 06:00pm| tuesday 07:30am - 06:00pm| saturday: 07:30am - 06:00pm| friday: 07:30am - 06:00pm| wednesday: 07:30am - 06:00pm| monday: 07:30am - 06:00pm",
     "latLong": {
       "coordinates": [
         103.83831,
@@ -3921,6 +4276,7 @@ module.exports = function(app) {
     "name": "Tanuki Raw (Orchard Central)",
     "category": "cheap-and-good",
     "postal": "238896",
+    "description": "thursday: 11:00am - 10:30pm| sunday: 11:00am - 10:30pm| tuesday 11:00am - 10:30pm| saturday: 11:00am - 10:30pm| friday: 11:00am - 10:30pm| wednesday: 11:00am - 10:30pm| monday: 11:00am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -3932,6 +4288,7 @@ module.exports = function(app) {
     "name": "I Am",
     "category": "cafes-and-coffee",
     "postal": "188804",
+    "description": "thursday: 11:30am - 11:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 11:00pm| saturday: 11:30am - 01:00am| friday: 11:30am - 01:00am| wednesday: 11:30am - 11:00pm| monday: 11:30am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.858468,
@@ -3943,6 +4300,7 @@ module.exports = function(app) {
     "name": "136 Hong Kong Street Fish Head Steamboat (Clementi)",
     "category": "cheap-and-good",
     "postal": "120713",
+    "description": "thursday: 05:00pm - 10:45pm,11:00am - 02:00pm| sunday: 05:00pm - 10:45pm,11:00am - 02:00pm| tuesday 05:00pm - 10:45pm,11:00am - 02:00pm| saturday: 05:00pm - 10:45pm,11:00am - 02:00pm| friday: 05:00pm - 10:45pm,11:00am - 02:00pm| wednesday: 05:00pm - 10:45pm,11:00am - 02:00pm| monday: 05:00pm - 10:45pm,11:00am - 02:00pm",
     "latLong": {
       "coordinates": [
         103.762082,
@@ -3954,6 +4312,7 @@ module.exports = function(app) {
     "name": "Vatos Urban Tacos",
     "category": "bars",
     "postal": "189766",
+    "description": "thursday: 12:00pm - 11:00pm| sunday: 12:00pm - 11:00pm| tuesday 12:00pm - 11:00pm| saturday: 12:00pm - 12:00pm| friday: 12:00pm - 12:00pm| wednesday: 12:00pm - 11:00pm| monday: 12:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -3965,6 +4324,7 @@ module.exports = function(app) {
     "name": "Bincho",
     "category": "bars",
     "postal": "162078",
+    "description": "thursday: 06:00pm - 12:00am| sunday: 06:00pm - 12:00am,12:00pm - 03:00pm| tuesday 06:00pm - 12:00am| saturday: 06:00pm - 12:00am,12:00pm - 03:00pm| friday: 06:00pm - 12:00am| wednesday: 06:00pm - 12:00am| monday: closed",
     "latLong": {
       "coordinates": [
         103.830405,
@@ -3976,6 +4336,7 @@ module.exports = function(app) {
     "name": "Lola's Cafe",
     "category": "cheap-and-good",
     "postal": "545893",
+    "description": "thursday: 10:00am - 11:30pm| sunday: 10:00am - 11:30pm| tuesday 10:00am - 11:30pm| saturday: 10:00am - 12:00am| friday: 10:00am - 12:00am| wednesday: 10:00am - 11:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.885948,
@@ -3987,6 +4348,7 @@ module.exports = function(app) {
     "name": "A Noodle Story (Amoy Street Food Centre)",
     "category": "cheap-and-good",
     "postal": "069111",
+    "description": "thursday: 05:30pm - 07:30pm,11:15am - 02:30pm| sunday: closed| tuesday 05:30pm - 07:30pm,11:15am - 02:30pm| saturday: 10:30am - 01:30pm| friday: 05:30pm - 07:30pm,11:15am - 02:30pm| wednesday: 05:30pm - 07:30pm,11:15am - 02:30pm| monday: 05:30pm - 07:30pm,11:15am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.846712,
@@ -3998,6 +4360,7 @@ module.exports = function(app) {
     "name": "FOC Restaurant",
     "category": "bars",
     "postal": "059679",
+    "description": "thursday: 12:00pm - 12:00am| sunday: closed| tuesday 12:00pm - 12:00am| saturday: 12:00pm - 12:00am| friday: 12:00pm - 12:00am| wednesday: 12:00pm - 12:00am| monday: 12:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.847527,
@@ -4009,6 +4372,7 @@ module.exports = function(app) {
     "name": "Manhattan Bar",
     "category": "bars",
     "postal": "249715",
+    "description": "thursday: 05:00pm - 01:00am| sunday: 05:00pm - 01:00am| tuesday 05:00pm - 01:00am| saturday: 05:00pm - 01:00am| friday: 05:00pm - 01:00am| wednesday: 05:00pm - 01:00am| monday: 05:00pm - 01:00am",
     "latLong": {
       "coordinates": [
         103.824973,
@@ -4018,8 +4382,9 @@ module.exports = function(app) {
   },
   {
     "name": "Potato Head Folk",
-    "category": "outram-park",
+    "category": "",
     "postal": "089143",
+    "description": "thursday: 11:00am - 11:30pm| sunday: 11:00am - 11:30pm| tuesday 11:00am - 11:30pm| saturday: 11:00am - 11:30pm| friday: 11:00am - 11:30pm| wednesday: 11:00am - 11:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8417,
@@ -4031,6 +4396,7 @@ module.exports = function(app) {
     "name": "Timbre+",
     "category": "bars",
     "postal": "139957",
+    "description": "thursday: 06:00am - 12:00am| sunday: closed| tuesday 06:00am - 12:00am| saturday: 06:00am - 01:00am| friday: 06:00am - 01:00am| wednesday: 06:00am - 12:00am| monday: 06:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.787413,
@@ -4042,6 +4408,7 @@ module.exports = function(app) {
     "name": "Katanashi",
     "category": "bars",
     "postal": "049865",
+    "description": "thursday: 05:00pm - 11:30pm,11:45am - 02:30pm| sunday: closed| tuesday 05:00pm - 11:30pm,11:45am - 02:30pm| saturday: 05:00pm - 11:30pm| friday: 05:00pm - 11:30pm,11:45am - 02:30pm| wednesday: 05:00pm - 11:30pm,11:45am - 02:30pm| monday: 05:00pm - 11:30pm,11:45am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.849369,
@@ -4053,6 +4420,7 @@ module.exports = function(app) {
     "name": "The Beast",
     "category": "good-for-groups",
     "postal": "199329",
+    "description": "thursday: 05:00pm - 12:00am| sunday: 10:00am - 05:00pm| tuesday 05:00pm - 12:00am| saturday: 12:00pm - 01:00am| friday: 12:00pm - 01:00am| wednesday: 05:00pm - 12:00am| monday: 05:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.8596759,
@@ -4064,6 +4432,7 @@ module.exports = function(app) {
     "name": "Ikoi Japanese Restaurant",
     "category": "buffets",
     "postal": "Singapore",
+    "description": "thursday: 06:00pm - 11:00pm,11:30am - 02:00pm| sunday: 06:00pm - 11:00pm,11:30am - 02:00pm| tuesday 06:00pm - 11:00pm,11:30am - 02:00pm| saturday: 06:00pm - 11:00pm,11:30am - 02:00pm| friday: 06:00pm - 11:00pm,11:30am - 02:00pm| wednesday: 06:00pm - 11:00pm,11:30am - 02:00pm| monday: 06:00pm - 11:00pm,11:30am - 02:00pm",
     "latLong": {
       "coordinates": [
         103.8677444,
@@ -4075,6 +4444,7 @@ module.exports = function(app) {
     "name": "The Line (Shangri-La Hotel)",
     "category": "buffets",
     "postal": "258350",
+    "description": "thursday: 06:00pm - 10:30pm,12:00pm - 02:30pm| sunday: 06:00pm - 10:30pm,12:00pm - 03:00pm| tuesday 06:00pm - 10:30pm,12:00pm - 02:30pm| saturday: 12:00pm - 02:30pm,06:00pm - 10:30pm| friday: 06:00pm - 10:30pm,12:00pm - 02:30pm| wednesday: 06:00pm - 10:30pm,12:00pm - 02:30pm| monday: 06:00pm - 10:30pm,12:00pm - 02:30pm",
     "latLong": {
       "coordinates": [
         103.826781,
@@ -4086,6 +4456,7 @@ module.exports = function(app) {
     "name": "Basilico",
     "category": "buffets",
     "postal": "249715",
+    "description": "thursday: 06:30am - 10:00pm| sunday: 06:30am - 10:00pm| tuesday 06:30am - 10:00pm| saturday: 06:30am - 10:00pm| friday: 06:30am - 10:00pm| wednesday: 06:30am - 10:00pm| monday: 06:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.824973,
@@ -4097,6 +4468,7 @@ module.exports = function(app) {
     "name": "mezza9 (Grand Hyatt Singapore)",
     "category": "buffets",
     "postal": "228211",
+    "description": "thursday: 12:00pm - 03:00pm,06:00pm - 11:00pm| sunday: 06:00pm - 11:00pm,11:30am - 03:00pm| tuesday 12:00pm - 03:00pm,06:00pm - 11:00pm| saturday: 12:00pm - 03:00pm,06:00pm - 11:00pm| friday: 12:00pm - 03:00pm,06:00pm - 11:00pm| wednesday: 12:00pm - 03:00pm,06:00pm - 11:00pm| monday: 12:00pm - 03:00pm,06:00pm - 11:00pm",
     "latLong": {
       "coordinates": [
         103.832783,
@@ -4108,6 +4480,7 @@ module.exports = function(app) {
     "name": "Peach Blossoms",
     "category": "dim-sum",
     "postal": "039594",
+    "description": "thursday: 06:30pm - 10:30pm,12:00pm - 03:00pm| sunday: 06:30pm - 10:30pm,11:00am - 03:00pm| tuesday 06:30pm - 10:30pm,12:00pm - 03:00pm| saturday: 06:30pm - 10:30pm,11:00am - 03:00pm| friday: 06:30pm - 10:30pm,12:00pm - 03:00pm| wednesday: 06:30pm - 10:30pm,12:00pm - 03:00pm| monday: 06:30pm - 10:30pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.857422,
@@ -4117,8 +4490,9 @@ module.exports = function(app) {
   },
   {
     "name": "The Tuckshop",
-    "category": "geylang",
+    "category": "",
     "postal": "399795",
+    "description": "thursday: 11:00am - 12:00am| sunday: 11:00am - 12:00am| tuesday 11:00am - 12:00am| saturday: 11:00am - 12:00am| friday: 11:00am - 12:00am| wednesday: 11:00am - 12:00am| monday: 11:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.888695,
@@ -4130,6 +4504,7 @@ module.exports = function(app) {
     "name": "Alkaff Mansion Ristorante",
     "category": "buffets",
     "postal": "109178",
+    "description": "thursday: 06:00pm - 11:00pm,11:30am - 03:00pm| sunday: 06:00pm - 11:00pm,11:30am - 03:00pm| tuesday 06:00pm - 11:00pm,11:30am - 03:00pm| saturday: 06:00pm - 11:00pm,11:30am - 03:00pm| friday: 06:00pm - 11:00pm,11:30am - 03:00pm| wednesday: 06:00pm - 11:00pm,11:30am - 03:00pm| monday: 06:00pm - 11:00pm,11:30am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.813289,
@@ -4141,6 +4516,7 @@ module.exports = function(app) {
     "name": "Lime (PARKROYAL on Pickering)",
     "category": "buffets",
     "postal": "058289",
+    "description": "thursday: 06:30pm - 10:30pm,12:00pm - 02:30pm,06:30am - 10:30am| sunday: 06:30pm - 10:30pm,12:30pm - 04:30pm,06:30am - 11:00am| tuesday 06:30pm - 10:30pm,12:00pm - 02:30pm,06:30am - 10:30am| saturday: 06:30pm - 10:30pm,12:00pm - 02:30pm,06:30am - 11:00am| friday: 06:30pm - 10:30pm,12:00pm - 02:30pm,06:30am - 10:30am| wednesday: 06:30pm - 10:30pm,12:00pm - 02:30pm,06:30am - 10:30am| monday: 06:30pm - 10:30pm,12:00pm - 02:30pm,06:30am - 10:30am",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -4152,6 +4528,7 @@ module.exports = function(app) {
     "name": "Edge (Pan Pacific Singapore)",
     "category": "buffets",
     "postal": "039595",
+    "description": "thursday: 06:30pm - 10:30am,12:00pm - 02:30pm,06:00am - 11:00am| sunday: 06:30pm - 10:30am,06:00am - 11:00am| tuesday 06:30pm - 10:30am,12:00pm - 02:30pm,06:00am - 11:00am| saturday: 06:30pm - 10:30am,12:00pm - 04:00pm,06:00am - 11:00am| friday: 06:30pm - 10:30am,12:00pm - 02:30pm,06:00am - 11:00am| wednesday: 06:30pm - 10:30am,12:00pm - 02:30pm,06:00am - 11:00am| monday: 06:30pm - 10:30am,12:00pm - 02:30pm,06:00am - 11:00am",
     "latLong": {
       "coordinates": [
         103.858718,
@@ -4163,6 +4540,7 @@ module.exports = function(app) {
     "name": "The Lokal",
     "category": "date-night",
     "postal": "088865",
+    "description": "thursday: 08:00am - 10:30pm| sunday: 09:00am - 04:00pm| tuesday 08:00am - 10:30pm| saturday: 09:00am - 10:30pm| friday: 08:00am - 10:30pm| wednesday: 08:00am - 10:30pm| monday: 08:00am - 05:00pm",
     "latLong": {
       "coordinates": [
         103.841038,
@@ -4174,6 +4552,7 @@ module.exports = function(app) {
     "name": "Little Diner",
     "category": "burgers",
     "postal": "269763",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:00am - 10:30pm| friday: 11:30am - 10:30pm| wednesday: 11:30am - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.796463,
@@ -4185,6 +4564,7 @@ module.exports = function(app) {
     "name": "Carousel (Royal Plaza on Scotts)",
     "category": "buffets",
     "postal": "228220",
+    "description": "thursday: 06:00am - 09:30pm| sunday: 06:00am - 09:30pm| tuesday 06:00am - 09:30pm| saturday: 06:00am - 09:30pm| friday: 06:00am - 09:30pm| wednesday: 06:00am - 09:30pm| monday: 06:00am - 09:30pm",
     "latLong": {
       "coordinates": [
         103.832436,
@@ -4196,6 +4576,7 @@ module.exports = function(app) {
     "name": "Roosevelt's Diner & Bar",
     "category": "burgers",
     "postal": "088764",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 09:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 09:00am - 11:00pm| friday: 11:00am - 12:00am| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -4207,6 +4588,7 @@ module.exports = function(app) {
     "name": "Artichoke Caf + Bar",
     "category": "date-night",
     "postal": "188978",
+    "description": "thursday: 06:30pm - 10:30pm| sunday: 11:30am - 03:30pm| tuesday 06:30pm - 10:30pm| saturday: 11:30am - 03:30pm,06:30pm - 10:30pm| friday: 06:30pm - 10:30pm| wednesday: 06:30pm - 10:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.852077,
@@ -4218,6 +4600,7 @@ module.exports = function(app) {
     "name": "Potato Head Folk",
     "category": "burgers",
     "postal": "089143",
+    "description": "thursday: 11:00am - 11:30pm| sunday: 11:00am - 11:30pm| tuesday 11:00am - 11:30pm| saturday: 11:00am - 11:30pm| friday: 11:00am - 11:30pm| wednesday: 11:00am - 11:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8417,
@@ -4229,6 +4612,7 @@ module.exports = function(app) {
     "name": "Roadhouse",
     "category": "burgers",
     "postal": "249674",
+    "description": "thursday: 06:30pm - 10:30pm,11:30am - 03:00pm| sunday: 09:00am - 10:30pm| tuesday 06:30pm - 10:30pm,11:30am - 03:00pm| saturday: 09:00am - 10:30pm| friday: 06:30pm - 10:30pm,11:30am - 03:00pm| wednesday: 06:30pm - 10:30pm,11:30am - 03:00pm| monday: 06:30pm - 10:30pm,11:30am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.810304,
@@ -4240,6 +4624,7 @@ module.exports = function(app) {
     "name": "GRUB",
     "category": "burgers",
     "postal": "569983",
+    "description": "thursday: 05:30pm - 10:30pm,11:00am - 03:00pm| sunday: 05:30pm - 10:30pm,09:00am - 04:00pm| tuesday 05:30pm - 10:30pm,11:00am - 03:00pm| saturday: 05:30pm - 10:30pm,09:00am - 04:00pm| friday: 05:30pm - 10:30pm,11:00am - 03:00pm| wednesday: 05:30pm - 10:30pm,11:00am - 03:00pm| monday: 05:30pm - 10:30pm,11:00am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -4249,8 +4634,9 @@ module.exports = function(app) {
   },
   {
     "name": "The Lab",
-    "category": "bugis",
+    "category": "",
     "postal": "199069",
+    "description": "thursday: 12:30pm - 10:00pm| sunday: 01:00pm - 09:30pm| tuesday 12:30pm - 10:00pm| saturday: 12:30pm - 10:00pm| friday: 12:30pm - 10:00pm| wednesday: 12:30pm - 10:00pm| monday: 12:30pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.858834,
@@ -4262,6 +4648,7 @@ module.exports = function(app) {
     "name": "Sin Lee Foods",
     "category": "burpple-guides",
     "postal": "162004",
+    "description": "thursday: 11:00am - 09:00pm| sunday: 09:30am - 06:00pm| tuesday 11:00am - 09:00pm| saturday: 09:30am - 09:00pm| friday: 11:00am - 09:00pm| wednesday: 11:00am - 09:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8310429,
@@ -4273,6 +4660,7 @@ module.exports = function(app) {
     "name": "Third & Sixth Bistrobar",
     "category": "burgers",
     "postal": "188392",
+    "description": "thursday: 04:00pm - 01:00am| sunday: closed| tuesday 04:00pm - 12:00am| saturday: 06:00pm - 03:00am| friday: 04:00pm - 03:00am| wednesday: 04:00pm - 01:00am| monday: 04:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.854803,
@@ -4284,6 +4672,7 @@ module.exports = function(app) {
     "name": "Cake Spade",
     "category": "burpple-guides",
     "postal": "088504",
+    "description": "thursday: 12:00pm - 09:00pm| sunday: closed| tuesday 12:00pm - 09:00pm| saturday: 12:00pm - 10:30pm| friday: 12:00pm - 10:30pm| wednesday: 12:00pm - 09:00pm| monday: 12:00pm - 09:00pm",
     "latLong": {
       "coordinates": [
         103.8437749,
@@ -4295,6 +4684,7 @@ module.exports = function(app) {
     "name": "I Am",
     "category": "burpple-guides",
     "postal": "188804",
+    "description": "thursday: 11:30am - 11:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 11:00pm| saturday: 11:30am - 01:00am| friday: 11:30am - 01:00am| wednesday: 11:30am - 11:00pm| monday: 11:30am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.858468,
@@ -4306,6 +4696,7 @@ module.exports = function(app) {
     "name": "The Lokal",
     "category": "burpple-guides",
     "postal": "088865",
+    "description": "thursday: 08:00am - 10:30pm| sunday: 09:00am - 04:00pm| tuesday 08:00am - 10:30pm| saturday: 09:00am - 10:30pm| friday: 08:00am - 10:30pm| wednesday: 08:00am - 10:30pm| monday: 08:00am - 05:00pm",
     "latLong": {
       "coordinates": [
         103.841038,
@@ -4317,6 +4708,7 @@ module.exports = function(app) {
     "name": "Sin Lee Foods",
     "category": "desserts",
     "postal": "162004",
+    "description": "thursday: 11:00am - 09:00pm| sunday: 09:30am - 06:00pm| tuesday 11:00am - 09:00pm| saturday: 09:30am - 09:00pm| friday: 11:00am - 09:00pm| wednesday: 11:00am - 09:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8310429,
@@ -4328,6 +4720,7 @@ module.exports = function(app) {
     "name": "Sunday Folks",
     "category": "burpple-guides",
     "postal": "278116",
+    "description": "thursday: 01:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 01:00pm - 10:00pm| saturday: 12:00pm - 11:00pm| friday: 01:00pm - 11:00pm| wednesday: 01:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.797152,
@@ -4339,6 +4732,7 @@ module.exports = function(app) {
     "name": "Lola's Cafe",
     "category": "burpple-guides",
     "postal": "545893",
+    "description": "thursday: 10:00am - 11:30pm| sunday: 10:00am - 11:30pm| tuesday 10:00am - 11:30pm| saturday: 10:00am - 12:00am| friday: 10:00am - 12:00am| wednesday: 10:00am - 11:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.885948,
@@ -4350,6 +4744,7 @@ module.exports = function(app) {
     "name": "Cake Spade",
     "category": "desserts",
     "postal": "088504",
+    "description": "thursday: 12:00pm - 09:00pm| sunday: closed| tuesday 12:00pm - 09:00pm| saturday: 12:00pm - 10:30pm| friday: 12:00pm - 10:30pm| wednesday: 12:00pm - 09:00pm| monday: 12:00pm - 09:00pm",
     "latLong": {
       "coordinates": [
         103.8437749,
@@ -4361,6 +4756,7 @@ module.exports = function(app) {
     "name": "FATCAT Ice Cream Bar",
     "category": "desserts",
     "postal": "460416",
+    "description": "thursday: 01:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday | saturday: 12:00pm - 11:00pm| friday: 01:00pm - 11:00pm| wednesday: 01:00pm - 10:00pm| monday: 01:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.930534,
@@ -4372,6 +4768,7 @@ module.exports = function(app) {
     "name": "Sunday Folks",
     "category": "desserts",
     "postal": "278116",
+    "description": "thursday: 01:00pm - 10:00pm| sunday: 12:00pm - 10:00pm| tuesday 01:00pm - 10:00pm| saturday: 12:00pm - 11:00pm| friday: 01:00pm - 11:00pm| wednesday: 01:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.797152,
@@ -4383,6 +4780,7 @@ module.exports = function(app) {
     "name": "Mad About Sucre",
     "category": "cakes",
     "postal": "088334",
+    "description": "thursday: 12:30pm - 10:30pm| sunday: 12:30pm - 05:00pm| tuesday 12:30pm - 10:30pm| saturday: 12:30pm - 10:30pm| friday: 12:30pm - 10:30pm| wednesday: 12:30pm - 10:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8407299,
@@ -4394,6 +4792,7 @@ module.exports = function(app) {
     "name": "Strangers' Reunion",
     "category": "breakfast-and-brunch",
     "postal": "169356",
+    "description": "thursday: 09:00am - 10:00pm| sunday: 09:00am - 10:00pm| tuesday | saturday: 09:00am - 12:00am| friday: 09:00am - 12:00am| wednesday: 09:00am - 10:00pm| monday: 09:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.836282,
@@ -4405,6 +4804,7 @@ module.exports = function(app) {
     "name": "Boufe Boutique Cafe",
     "category": "cakes",
     "postal": "247974",
+    "description": "thursday: 08:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 08:00am - 10:00pm| saturday: 10:00am - 10:00pm| friday: 08:00am - 10:00pm| wednesday: 08:00am - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.814598,
@@ -4416,6 +4816,7 @@ module.exports = function(app) {
     "name": "Maison Ikkoku",
     "category": "cakes",
     "postal": "198885",
+    "description": "thursday: 09:00am - 09:00pm| sunday: 09:00am - 07:00pm| tuesday 09:00am - 09:00pm| saturday: 09:00am - 11:00pm| friday: 09:00am - 11:00pm| wednesday: 09:00am - 09:00pm| monday: 09:00am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.8597,
@@ -4427,6 +4828,7 @@ module.exports = function(app) {
     "name": "The Bakery Chef",
     "category": "cakes",
     "postal": "150161",
+    "description": "thursday: 10:00am - 07:00pm| sunday: 10:00am - 09:00pm| tuesday 10:00am - 07:00pm| saturday: 10:00am - 09:00pm| friday: 10:00am - 09:00pm| wednesday: 10:00am - 07:00pm| monday: 10:00am - 07:00pm",
     "latLong": {
       "coordinates": [
         103.816147,
@@ -4438,6 +4840,7 @@ module.exports = function(app) {
     "name": "Riders Caf",
     "category": "cakes",
     "postal": "286965",
+    "description": "thursday: 08:00am - 09:00pm| sunday: 08:00am - 09:00pm| tuesday 08:00am - 09:00pm| saturday: 08:00am - 10:00pm| friday: 08:00am - 10:00pm| wednesday: 08:00am - 09:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.798896,
@@ -4449,6 +4852,7 @@ module.exports = function(app) {
     "name": "Antoinette (Penhas Road)",
     "category": "cakes",
     "postal": "208188",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 10:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.862594,
@@ -4460,6 +4864,7 @@ module.exports = function(app) {
     "name": "Cake Spade",
     "category": "cakes",
     "postal": "088504",
+    "description": "thursday: 12:00pm - 09:00pm| sunday: closed| tuesday 12:00pm - 09:00pm| saturday: 12:00pm - 10:30pm| friday: 12:00pm - 10:30pm| wednesday: 12:00pm - 09:00pm| monday: 12:00pm - 09:00pm",
     "latLong": {
       "coordinates": [
         103.8437749,
@@ -4471,6 +4876,7 @@ module.exports = function(app) {
     "name": "The Fabulous Baker Boy",
     "category": "cakes",
     "postal": "179037",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 10:00am - 05:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8456701,
@@ -4482,6 +4888,7 @@ module.exports = function(app) {
     "name": "Carpenter and Cook",
     "category": "cakes",
     "postal": "598120",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 09:00am - 09:00pm| tuesday 10:00am - 10:00pm| saturday: 09:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.773614,
@@ -4493,6 +4900,7 @@ module.exports = function(app) {
     "name": "MacKenzie Rex Restaurant (Prinsep Street)",
     "category": "chicken-rice",
     "postal": "188668",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:30am - 10:00pm| friday: 11:30am - 10:00pm| wednesday: 11:30am - 10:00pm| monday: 11:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.849843,
@@ -4504,6 +4912,7 @@ module.exports = function(app) {
     "name": "YY Kafei Dian",
     "category": "chicken-rice",
     "postal": "189678",
+    "description": "thursday: 07:30am - 10:30pm| sunday: 07:30am - 10:30pm| tuesday 07:30am - 10:30pm| saturday: 07:30am - 10:30pm| friday: 07:30am - 10:30pm| wednesday: 07:30am - 10:30pm| monday: 07:30am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.855918,
@@ -4515,6 +4924,7 @@ module.exports = function(app) {
     "name": "Yet Con Restaurant",
     "category": "chicken-rice",
     "postal": "188602",
+    "description": "thursday: 11:00am - 09:30pm| sunday: 11:00am - 09:30pm| tuesday 11:00am - 09:30pm| saturday: 11:00am - 09:30pm| friday: 11:00am - 09:30pm| wednesday: 11:00am - 09:30pm| monday: 11:00am - 09:30pm",
     "latLong": {
       "coordinates": [
         103.855314,
@@ -4526,6 +4936,7 @@ module.exports = function(app) {
     "name": "Bugis Street Chuen Chuen Chicken Rice (Heritage Place)",
     "category": "chicken-rice",
     "postal": "188108",
+    "description": "thursday: 07:00am - 10:30pm| sunday: 07:00am - 10:30pm| tuesday 07:00am - 10:30pm| saturday: 07:00am - 10:30pm| friday: 07:00am - 10:30pm| wednesday: 07:00am - 10:30pm| monday: 07:00am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.856722,
@@ -4537,6 +4948,7 @@ module.exports = function(app) {
     "name": "Fei Kee Claypot Chicken Rice",
     "category": "chicken-rice",
     "postal": "199567",
+    "description": "thursday: 10:00am - 07:30pm| sunday: 10:00am - 07:30pm| tuesday 10:00am - 07:30pm| saturday: 10:00am - 07:30pm| friday: 10:00am - 07:30pm| wednesday: 10:00am - 07:30pm| monday: 10:00am - 07:30pm",
     "latLong": {
       "coordinates": [
         103.861755,
@@ -4548,6 +4960,7 @@ module.exports = function(app) {
     "name": "Tian Tian Hainanese Chicken Rice (Maxwell Food Centre)",
     "category": "chicken-rice",
     "postal": "069184",
+    "description": "thursday: 10:00am - 08:00pm| sunday: 10:00am - 08:00pm| tuesday 10:00am - 08:00pm| saturday: 10:00am - 08:00pm| friday: 10:00am - 08:00pm| wednesday: 10:00am - 08:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.844915,
@@ -4559,6 +4972,7 @@ module.exports = function(app) {
     "name": "Peony Jade Restaurant (Keppel Club)",
     "category": "chinese",
     "postal": "109918",
+    "description": "thursday: 06:00pm - 10:30pm,11:00am - 02:30pm| sunday: 06:00pm - 11:00pm,10:30am - 02:30pm| tuesday 06:00pm - 10:30pm,11:00am - 02:30pm| saturday: 06:00pm - 11:00pm,10:30am - 02:30pm| friday: 06:00pm - 10:30pm,11:00am - 02:30pm| wednesday: 06:00pm - 10:30pm,11:00am - 02:30pm| monday: 06:00pm - 10:30pm,11:00am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.808598,
@@ -4570,6 +4984,7 @@ module.exports = function(app) {
     "name": "Delicious Boneless Chicken Rice",
     "category": "chicken-rice",
     "postal": "437844",
+    "description": "thursday: 10:30am - 08:00pm| sunday: 10:30am - 08:00pm| tuesday 10:30am - 08:00pm| saturday: 10:30am - 08:00pm| friday: 10:30am - 08:00pm| wednesday: 10:30am - 08:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.901182,
@@ -4581,6 +4996,7 @@ module.exports = function(app) {
     "name": "Wee Nam Kee Chicken Rice (United Square)",
     "category": "chicken-rice",
     "postal": "307591",
+    "description": "thursday: 10:00am - 12:00am| sunday: 10:00am - 12:00am| tuesday 10:00am - 12:00am| saturday: 10:00am - 12:00am| friday: 10:00am - 12:00am| wednesday: 10:00am - 12:00am| monday: 10:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.843491,
@@ -4592,6 +5008,7 @@ module.exports = function(app) {
     "name": "Wah Lok Cantonese Restaurant",
     "category": "chinese",
     "postal": "189558",
+    "description": "thursday: 11:30am - 02:30pm,06:30pm - 10:30pm| sunday: 11:00am - 02:30pm,06:30pm - 10:30pm| tuesday 11:30am - 02:30pm,06:30pm - 10:30pm| saturday: 11:30am - 02:30pm,06:30pm - 10:30pm| friday: 11:30am - 02:30pm,06:30pm - 10:30pm| wednesday: 11:30am - 02:30pm,06:30pm - 10:30pm| monday: 11:30am - 02:30pm,06:30pm - 10:30pm",
     "latLong": {
       "coordinates": [
         103.852705,
@@ -4603,6 +5020,7 @@ module.exports = function(app) {
     "name": "Peach Blossoms",
     "category": "chinese",
     "postal": "039594",
+    "description": "thursday: 06:30pm - 10:30pm,12:00pm - 03:00pm| sunday: 06:30pm - 10:30pm,11:00am - 03:00pm| tuesday 06:30pm - 10:30pm,12:00pm - 03:00pm| saturday: 06:30pm - 10:30pm,11:00am - 03:00pm| friday: 06:30pm - 10:30pm,12:00pm - 03:00pm| wednesday: 06:30pm - 10:30pm,12:00pm - 03:00pm| monday: 06:30pm - 10:30pm,12:00pm - 03:00pm",
     "latLong": {
       "coordinates": [
         103.857422,
@@ -4612,8 +5030,9 @@ module.exports = function(app) {
   },
   {
     "name": "Tim Ho Wan (Plaza Singapura)",
-    "category": "dhoby-ghaut",
+    "category": "",
     "postal": "238839",
+    "description": "thursday: 10:00am - 10:00pm| sunday: 09:00am - 10:00pm| tuesday 10:00am - 10:00pm| saturday: 09:00am - 10:00pm| friday: 10:00am - 10:00pm| wednesday: 10:00am - 10:00pm| monday: 10:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.845411,
@@ -4625,6 +5044,7 @@ module.exports = function(app) {
     "name": "I want my noodle",
     "category": "chinese",
     "postal": "228208",
+    "description": "thursday: 11:00am - 09:00pm| sunday: 11:00am - 09:00pm| tuesday 11:00am - 09:00pm| saturday: 11:00am - 09:00pm| friday: 11:00am - 09:00pm| wednesday: 11:00am - 09:00pm| monday: 11:00am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.8317859,
@@ -4636,6 +5056,7 @@ module.exports = function(app) {
     "name": "Yi Dian Xin Hong Kong Dim Sum",
     "category": "chinese",
     "postal": "534752",
+    "description": "thursday: 07:00am - 06:00am| sunday: 07:00am - 06:00am| tuesday 07:00am - 06:00am| saturday: 07:00am - 06:00am| friday: 07:00am - 06:00am| wednesday: 07:00am - 06:00am| monday: 07:00am - 06:00am",
     "latLong": {
       "coordinates": [
         103.888158,
@@ -4647,6 +5068,7 @@ module.exports = function(app) {
     "name": "Tong Ah Eating House",
     "category": "chinese",
     "postal": "089143",
+    "description": "thursday: 06:30am - 10:00pm| sunday: 06:30am - 10:00pm| tuesday 06:30am - 10:00pm| saturday: 06:30am - 10:00pm| friday: 06:30am - 10:00pm| wednesday: closed| monday: 06:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.8417,
@@ -4656,8 +5078,9 @@ module.exports = function(app) {
   },
   {
     "name": "Swee Choon Dim Sum",
-    "category": "little-india",
+    "category": "",
     "postal": "208882",
+    "description": "thursday: 06:00pm - 06:00am| sunday: 06:00pm - 06:00am| tuesday | saturday: 06:00pm - 06:00am| friday: 06:00pm - 06:00am| wednesday: 06:00pm - 06:00am| monday: 06:00pm - 06:00am",
     "latLong": {
       "coordinates": [
         103.857002,
@@ -4669,6 +5092,7 @@ module.exports = function(app) {
     "name": "Bar-Roque Grill",
     "category": "french",
     "postal": "088539",
+    "description": "thursday: 12:00pm - 12:00am| sunday: 12:00pm - 12:00am| tuesday 12:00pm - 12:00am| saturday: 12:00pm - 12:00am| friday: 12:00pm - 12:00am| wednesday: 12:00pm - 12:00am| monday: closed",
     "latLong": {
       "coordinates": [
         103.843575,
@@ -4680,6 +5104,7 @@ module.exports = function(app) {
     "name": "Saveur (Far East Plaza)",
     "category": "french",
     "postal": "228213",
+    "description": "thursday: 11:30am - 09:30pm| sunday: 11:30am - 09:15pm| tuesday 11:30am - 09:30pm| saturday: 11:30am - 09:30pm| friday: 11:30am - 09:30pm| wednesday: 11:30am - 09:30pm| monday: 11:30am - 09:30pm",
     "latLong": {
       "coordinates": [
         103.833358,
@@ -4691,6 +5116,7 @@ module.exports = function(app) {
     "name": "Choupinette",
     "category": "french",
     "postal": "269708",
+    "description": "thursday: 08:00am - 08:00pm| sunday: 08:00am - 06:00pm| tuesday 08:00am - 08:00pm| saturday: 08:00am - 08:00pm| friday: 08:00am - 08:00pm| wednesday: 08:00am - 08:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.809478,
@@ -4702,6 +5128,7 @@ module.exports = function(app) {
     "name": "JAAN",
     "category": "french",
     "postal": "178882",
+    "description": "thursday: 07:00pm - 11:00pm,12:00pm - 02:30pm| sunday: 07:00pm - 11:00pm| tuesday 07:00pm - 11:00pm,12:00pm - 02:30pm| saturday: 07:00pm - 11:00pm,12:00pm - 02:30pm| friday: 07:00pm - 11:00pm,12:00pm - 02:30pm| wednesday: 07:00pm - 11:00pm,12:00pm - 02:30pm| monday: 07:00pm - 11:00pm,12:00pm - 02:30pm",
     "latLong": {
       "coordinates": [
         103.852879,
@@ -4713,6 +5140,7 @@ module.exports = function(app) {
     "name": "Saveur (Purvis Street)",
     "category": "french",
     "postal": "188584",
+    "description": "thursday: 12:00pm - 02:15pm,06:00pm - 09:15pm| sunday: 12:00pm - 02:15pm,06:00pm - 09:15pm| tuesday 12:00pm - 02:15pm,06:00pm - 09:15pm| saturday: 12:00pm - 02:15pm,06:00pm - 09:15pm| friday: 12:00pm - 02:15pm,06:00pm - 09:15pm| wednesday: 12:00pm - 02:15pm,06:00pm - 09:15pm| monday: 12:00pm - 02:15pm,06:00pm - 09:15pm",
     "latLong": {
       "coordinates": [
         103.854962,
@@ -4724,6 +5152,7 @@ module.exports = function(app) {
     "name": "Corner House",
     "category": "french",
     "postal": "259569",
+    "description": "thursday: 06:30pm - 11:00pm,12:00pm - 03:00pm| sunday: 11:30am - 03:00pm,06:30pm - 11:00pm| tuesday 06:30pm - 11:00pm,12:00pm - 03:00pm| saturday: 06:30pm - 11:00pm,12:00pm - 03:00pm| friday: 06:30pm - 11:00pm,12:00pm - 03:00pm| wednesday: 06:30pm - 11:00pm,12:00pm - 03:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.814733,
@@ -4735,6 +5164,7 @@ module.exports = function(app) {
     "name": "Mad About Sucre",
     "category": "french",
     "postal": "088334",
+    "description": "thursday: 12:30pm - 10:30pm| sunday: 12:30pm - 05:00pm| tuesday 12:30pm - 10:30pm| saturday: 12:30pm - 10:30pm| friday: 12:30pm - 10:30pm| wednesday: 12:30pm - 10:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8407299,
@@ -4746,6 +5176,7 @@ module.exports = function(app) {
     "name": "Tanuki Raw (Orchard Central)",
     "category": "good-for-groups",
     "postal": "238896",
+    "description": "thursday: 11:00am - 10:30pm| sunday: 11:00am - 10:30pm| tuesday 11:00am - 10:30pm| saturday: 11:00am - 10:30pm| friday: 11:00am - 10:30pm| wednesday: 11:00am - 10:30pm| monday: 11:00am - 10:30pm",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -4757,6 +5188,7 @@ module.exports = function(app) {
     "name": "136 Hong Kong Street Fish Head Steamboat (Clementi)",
     "category": "good-for-groups",
     "postal": "120713",
+    "description": "thursday: 05:00pm - 10:45pm,11:00am - 02:00pm| sunday: 05:00pm - 10:45pm,11:00am - 02:00pm| tuesday 05:00pm - 10:45pm,11:00am - 02:00pm| saturday: 05:00pm - 10:45pm,11:00am - 02:00pm| friday: 05:00pm - 10:45pm,11:00am - 02:00pm| wednesday: 05:00pm - 10:45pm,11:00am - 02:00pm| monday: 05:00pm - 10:45pm,11:00am - 02:00pm",
     "latLong": {
       "coordinates": [
         103.762082,
@@ -4766,8 +5198,9 @@ module.exports = function(app) {
   },
   {
     "name": "Antoinette (Penhas Road)",
-    "category": "lavender",
+    "category": "",
     "postal": "208188",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 10:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 10:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.862594,
@@ -4779,6 +5212,7 @@ module.exports = function(app) {
     "name": "Artichoke Caf + Bar",
     "category": "good-for-groups",
     "postal": "188978",
+    "description": "thursday: 06:30pm - 10:30pm| sunday: 11:30am - 03:30pm| tuesday 06:30pm - 10:30pm| saturday: 11:30am - 03:30pm,06:30pm - 10:30pm| friday: 06:30pm - 10:30pm| wednesday: 06:30pm - 10:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.852077,
@@ -4790,6 +5224,7 @@ module.exports = function(app) {
     "name": "Miam Miam (Bugis Junction)",
     "category": "french",
     "postal": "188021",
+    "description": "thursday: 11:30am - 10:00pm| sunday: 11:30am - 10:00pm| tuesday 11:30am - 10:00pm| saturday: 11:30am - 10:00pm| friday: 11:30am - 10:00pm| wednesday: 11:30am - 10:00pm| monday: 11:30am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.854921,
@@ -4801,6 +5236,7 @@ module.exports = function(app) {
     "name": "Curious Palette",
     "category": "good-for-groups",
     "postal": "188667",
+    "description": "thursday: 09:00am - 10:00pm| sunday: 09:00am - 10:00pm| tuesday | saturday: 09:00am - 12:00am| friday: 09:00am - 12:00am| wednesday: 09:00am - 10:00pm| monday: 09:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.849815,
@@ -4812,6 +5248,7 @@ module.exports = function(app) {
     "name": "Potato Head Folk",
     "category": "good-for-groups",
     "postal": "089143",
+    "description": "thursday: 11:00am - 11:30pm| sunday: 11:00am - 11:30pm| tuesday 11:00am - 11:30pm| saturday: 11:00am - 11:30pm| friday: 11:00am - 11:30pm| wednesday: 11:00am - 11:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.8417,
@@ -4823,6 +5260,7 @@ module.exports = function(app) {
     "name": "Joo Bar",
     "category": "good-for-groups",
     "postal": "188094",
+    "description": "thursday: 11:30am - 02:30pm,05:30pm - 12:00am| sunday: 11:30am - 02:30pm,05:30pm - 12:00am| tuesday 11:30am - 02:30pm,05:30pm - 12:00am| saturday: 11:30am - 02:30pm,05:30pm - 12:00am| friday: 11:30am - 02:30pm,05:30pm - 12:00am| wednesday: 11:30am - 02:30pm,05:30pm - 12:00am| monday: 11:30am - 02:30pm,05:30pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.856925,
@@ -4834,6 +5272,7 @@ module.exports = function(app) {
     "name": "Kilo At Pact",
     "category": "dinner-with-drinks",
     "postal": "238896",
+    "description": "thursday: 05:30pm - 10:00pm,11:30am - 02:15pm| sunday: 11:00am - 06:00pm| tuesday 05:30pm - 10:00pm,11:30am - 02:15pm| saturday: 05:30pm - 10:00pm,11:30am - 02:15pm| friday: 05:30pm - 10:00pm,11:30am - 02:15pm| wednesday: 05:30pm - 10:00pm,11:30am - 02:15pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.840008,
@@ -4845,6 +5284,7 @@ module.exports = function(app) {
     "name": "Chir Chir Fusion Chicken Factory (313@Somerset)",
     "category": "dinner-with-drinks",
     "postal": "238895",
+    "description": "thursday: 11:00am - 10:00pm| sunday: 11:00am - 10:00pm| tuesday 11:00am - 10:00pm| saturday: 11:00am - 11:00pm| friday: 11:00am - 11:00pm| wednesday: 11:00am - 10:00pm| monday: 11:00am - 10:00pm",
     "latLong": {
       "coordinates": [
         103.8383939,
@@ -4856,6 +5296,7 @@ module.exports = function(app) {
     "name": "The Refinery",
     "category": "dinner-with-drinks",
     "postal": "208561",
+    "description": "thursday: 06:00pm - 12:00am,12:00pm - 03:00pm| sunday: 11:00am - 04:00pm| tuesday 06:00pm - 12:00am,12:00pm - 03:00pm| saturday: 11:00am - 04:00pm,06:00pm - 01:00am| friday: 06:00pm - 01:00am,12:00pm - 03:00pm| wednesday: 06:00pm - 12:00am,12:00pm - 03:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.862283,
@@ -4865,8 +5306,9 @@ module.exports = function(app) {
   },
   {
     "name": "Joo Bar",
-    "category": "bugis",
+    "category": "",
     "postal": "188094",
+    "description": "thursday: 11:30am - 02:30pm,05:30pm - 12:00am| sunday: 11:30am - 02:30pm,05:30pm - 12:00am| tuesday 11:30am - 02:30pm,05:30pm - 12:00am| saturday: 11:30am - 02:30pm,05:30pm - 12:00am| friday: 11:30am - 02:30pm,05:30pm - 12:00am| wednesday: 11:30am - 02:30pm,05:30pm - 12:00am| monday: 11:30am - 02:30pm,05:30pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.856925,
@@ -4878,6 +5320,7 @@ module.exports = function(app) {
     "name": "Oriole Coffee + Bar (Somerset)",
     "category": "dinner-with-drinks",
     "postal": "238163",
+    "description": "thursday: 08:00am - 11:00pm| sunday: 08:00am - 11:00pm| tuesday 08:00am - 11:00pm| saturday: 08:00am - 12:00am| friday: 08:00am - 12:00am| wednesday: 08:00am - 11:00pm| monday: 08:00am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.837924,
@@ -4889,6 +5332,7 @@ module.exports = function(app) {
     "name": "Paddy Hills",
     "category": "dinner-with-drinks",
     "postal": "118164",
+    "description": "thursday: 06:00pm - 09:30pm,10:30am - 05:00pm| sunday: 06:00pm - 09:30pm,09:00am - 05:00pm| tuesday 06:00pm - 09:30pm,10:30am - 05:00pm| saturday: 06:00pm - 09:30pm,09:00am - 05:00pm| friday: 06:00pm - 09:30pm,10:30am - 05:00pm| wednesday: 06:00pm - 09:30pm,10:30am - 05:00pm| monday: 06:00pm - 09:30pm,10:30am - 05:00pm",
     "latLong": {
       "coordinates": [
         103.786891,
@@ -4900,6 +5344,7 @@ module.exports = function(app) {
     "name": "Lola's Cafe",
     "category": "good-for-groups",
     "postal": "545893",
+    "description": "thursday: 10:00am - 11:30pm| sunday: 10:00am - 11:30pm| tuesday 10:00am - 11:30pm| saturday: 10:00am - 12:00am| friday: 10:00am - 12:00am| wednesday: 10:00am - 11:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.885948,
@@ -4911,6 +5356,7 @@ module.exports = function(app) {
     "name": "The Tuckshop",
     "category": "dinner-with-drinks",
     "postal": "399795",
+    "description": "thursday: 11:00am - 12:00am| sunday: 11:00am - 12:00am| tuesday 11:00am - 12:00am| saturday: 11:00am - 12:00am| friday: 11:00am - 12:00am| wednesday: 11:00am - 12:00am| monday: 11:00am - 12:00am",
     "latLong": {
       "coordinates": [
         103.888695,
@@ -4920,8 +5366,9 @@ module.exports = function(app) {
   },
   {
     "name": "Boca",
-    "category": "outram-park",
+    "category": "",
     "postal": "089820",
+    "description": "thursday: 06:00pm - 12:00am| sunday: 06:00pm - 12:00am| tuesday 06:00pm - 12:00am| saturday: 06:00pm - 12:00am| friday: 06:00pm - 12:00am| wednesday: 06:00pm - 12:00am| monday: 06:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.841019,
@@ -4931,8 +5378,9 @@ module.exports = function(app) {
   },
   {
     "name": "The Lokal",
-    "category": "duxton",
+    "category": "",
     "postal": "088865",
+    "description": "thursday: 08:00am - 10:30pm| sunday: 09:00am - 04:00pm| tuesday 08:00am - 10:30pm| saturday: 09:00am - 10:30pm| friday: 08:00am - 10:30pm| wednesday: 08:00am - 10:30pm| monday: 08:00am - 05:00pm",
     "latLong": {
       "coordinates": [
         103.841038,
@@ -4944,6 +5392,7 @@ module.exports = function(app) {
     "name": "La Petite Cuisine (Bukit Timah)",
     "category": "european",
     "postal": "248748",
+    "description": "thursday: 11:30am - 02:30pm,05:30pm - 09:30pm| sunday: 11:30am - 02:30pm,05:30pm - 09:00pm| tuesday 11:30am - 02:30pm,05:30pm - 09:30pm| saturday: 11:30am - 02:30pm,05:30pm - 09:30pm| friday: 11:30am - 02:30pm,05:30pm - 09:30pm| wednesday: 11:30am - 02:30pm,05:30pm - 09:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.7508974,
@@ -4955,6 +5404,7 @@ module.exports = function(app) {
     "name": "Symmetry",
     "category": "date-night",
     "postal": "199206",
+    "description": "thursday: 10:30am - 11:00pm| sunday: 09:00am - 07:00pm| tuesday 10:30am - 11:00pm| saturday: 09:00am - 12:00am| friday: 10:30am - 12:00am| wednesday: 10:30am - 11:00pm| monday: 10:30am - 09:00pm",
     "latLong": {
       "coordinates": [
         103.8593379,
@@ -4966,6 +5416,7 @@ module.exports = function(app) {
     "name": "Bar-Roque Grill",
     "category": "european",
     "postal": "088539",
+    "description": "thursday: 12:00pm - 12:00am| sunday: 12:00pm - 12:00am| tuesday 12:00pm - 12:00am| saturday: 12:00pm - 12:00am| friday: 12:00pm - 12:00am| wednesday: 12:00pm - 12:00am| monday: closed",
     "latLong": {
       "coordinates": [
         103.843575,
@@ -4977,6 +5428,7 @@ module.exports = function(app) {
     "name": "Shelter in The Woods",
     "category": "european",
     "postal": "289219",
+    "description": "thursday: 06:00pm - 10:30pm| sunday: 06:00pm - 10:30pm,11:00am - 02:00pm| tuesday 06:00pm - 10:30pm| saturday: 06:00pm - 10:30pm| friday: 06:00pm - 10:30pm| wednesday: 06:00pm - 10:30pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.806729,
@@ -4988,6 +5440,7 @@ module.exports = function(app) {
     "name": "FYR Cycene Ond Drinc",
     "category": "european",
     "postal": "069619",
+    "description": "thursday: 11:30am - 11:00pm| sunday: closed| tuesday 11:30am - 11:00pm| saturday: 11:30am - 11:00pm| friday: 11:30am - 12:00am| wednesday: 11:30am - 11:00pm| monday: 11:30am - 11:00pm",
     "latLong": {
       "coordinates": [
         103.848423,
@@ -4999,6 +5452,7 @@ module.exports = function(app) {
     "name": "GST",
     "category": "european",
     "postal": "069047",
+    "description": "thursday: 07:30am - 04:30pm| sunday: 08:30am - 03:30pm| tuesday 07:30am - 04:30pm| saturday: 08:30am - 03:30pm| friday: 07:30am - 04:30pm| wednesday: 07:30am - 04:30pm| monday: 07:30am - 04:30pm",
     "latLong": {
       "coordinates": [
         103.847336,
@@ -5010,6 +5464,7 @@ module.exports = function(app) {
     "name": "Saveur (Purvis Street)",
     "category": "european",
     "postal": "188584",
+    "description": "thursday: 12:00pm - 02:15pm,06:00pm - 09:15pm| sunday: 12:00pm - 02:15pm,06:00pm - 09:15pm| tuesday 12:00pm - 02:15pm,06:00pm - 09:15pm| saturday: 12:00pm - 02:15pm,06:00pm - 09:15pm| friday: 12:00pm - 02:15pm,06:00pm - 09:15pm| wednesday: 12:00pm - 02:15pm,06:00pm - 09:15pm| monday: 12:00pm - 02:15pm,06:00pm - 09:15pm",
     "latLong": {
       "coordinates": [
         103.854962,
@@ -5021,6 +5476,7 @@ module.exports = function(app) {
     "name": "Odette",
     "category": "fine-dining",
     "postal": "178957",
+    "description": "thursday: 06:00pm - 09:45pm,12:00pm - 01:45pm| sunday: closed| tuesday 06:00pm - 09:45pm,12:00pm - 01:45pm| saturday: 06:00pm - 09:45pm,12:00pm - 01:45pm| friday: 06:00pm - 09:45pm,12:00pm - 01:45pm| wednesday: 06:00pm - 09:45pm,12:00pm - 01:45pm| monday: 06:00pm - 09:45pm,12:00pm - 01:45pm",
     "latLong": {
       "coordinates": [
         103.851285,
@@ -5032,6 +5488,7 @@ module.exports = function(app) {
     "name": "Portico (Alexandra)",
     "category": "european",
     "postal": "119970",
+    "description": "thursday: 05:30pm - 11:30pm,11:30am - 03:00pm| sunday: closed| tuesday 05:30pm - 11:30pm,11:30am - 03:00pm| saturday: 05:30pm - 11:30pm,11:30am - 03:00pm| friday: 05:30pm - 11:30pm,11:30am - 03:00pm| wednesday: 05:30pm - 11:30pm,11:30am - 03:00pm| monday: 05:30pm - 11:30pm,11:30am - 03:00pm",
     "latLong": {
       "coordinates": [
         103.803415,
@@ -5043,6 +5500,7 @@ module.exports = function(app) {
     "name": "Salt Grill & Sky Bar",
     "category": "fine-dining",
     "postal": "238801",
+    "description": "thursday: 11:30am - 04:00pm,06:00pm - 10:00pm| sunday: 11:30am - 04:00pm,06:00pm - 10:00pm| tuesday 11:30am - 04:00pm,06:00pm - 10:00pm| saturday: 11:30am - 04:00pm,06:00pm - 10:00pm| friday: 11:30am - 04:00pm,06:00pm - 10:00pm| wednesday: 11:30am - 04:00pm,06:00pm - 10:00pm| monday: 11:30am - 04:00pm,06:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.831767,
@@ -5054,6 +5512,7 @@ module.exports = function(app) {
     "name": "JAAN",
     "category": "fine-dining",
     "postal": "178882",
+    "description": "thursday: 07:00pm - 11:00pm,12:00pm - 02:30pm| sunday: 07:00pm - 11:00pm| tuesday 07:00pm - 11:00pm,12:00pm - 02:30pm| saturday: 07:00pm - 11:00pm,12:00pm - 02:30pm| friday: 07:00pm - 11:00pm,12:00pm - 02:30pm| wednesday: 07:00pm - 11:00pm,12:00pm - 02:30pm| monday: 07:00pm - 11:00pm,12:00pm - 02:30pm",
     "latLong": {
       "coordinates": [
         103.852879,
@@ -5063,8 +5522,9 @@ module.exports = function(app) {
   },
   {
     "name": "BRIDGE",
-    "category": "beach-road",
+    "category": "",
     "postal": "188387",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 11:00am - 05:00pm| tuesday 12:00pm - 10:00pm| saturday: 11:00am - 01:00am| friday: 12:00pm - 01:00am| wednesday: 12:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.854606,
@@ -5076,6 +5536,7 @@ module.exports = function(app) {
     "name": "Lolla",
     "category": "fine-dining",
     "postal": "069702",
+    "description": "thursday: 12:00pm - 02:00pm,06:00pm - 12:00am| sunday: closed| tuesday 12:00pm - 02:00pm,06:00pm - 12:00am| saturday: 12:00pm - 02:00pm| friday: 12:00pm - 02:00pm,06:00pm - 12:00am| wednesday: 12:00pm - 02:00pm,06:00pm - 12:00am| monday: 12:00pm - 02:00pm,06:00pm - 12:00am",
     "latLong": {
       "coordinates": [
         103.845703,
@@ -5087,6 +5548,7 @@ module.exports = function(app) {
     "name": "Teppei Japanese Restaurant",
     "category": "fine-dining",
     "postal": "078867",
+    "description": "thursday: 06:30pm - 10:30pm,11:45am - 02:30pm| sunday: closed| tuesday 06:30pm - 10:30pm,11:45am - 02:30pm| saturday: 06:30pm - 10:30pm,12:00pm - 02:30pm| friday: 06:30pm - 10:30pm,11:45am - 02:30pm| wednesday: 06:30pm - 10:30pm,11:45am - 02:30pm| monday: 06:30pm - 10:30pm,11:45am - 02:30pm",
     "latLong": {
       "coordinates": [
         103.843891,
@@ -5096,8 +5558,9 @@ module.exports = function(app) {
   },
   {
     "name": "BRIDGE",
-    "category": "city-hall",
+    "category": "",
     "postal": "188387",
+    "description": "thursday: 12:00pm - 10:00pm| sunday: 11:00am - 05:00pm| tuesday 12:00pm - 10:00pm| saturday: 11:00am - 01:00am| friday: 12:00pm - 01:00am| wednesday: 12:00pm - 10:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.854606,
@@ -5109,6 +5572,7 @@ module.exports = function(app) {
     "name": "Pollen",
     "category": "fine-dining",
     "postal": "018953",
+    "description": "thursday: 12:00pm - 02:30pm,06:00pm - 10:00pm| sunday: 12:00pm - 02:30pm,06:00pm - 10:00pm| tuesday 12:00pm - 02:30pm,06:00pm - 10:00pm| saturday: 12:00pm - 02:30pm,06:00pm - 10:00pm| friday: 12:00pm - 02:30pm,06:00pm - 10:00pm| wednesday: 12:00pm - 02:30pm,06:00pm - 10:00pm| monday: 12:00pm - 02:30pm,06:00pm - 10:00pm",
     "latLong": {
       "coordinates": [
         103.867383,
@@ -5118,8 +5582,9 @@ module.exports = function(app) {
   },
   {
     "name": "Corner House",
-    "category": "botanic-gardens",
+    "category": "",
     "postal": "259569",
+    "description": "thursday: 06:30pm - 11:00pm,12:00pm - 03:00pm| sunday: 11:30am - 03:00pm,06:30pm - 11:00pm| tuesday 06:30pm - 11:00pm,12:00pm - 03:00pm| saturday: 06:30pm - 11:00pm,12:00pm - 03:00pm| friday: 06:30pm - 11:00pm,12:00pm - 03:00pm| wednesday: 06:30pm - 11:00pm,12:00pm - 03:00pm| monday: closed",
     "latLong": {
       "coordinates": [
         103.814733,
