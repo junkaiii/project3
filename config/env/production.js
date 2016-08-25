@@ -1,4 +1,4 @@
 module.exports = {
-  db: 'mongodb://junkaiii:4480866l@ds161175.mlab.com:61175/junkaiii'
+  db: 'mongodb://junkaiii:4480866l@ds041871.mlab.com:41871/jiak-simi'
 
 };
