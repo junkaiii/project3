@@ -47,6 +47,7 @@ function showCurrentLocation() {
       lng: longitude
     },
     map: map,
+    icon: 'https://s16.postimg.org/b5ue0i10l/marker.gif',
   });
 
   position = new google.maps.LatLng(latitude, longitude);
@@ -71,6 +72,7 @@ function showCurrentLocation() {
         map: map,
         name: locations.name,
         description: locations.description,
+        icon: 'https://s14.postimg.org/iodhrak4h/food.gif',
 
         // title: markers[i][0]
       });

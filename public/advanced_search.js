@@ -127,6 +127,7 @@ function showCurrentLocation() {
       lng: longitude
     },
     map: map,
+    icon: 'https://s16.postimg.org/b5ue0i10l/marker.gif',
   });
 
   position = new google.maps.LatLng(latitude, longitude);
@@ -154,6 +155,7 @@ function showCurrentLocation() {
         category: locations.category,
         distance: locations.distance,
         time: locations.time,
+        icon: 'https://s14.postimg.org/iodhrak4h/food.gif',
 
         // title: markers[i][0]
       });
@@ -168,7 +170,7 @@ function showCurrentLocation() {
             '<h3>' + this.name + '</h3>' +
             '<p>Opening Hours: ' + this.description + '</p>' + '</div>' +
             '<p>Distance Away: ' + this.distance + '</p>' + '</div>' +
-            '<p>time Away: ' + this.time + '</p>' + '</div>';
+            '<p>Time to Travel: ' + this.time + '</p>' + '</div>';
           infoWindow.setContent(infoWindowContent);
           infoWindow.open(map, this);
         };
