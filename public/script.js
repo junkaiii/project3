@@ -3,6 +3,7 @@ console.log('linked');
 
 var $out = $('#out');
 var $btn = $('#autolocator');
+var $locationbtn = $('#locationbtn');
 var longitude;
 var latitude;
 var map;
