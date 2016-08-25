@@ -14,15 +14,15 @@ Users (non-vendors)
 ### API documentation
 ####Basic search queries####
 
-1. To retrieve eateries based on name:
+- To retrieve eateries based on name:
 
-  API call: https://jiak-simi.herokuapp.com/locations/search?attrQ=true&name={eatery_name}
+    API call: https://jiak-simi.herokuapp.com/locations/search?attrQ=true&name={eatery_name}
 
-  Parameters: attrQ: query on attribute, name: eatery name
+    Parameters: attrQ: query on attribute, name: eatery name
 
-  e.g https://jiak-simi.herokuapp.com/locations/search?attrQ=true&name=The%20Lokal
+    e.g https://jiak-simi.herokuapp.com/locations/search?attrQ=true&name=The%20Lokal
 
-2. To retrieve eateries based on category:
+- To retrieve eateries based on category:
 
   API call: https://jiak-simi.herokuapp.com/locations/search?attrQ=true&category={category}
 
@@ -30,7 +30,7 @@ Users (non-vendors)
 
   e.g https://jiak-simi.herokuapp.com/locations/search?attrQ=true&category=western
 
-3. To retrieve points within circular area
+- To retrieve points within circular area
 
   API call: https://jiak-simi.herokuapp.com/locations/search?lat={latitude}&lon={longitude}&dist={distance}
 
@@ -40,7 +40,7 @@ Users (non-vendors)
   
 **Advanced search queries**
 
-1. Search based on distance of walking/driving route
+- Search based on distance of walking/driving route
 
   API call: https://jiak-simi.herokuapp.com/locations/advSearch?lat={latitude}&lon={longitude}&dist={distance_in_km}&mode={travel_mode}
 
@@ -48,15 +48,42 @@ Users (non-vendors)
 
   e.g https://jiak-simi.herokuapp.com/locations/advSearch?lat=1.357172&lon=103.939992&dist=5&mode=driving
   
-2. Search based on travel time
+- Search based on travel time
 
   API call: https://jiak-simi.herokuapp.com/locations/advSearch?lat={latitude}&lon={longitude}&time={time_in_minutes}
 
   Parameters: lat: latitude, longitude: longitude, time: travel time
 
   e.g https://jiak-simi.herokuapp.com/locations/advSearch?lat=1.349759&lon=103.868673&mode=walking&time=20
-
-
+  
 ### Resources
+**npm Packages**
+- [@google/maps](https://www.npmjs.com/package/@google/maps)
+- [bcrypt-nodejs](https://www.npmjs.com/package/bcrypt-nodejs)
+- [body-parser](https://www.npmjs.com/package/body-parser)
+- [connect-flash](https://www.npmjs.com/package/connect-flash)
+- [compression](https://www.npmjs.com/package/compression)
+- [cookie-parser](https://www.npmjs.com/package/cookie-parser)
+- [ejs](https://www.npmjs.com/package/ejs)
+- [express](https://www.npmjs.com/package/express)
+- [googlemaps](https://www.npmjs.com/package/googlemaps)
+- [express-session](https://www.npmjs.com/package/express-session)
+- [jsonwebtoken](https://www.npmjs.com/package/express-session)
+- [express-ejs-layouts](https://www.npmjs.com/package/express-ejs-layouts)
+- [method-override](https://www.npmjs.com/package/method-override)
+- [mongoose](https://www.npmjs.com/package/mongoose)
+- [morgan](https://www.npmjs.com/package/morgan)
+- [passport](https://www.npmjs.com/package/passport)
+- [passport-facebook](https://www.npmjs.com/package/passport-facebook)
+- [passport-local](https://www.npmjs.com/package/passport-local)
+- [request](https://www.npmjs.com/package/passport-local)
+
+**External APIs**
+- [Google geocode API](https://developers.google.com/maps/documentation/geocoding/intro)
+- [Google distance matric API](https://developers.google.com/maps/documentation/distance-matrix)
 
 ### References
+- [Passport authentication and FB login](https://scotch.io/tutorials/easy-node-authentication-setup-and-local)
+- [Using ejs](https://scotch.io/tutorials/use-ejs-to-template-your-node-application)
+- [Pacman loader](http://codepen.io/wifi/pen/olKxE)
+- [GEOJson](http://blog.mongodb.org/post/50984169045/new-geo-features-in-mongodb-24)
